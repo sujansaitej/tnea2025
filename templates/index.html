@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pick My Career</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+
+      <img
+        src="static/pmc.png"
+        class="h-8 sm:h-10 mx-auto"
+      />
+    </div>
+
+    <div class="px-5 mt-3 max-w-[500px] mx-auto">
+      <h1 class="block font-semibold sm:text-[24px] text-center text-[20px]">
+        Find out the best colleges for you.
+      </h1>
+<form class="form" action="/results" method="post">
+      <div class="mt-5 grid w-full gap-5">
+        <div
+          class="border-none border-[0px] rounded-[0px] h-[auto] w-[auto] block relative"
+        >
+        <input
+        class="tracking-[0.025em] border-solid border-[1px] focus:outline-none disabled:opacity-[50%] rounded-[13px] text-[14px] shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] pl-[44px] pt-[0px] pb-[0px] h-[44px] w-full transform pr-[16px] relative z-[10] bg-[#ffffff] bg-opacity-[0%] hover:border-[#000000] hover:border-opacity-[30%] focus:border-[#ffbe00] font-medium sm:w-[100%] focus:border-opacity-[100%] border-slate-200 text-black"
+        type="text"
+        placeholder="Enter your name"
+        name="FullName"
+        required
+    />
+    
+          <i
+            class="block absolute z-[10] w-[20px] h-[20px] bottom-[0px] left-[0px] mb-[12px] ml-[12px] text-[#292d32] text-opacity-[40%]"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-5.5-2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM10 12a5.99 5.99 0 0 0-4.793 2.39A6.483 6.483 0 0 0 10 16.5a6.483 6.483 0 0 0 4.793-2.11A5.99 5.99 0 0 0 10 12Z"
+                clip-rule="evenodd"
+              ></path></svg
+          ></i>
+        </div>
+
+        <div
+          class="border-none border-[0px] rounded-[0px] h-[auto] w-[auto] block relative"
+        >
+          <input
+            
+  class="tracking-[0.025em] border-solid border-[1px] focus:outline-none disabled:opacity-[50%] rounded-[13px] text-[14px] shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] pl-[44px] pt-[0px] pb-[0px] h-[44px] w-full transform pr-[16px] relative z-[10] bg-[#ffffff] bg-opacity-[0%] hover:border-[#000000] hover:border-opacity-[30%] focus:border-[#ffbe00] font-medium sm:w-[100%] focus:border-opacity-[100%] border-slate-200 text-black"
+  type="tel"
+  placeholder="Enter your phone number"
+  name="MobileNumber"
+  required
+  minlength="10"
+  maxlength="10"
+  pattern="[0-9]{10}"
+  title="Phone number must be 10 digits"
+
+          />
+          <i
+            class="block absolute z-[10] w-[20px] h-[20px] bottom-[0px] left-[0px] mb-[12px] ml-[12px] text-[#292d32] text-opacity-[40%]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </i>
+        </div>
+
+        <div
+          class="border-none border-[0px] rounded-[0px] h-[auto] w-[auto] block relative"
+        >
+          <select
+            class="tracking-[0.025em] border-solid border-[1px] focus:outline-none disabled:opacity-[50%] rounded-[13px] text-[14px] shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] pl-[44px] pt-[0px] pb-[0px] h-[44px] w-full transform pr-[16px] relative z-[10] bg-[#ffffff] bg-opacity-[0%] hover:border-[#000000] hover:border-opacity-[30%] focus:border-[#ffbe00] font-medium sm:w-[100%] focus:border-opacity-[100%] border-slate-200 text-black"
+          name="course" required>
+          <option value="" selected disabled>Select Field</option>
+          <option value="Automobile Engineering">Automobile Engineering</option>
+          <option value="Artificial Intelligence And Data Science">Artificial Intelligence And Data Science</option>
+          <option value="Artificial Intelligence And Machine Learning">Artificial Intelligence And Machine Learning</option>
+          <option value="Bio Technology">Bio Technology</option>
+          <option value="Bio Medical Engineering">Bio Medical Engineering</option>
+          <option value="Civil Engineering">Civil Engineering</option>
+          <option value="Civil Engineering (Tamil Medium)">Civil Engineering (Tamil Medium)</option>
+          <option value="Computer Science And Engineering">Computer Science And Engineering</option>
+          <option value="Computer Science And Bussiness System">Computer Science And Bussiness System</option>
+          <option value="Computer Science And Engineering (Artificial Intelligence And Machine Learning)">Computer Science And Engineering (Artificial Intelligence And Machine Learning)</option>
+          <option value="M.Tech. Computer Science And Engineering (Integrated 5 Years)">M.Tech. Computer Science And Engineering (Integrated 5 Years)</option>
+          <option value="Electronics And Communication Engineering">Electronics And Communication Engineering</option>
+          <option value="Electrical And Electronics Engineering">Electrical And Electronics Engineering</option>
+          <option value="Food Technology">Food Technology</option>
+          <option value="Industrial Engineering">Industrial Engineering</option>
+          <option value="Information Technology">Information Technology</option>
+          <option value="Manufacturing Engineering">Manufacturing Engineering</option>
+          <option value="Mechanical Engineering">Mechanical Engineering</option>
+          <option value="Mechanical Engineering (Tamil Medium)">Mechanical Engineering (Tamil Medium)</option>
+          <option value="Mechatronics Engineering">Mechatronics Engineering</option>
+          <option value="Metallurgical Engineering">Metallurgical Engineering</option>
+          <option value="Production Engineering">Production Engineering</option>
+          <option value="Robotics And Automation">Robotics And Automation</option>
+          </select>
+           <i
+            class="block absolute z-[10] w-[20px] h-[20px] bottom-[0px] left-[0px] mb-[12px] ml-[12px] text-[#292d32] text-opacity-[40%]"
+           >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M9.664 1.319a.75.75 0 0 1 .672 0 41.059 41.059 0 0 1 8.198 5.424.75.75 0 0 1-.254 1.285 31.372 31.372 0 0 0-7.86 3.83.75.75 0 0 1-.84 0 31.508 31.508 0 0 0-2.08-1.287V9.394c0-.244.116-.463.302-.592a35.504 35.504 0 0 1 3.305-2.033.75.75 0 0 0-.714-1.319 37 37 0 0 0-3.446 2.12A2.216 2.216 0 0 0 6 9.393v.38a31.293 31.293 0 0 0-4.28-1.746.75.75 0 0 1-.254-1.285 41.059 41.059 0 0 1 8.198-5.424ZM6 11.459a29.848 29.848 0 0 0-2.455-1.158 41.029 41.029 0 0 0-.39 3.114.75.75 0 0 0 .419.74c.528.256 1.046.53 1.554.82-.21.324-.455.63-.739.914a.75.75 0 1 0 1.06 1.06c.37-.369.69-.77.96-1.193a26.61 26.61 0 0 1 3.095 2.348.75.75 0 0 0 .992 0 26.547 26.547 0 0 1 5.93-3.95.75.75 0 0 0 .42-.739 41.053 41.053 0 0 0-.39-3.114 29.925 29.925 0 0 0-5.199 2.801 2.25 2.25 0 0 1-2.514 0c-.41-.275-.826-.541-1.25-.797a6.985 6.985 0 0 1-1.084 3.45 26.503 26.503 0 0 0-1.281-.78A5.487 5.487 0 0 0 6 12v-.54Z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </i> 
+        </div>
+
+        <div
+          class="border-none border-[0px] rounded-[0px] h-[auto] w-[auto] block relative"
+        >
+          <select
+            class="tracking-[0.025em] border-solid border-[1px] focus:outline-none disabled:opacity-[50%] rounded-[13px] text-[14px] shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] pl-[44px] pt-[0px] pb-[0px] h-[44px] w-full transform pr-[16px] relative z-[10] bg-[#ffffff] bg-opacity-[0%] hover:border-[#000000] hover:border-opacity-[30%] focus:border-[#ffbe00] font-medium sm:w-[100%] focus:border-opacity-[100%] border-slate-200 text-black"
+            placeholder="Select the community"
+            name="Community"
+          >
+            <option value="" selected disabled>Select the community</option>
+            <option value="OC">OC</option>
+            <option value="MBC">MBC</option>
+            <option value="BC">BC</option>
+            <option value="BCM">BCM</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+            <option value="SCA">SCA</option>
+          </select>
+          <i
+            class="block absolute z-[10] w-[20px] h-[20px] bottom-[0px] left-[0px] mb-[12px] ml-[12px] text-[#292d32] text-opacity-[40%]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M10 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM6 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM1.49 15.326a.78.78 0 0 1-.358-.442 3 3 0 0 1 4.308-3.516 6.484 6.484 0 0 0-1.905 3.959c-.023.222-.014.442.025.654a4.97 4.97 0 0 1-2.07-.655ZM16.44 15.98a4.97 4.97 0 0 0 2.07-.654.78.78 0 0 0 .357-.442 3 3 0 0 0-4.308-3.517 6.484 6.484 0 0 1 1.907 3.96 2.32 2.32 0 0 1-.026.654ZM18 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM5.304 16.19a.844.844 0 0 1-.277-.71 5 5 0 0 1 9.947 0 .843.843 0 0 1-.277.71A6.975 6.975 0 0 1 10 18a6.974 6.974 0 0 1-4.696-1.81Z"
+              ></path>
+            </svg>
+          </i>
+        </div>
+
+        <div
+          class="border-none border-[0px] rounded-[0px] h-[auto] w-[auto] block relative"
+        >
+        <input
+        id="input-field" onkeyup="validateMaxValue(this)"
+        class="tracking-[0.025em] border-solid border-[1px] focus:outline-none disabled:opacity-[50%] rounded-[13px] text-[14px] shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] pl-[44px] pt-[0px] pb-[0px] h-[44px] w-full transform pr-[16px] relative z-[10] bg-[#ffffff] bg-opacity-[0%] hover:border-[#000000] hover:border-opacity-[30%] focus:border-[#ffbe00] font-medium sm:w-[100%] focus:border-opacity-[100%] border-slate-200 text-black"
+        type="number"
+        name="Cutoff"
+        placeholder="Enter your cutoff mark"
+        max="200"
+        step="0.1"
+    />
+          <i
+            class="block absolute z-[10] w-[20px] h-[20px] bottom-[0px] left-[0px] mb-[12px] ml-[12px] text-[#292d32] text-opacity-[40%]"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.5 2A1.5 1.5 0 0 0 3 3.5v13A1.5 1.5 0 0 0 4.5 18h11a1.5 1.5 0 0 0 1.5-1.5V7.621a1.5 1.5 0 0 0-.44-1.06l-4.12-4.122A1.5 1.5 0 0 0 11.378 2H4.5Zm2.25 8.5a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm0 3a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z"
+                clip-rule="evenodd"
+              ></path></svg
+          ></i>
+        </div>
+      
+      </div>
+      <div id="error-message" style="color: red; display: none; font-size: 12px;">Value cannot exceed 200</div>
+      <div
+        class="border-[1px] mt-4 border-opacity-[100%] border-[#ff7000] w-full rounded-[14px] flex shadow-[0px_1px_2px_0px_rgba(115,56,10,0.2)] transform sm:w-[100%]"
+      >
+        <button
+          class="flex flex-row items-center justify-center text-white text-[14px] tracking-[0.025em] pl-[20px] border-[1px] border-solid focus:outline-none pr-[16px] border-opacity-[100%] bg-gradient-to-r from-[#FFBE00] to-[#FF7000] ... gap-[12px] border-[#ffd269] pt-[10px] pb-[10px] relative rounded-[13px] flex-1 flex-grow w-[100%]"
+          id="user-submit-button"
+          type="submit"
+          data-animation-click="f9ta3i4mt"
+        >
+          <span class="font-semibold text-[14px]">Submit</span>
+          <div
+            class="w-[28px] h-[28px] rounded-[9px] bg-[#ffffff] bg-opacity-[25%] absolute left-[100%] mr-[0px] ml-[-36px] flex items-center justify-center"
+          >
+            <i class="block h-[auto] w-[18px]"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                ></path></svg
+            ></i>
+          </div>
+        </button>
+      </div>
+    </form>
+    <div
+    class="h-[60px] w-full mt-5 rounded-[16px] bg-[#ffbe00] bg-opacity-[10%] border-[1px] border-[#6a4f00] border-opacity-[25%] flex items-center justify-center gap-[12px] sm:w-[100%]"
+    data-animation-load="uqnmh2dfw"
+    data-animation-id-uqnmh2dfw=""
+    style="opacity: 1"
+  >
+    <i class="block h-auto w-[20px] text-opacity-[100%] text-[#6a4f00]"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-8-5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0v-4.5A.75.75 0 0 1 10 5Zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
+          clip-rule="evenodd"
+        ></path></svg
+    ></i>
+    <div style="text-align: center;">
+      <a href="https://bit.ly/Top-110_Eng-Colleges_pmc" class="text-[14px] block font-semibold text-opacity-[100%] text-[#6a4f00]">
+          We display results for the<span style="font-weight: bold; text-decoration: underline;"><br> "Top 100 Engineering Colleges"</span> only.
+      </a>
+  </div>
+ 
+  
+    
+  </div>
+    <div>
+    <center> 
+      <footer class="text-center mt-6">
+        <span class="ad">
+            <span class="dev" style="font-size: 12px;">Developed by 
+              <a href="https://diffuseai.in/" class="dai text-blue-700" style="font-size: 15px; color: #3b82f6;">
+
+                    Diffuse<span class="ai" style="font-size: 15px;">Ai</span>
+                </a>
+            </span>
+        </span><br>
+        <p class="ss mt-0" style="font-size: 8px;">A Student Driven Endeavour</p>
+    </footer>
+    
+        </center>
+    </div>
+    <script>
+      function validateMaxValue(input) {
+        const maxValue = 200;
+        const errorMessage = document.getElementById('error-message');
+        if (parseFloat(input.value) > maxValue) {
+            errorMessage.style.display = 'block';
+            input.value = maxValue;
+        } else {
+            errorMessage.style.display = 'none';
+        }
+    }
+    </script>
+  </body>
+</html>

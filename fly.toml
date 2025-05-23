@@ -1,0 +1,27 @@
+# fly.toml app configuration file generated for tnea-pmc on 2024-06-19T17:09:19+05:30
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'tnea-pmc'
+primary_region = 'sin'
+
+[build]
+
+[http_service]
+  internal_port = 5000
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ['app']
+
+[[vm]]
+  memory = '512mb'
+  cpu_kind = 'shared'
+  cpus = 1
+
+[services.concurrency]
+  type = "connections"
+  hard_limit = 75
+  soft_limit = 50
