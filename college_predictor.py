@@ -1,29 +1,29 @@
 category_list = [
-    ['Computer Science And Engineering', 'Computer Science And Engineering (SS)'],
-    ['Information Technology', 'Information Technology (SS)', 'Information Science & Technology'],
-    ['Computer Science And Bussiness System', 'Computer Science And Bussiness System (SS)'],
-    ['Computer Science And Engineering (Artificial Intelligence And Machine Learning)', 'Computer Science And Engineering (Artificial Intelligence And Machine Learning) (SS)'],
-    ['Artificial Intelligence And Data Science', 'Artificial Intelligence And Data Science (SS)'],
-    ['Civil Engineering', 'Civil Engineering (SS)'],
-    ['Electronics And Communication Engineering', 'Electronics And Communication Engineering (SS)'],
-    ['Electrical And Electronics Engineering', 'Electrical And Electronics Engineering (SS)', 'Electrical And Electronics (Sandwich) (SS)'],
-    ['Mechanical Engineering (Tamil Medium)'],
-    ['Civil Engineering (Tamil Medium)'],
-    ['Industrial Engineering'],
-    ['Manufacturing Engineering'],
-    ['M.Tech. Computer Science And Engineering (Integrated 5 Years)'],
-    ['Mechanical Engineering', 'Mechanical Engineering (SS)', 'Mechanical Engineering (Sandwich) (SS)'],
-    ['Mechatronics Engineering'],
-    ['Robotics And Automation', 'Robotics And Automation (SS)'],
-    ['Metallurgical Engineering', 'Metallurgical Engineering (SS)'],
-    ['Production Engineering', 'Production Engineering (SS)', 'Production Engineering (Sandwich) (SS)'],
-    ['Food Technology', 'Food Technology (SS)'],
-    ['Bio Technology', 'Bio Technology (SS)', 'Industrial Bio Technology', 'Industrial Bio Technology (SS)'],
-    ['Artificial Intelligence And Machine Learning'],
-    ['Automobile Engineering'],
-    ['Bio Medical Engineering', 'Bio Medical Engineering (SS)']
-    
+    ['COMPUTER SCIENCE AND ENGINEERING', 'COMPUTER SCIENCE AND ENGINEERING (SS)'],
+    ['INFORMATION TECHNOLOGY', 'INFORMATION TECHNOLOGY (SS)', 'INFORMATION SCIENCE & TECHNOLOGY'],
+    ['COMPUTER SCIENCE AND BUSSINESS SYSTEM', 'COMPUTER SCIENCE AND BUSSINESS SYSTEM (SS)'],
+    ['COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)', 'COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING) (SS)'],
+    ['ARTIFICIAL INTELLIGENCE AND DATA SCIENCE', 'ARTIFICIAL INTELLIGENCE AND DATA SCIENCE (SS)'],
+    ['CIVIL ENGINEERING', 'CIVIL ENGINEERING (SS)'],
+    ['ELECTRONICS AND COMMUNICATION ENGINEERING', 'ELECTRONICS AND COMMUNICATION ENGINEERING (SS)'],
+    ['ELECTRICAL AND ELECTRONICS ENGINEERING', 'ELECTRICAL AND ELECTRONICS ENGINEERING (SS)', 'ELECTRICAL AND ELECTRONICS (SANDWICH) (SS)'],
+    ['MECHANICAL ENGINEERING (TAMIL MEDIUM)'],
+    ['CIVIL ENGINEERING (TAMIL MEDIUM)'],
+    ['INDUSTRIAL ENGINEERING'],
+    ['MANUFACTURING ENGINEERING'],
+    ['M.TECH. COMPUTER SCIENCE AND ENGINEERING (INTEGRATED 5 YEARS)'],
+    ['MECHANICAL ENGINEERING', 'MECHANICAL ENGINEERING (SS)', 'MECHANICAL ENGINEERING (SANDWICH) (SS)'],
+    ['MECHATRONICS ENGINEERING'],
+    ['ROBOTICS AND AUTOMATION', 'ROBOTICS AND AUTOMATION (SS)'],
+    ['METALLURGICAL ENGINEERING', 'METALLURGICAL ENGINEERING (SS)'],
+    ['PRODUCTION ENGINEERING', 'PRODUCTION ENGINEERING (SS)', 'PRODUCTION ENGINEERING (SANDWICH) (SS)'],
+    ['FOOD TECHNOLOGY', 'FOOD TECHNOLOGY (SS)'],
+    ['BIO TECHNOLOGY', 'BIO TECHNOLOGY (SS)', 'INDUSTRIAL BIO TECHNOLOGY', 'INDUSTRIAL BIO TECHNOLOGY (SS)'],
+    ['ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING'],
+    ['AUTOMOBILE ENGINEERING'],
+    ['BIO MEDICAL ENGINEERING', 'BIO MEDICAL ENGINEERING (SS)']
 ]
+
 def category(course):
     for category in category_list:
         if course in category:

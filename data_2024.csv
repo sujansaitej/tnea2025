@@ -1,0 +1,969 @@
+College Code,College Name,Branch Code,Branch Name,OC,BC,BCM,MBC,SC,SCA,ST
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",BY,BIO MEDICAL ENGINEERING (SS),195,192,193,193,182.5,168,0
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",CE,CIVIL ENGINEERING,195,192,190,193.5,186,176,0
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",CM,COMPUTER SCIENCE AND ENGINEERING (SS),199.5,199,198,199,195.5,190.5,0
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,200,199.5,198.5,199.5,197.5,195,191.5
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,199.5,199,197.5,198.5,197,196,0
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,197.5,196.5,196.5,196,192.5,187.5,190
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",EL,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY) (SS),197,196.5,194.5,195.5,191,0,164
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",EM,ELECTRONICS AND COMMUNICATION ENGINEERING (SS),198.5,198.5,197.5,197.5,194,191.5,180.5
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",GI,GEO INFORMATICS,191,188,189,186,177,175,0
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",IE,INDUSTRIAL ENGINEERING,190.5,186,186,185,176.5,163.5,167
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",IM,INFORMATION TECHNOLOGY (SS),198.5,198,197.5,197.5,193.5,191,193
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",MA,MATERIAL SCIENCE AND ENGINEERING (SS),189.5,186,189,185,175,157.5,0
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",ME,MECHANICAL ENGINEERING,194.5,192.5,193.5,192.5,187,182.5,184.5
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",MI,MINING ENGINEERING,191.5,186.5,186,189.5,181,164.5,0
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",MN,MANUFACTURING ENGINEERING,188.585,184,186.5,184.5,175,164,168.5
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",PT,PRINTING & PACKING TECHNOLOGY,184.5,176.5,166.5,173,167,149,167.5
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",XC,CIVIL ENGINEERING (TAMIL MEDIUM),188.405,179,181,181.5,167,156.5,0
+1,"University Departments of Anna University Chennai - CEG Campus, Guindy, Chennai.",XM,MECHANICAL ENGINEERING (TAMIL MEDIUM),187.5,179.5,186,179,163.5,0,158.5
+2,"University Departments of Anna University Chennai - ACT Campus, Guindy, Chennai.",AP,APPAREL TECHNOLOGY (SS),171.5,164,158.5,157.5,152.5,0,152.5
+2,"University Departments of Anna University Chennai - ACT Campus, Guindy, Chennai.",CH,CHEMICAL ENGINEERING,192.5,190.5,190,189.5,181.5,180.5,159
+2,"University Departments of Anna University Chennai - ACT Campus, Guindy, Chennai.",CL,CHEMICAL ENGINEERING (SS),190,187,189.5,186,177,164.5,148.5
+2,"University Departments of Anna University Chennai - ACT Campus, Guindy, Chennai.",CR,CERAMIC TECHNOLOGY (SS),175,166.5,155.5,168,149.5,130.5,175.5
+2,"University Departments of Anna University Chennai - ACT Campus, Guindy, Chennai.",FS,FOOD TECHNOLOGY (SS),184.5,180,182,180,171.5,0,0
+2,"University Departments of Anna University Chennai - ACT Campus, Guindy, Chennai.",IB,INDUSTRIAL BIO TECHNOLOGY,192,188,190.5,189,174,167.5,0
+2,"University Departments of Anna University Chennai - ACT Campus, Guindy, Chennai.",IS,INDUSTRIAL BIO TECHNOLOGY (SS),190.5,187,189.5,182,179.5,161.5,0
+2,"University Departments of Anna University Chennai - ACT Campus, Guindy, Chennai.",LE,LEATHER TECHNOLOGY,171,162,156.5,158.5,157.5,119,0
+2,"University Departments of Anna University Chennai - ACT Campus, Guindy, Chennai.",PM,PHARMACEUTICAL TECHNOLOGY (SS),185,176,179,179,164.5,134,0
+2,"University Departments of Anna University Chennai - ACT Campus, Guindy, Chennai.",PP,PETROLEUM ENGINEERING AND TECHNOLOGY (SS),185.5,178,178.5,179.5,174.5,162,164
+2,"University Departments of Anna University Chennai - ACT Campus, Guindy, Chennai.",TX,TEXTILE TECHNOLOGY,175.5,164,154.5,160.5,164,119,0
+4,"University Departments of Anna University Chennai - MIT Campus, Chrompet, Chennai.",AE,AERONAUTICAL ENGINEERING,196,193.5,190.5,194,191.5,175.5,168
+4,"University Departments of Anna University Chennai - MIT Campus, Chrompet, Chennai.",AT,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE (SS),198,197.5,196,197,193.5,188,0
+4,"University Departments of Anna University Chennai - MIT Campus, Chrompet, Chennai.",AU,AUTOMOBILE ENGINEERING,191.5,189,189,187.5,179.5,164,0
+4,"University Departments of Anna University Chennai - MIT Campus, Chrompet, Chennai.",CM,COMPUTER SCIENCE AND ENGINEERING (SS),198,197.5,197,197,193,190.5,186.5
+4,"University Departments of Anna University Chennai - MIT Campus, Chrompet, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,199,198.5,198,197.5,195.5,190,194
+4,"University Departments of Anna University Chennai - MIT Campus, Chrompet, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,198,197.5,197,197,193.5,191,193.5
+4,"University Departments of Anna University Chennai - MIT Campus, Chrompet, Chennai.",EI,ELECTRONICS AND INSTRUMENTATION ENGINEERING,196,195,194.5,194.5,187.5,0,163
+4,"University Departments of Anna University Chennai - MIT Campus, Chrompet, Chennai.",EM,ELECTRONICS AND COMMUNICATION ENGINEERING (SS),197.5,197,196.5,196.5,192,190,182.5
+4,"University Departments of Anna University Chennai - MIT Campus, Chrompet, Chennai.",IM,INFORMATION TECHNOLOGY (SS),197.245,196.5,197,196.5,191.5,185.5,188.5
+4,"University Departments of Anna University Chennai - MIT Campus, Chrompet, Chennai.",PR,PRODUCTION ENGINEERING,188.5,183.5,186,183,178.5,167,0
+4,"University Departments of Anna University Chennai - MIT Campus, Chrompet, Chennai.",RA,ROBOTICS AND AUTOMATION (SS),195.5,194.5,195.5,193.5,187,183,0
+4,"University Departments of Anna University Chennai - MIT Campus, Chrompet, Chennai.",RP,RUBBER AND PLASTIC TECHNOLOGY,181.33,173.5,172.5,171.5,165,146,0
+1321,"Central Institute of Petrochemicals Engineering and Technology (CIPET), Guindy, Chennai.",MN,MANUFACTURING ENGINEERING,171.5,158,155,153.5,140.5,126,0
+1321,"Central Institute of Petrochemicals Engineering and Technology (CIPET), Guindy, Chennai.",PA,PLASTIC TECHNOLOGY,172.5,158,166,155.5,143,127,146
+1516,"Thanthai Periyar Government Institute of Technology, Vellore.",CE,CIVIL ENGINEERING,162,140,117.5,139.5,132.5,0,0
+1516,"Thanthai Periyar Government Institute of Technology, Vellore.",CS,COMPUTER SCIENCE AND ENGINEERING,184.5,178.5,177,179,161,161,166
+1516,"Thanthai Periyar Government Institute of Technology, Vellore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,178.5,172,169,173.5,151.5,129,166
+1516,"Thanthai Periyar Government Institute of Technology, Vellore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,172,166.5,152.5,163,143,159,149
+1516,"Thanthai Periyar Government Institute of Technology, Vellore.",ME,MECHANICAL ENGINEERING,156,142,115,142,136.5,117,115
+2005,"Government College of Technology (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,182.5,175,170.5,174.5,173,153,157
+2005,"Government College of Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,196,194.5,194,195,188.545,186.5,0
+2005,"Government College of Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,195.5,194,194,193.5,187,194.5,189.5
+2005,"Government College of Technology (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,192.5,191,191.5,191,180.57,176.5,0
+2005,"Government College of Technology (Autonomous), Coimbatore.",EI,ELECTRONICS AND INSTRUMENTATION ENGINEERING,190.5,188,183.5,189,173.5,157.5,160
+2005,"Government College of Technology (Autonomous), Coimbatore.",IB,INDUSTRIAL BIO TECHNOLOGY,179.5,173.5,168,169,157,152,175.5
+2005,"Government College of Technology (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,195,193.5,193,193,186.5,182,190.5
+2005,"Government College of Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,186,182,179,179,168.5,158,0
+2005,"Government College of Technology (Autonomous), Coimbatore.",PR,PRODUCTION ENGINEERING,178.5,172,172.5,168.5,157.5,155.5,176
+2006,"PSG College of Technology (Autonomous), Coimbatore.",AS,AUTOMOBILE ENGINEERING (SS),182.5,180,168,173,166,155,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",BS,BIO TECHNOLOGY (SS),192.5,187.5,188.5,184,163.5,186.5,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",BY,BIO MEDICAL ENGINEERING (SS),190,186.5,188,183,161,165,178.5
+2006,"PSG College of Technology (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,191.5,190,186.5,187.5,177,178.5,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",CG,COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING) (SS),197,196.5,0,195.5,187.5,183,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",CM,COMPUTER SCIENCE AND ENGINEERING (SS),198.5,198,196.5,196.5,188.5,191,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",CN,CIVIL ENGINEERING (SS),187,184,0,182.5,175,179.5,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,198.5,198,196.5,196,190,190.5,181.5
+2006,"PSG College of Technology (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,196,195.5,194,194.5,186.5,185.5,168
+2006,"PSG College of Technology (Autonomous), Coimbatore.",EM,ELECTRONICS AND COMMUNICATION ENGINEERING (SS),197,196.5,195.5,195,187.5,186,176.5
+2006,"PSG College of Technology (Autonomous), Coimbatore.",ES,ELECTRICAL AND ELECTRONICS (SANDWICH) (SS),190,188.5,188,184.5,170.5,160,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",FY,FASHION TECHNOLOGY (SS),176,170.5,153,157.5,133.5,126,110
+2006,"PSG College of Technology (Autonomous), Coimbatore.",IM,INFORMATION TECHNOLOGY (SS),197.5,196.5,195,195,188.5,182.5,184
+2006,"PSG College of Technology (Autonomous), Coimbatore.",IY,INSTRUMENTATION AND CONTROL ENGINEERING (SS),191,189.5,185.5,188.5,180,170.155,121
+2006,"PSG College of Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,193,191,192,190,179.5,185.5,181
+2006,"PSG College of Technology (Autonomous), Coimbatore.",MF,MECHANICAL ENGINEERING (SS),190,189.5,190,188,175.5,173,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",MS,MECHANICAL ENGINEERING (SANDWICH) (SS),184,180,177.5,177.5,162,134.5,144
+2006,"PSG College of Technology (Autonomous), Coimbatore.",MT,METALLURGICAL ENGINEERING,183.5,179.5,183,181,173,0,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",MY,METALLURGICAL ENGINEERING (SS),181,177,0,176,157.5,146.5,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",PN,PRODUCTION ENGINEERING (SS),183,181.5,178.5,179,157.5,152.5,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",PR,PRODUCTION ENGINEERING,187,184,184.5,182,173,160,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",PS,PRODUCTION ENGINEERING (SANDWICH) (SS),176.5,173,154,168.5,147,123.5,124
+2006,"PSG College of Technology (Autonomous), Coimbatore.",RA,ROBOTICS AND AUTOMATION (SS),194,192,190,190,177,168.5,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",TT,TEXTILE TECHNOLOGY (SS),172.5,169,158.5,149.5,138,141,0
+2006,"PSG College of Technology (Autonomous), Coimbatore.",TX,TEXTILE TECHNOLOGY,178.5,174.5,159,158,147.5,117.5,0
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",AT,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE (SS),195.5,195,195,193,185,0,0
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,184.5,179.5,177,181,173.5,164.5,0
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",CH,CHEMICAL ENGINEERING,189,185,184.5,182.5,173,169,179
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",CL,CHEMICAL ENGINEERING (SS),186,183.5,185.5,179.5,173,143,0
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",CM,COMPUTER SCIENCE AND ENGINEERING (SS),196,196,195,195,185.5,184.5,173.5
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",CN,CIVIL ENGINEERING (SS),183,178,160,179.5,170.5,0,0
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,197,196,195,195.5,191,186.5,186
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,196,195.5,195.5,194.5,187,186.5,0
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,193.5,192.5,190.5,192,180,179,0
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",EM,ELECTRONICS AND COMMUNICATION ENGINEERING (SS),195,194,194,193.5,185,182.5,0
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",EY,ELECTRICAL AND ELECTRONICS ENGINEERING (SS),192,190.5,189,189.5,176.5,170.5,0
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",IM,INFORMATION TECHNOLOGY (SS),195.5,195,194.5,194.5,185.5,182,180.5
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,189,185,187,184,171.5,175,0
+2007,"Coimbatore Institute of Technology (Autonomous), Coimbatore.",MF,MECHANICAL ENGINEERING (SS),184.5,182,181,179.5,164.5,170,0
+2025,Anna University Regional Campus - Coimbatore.,AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,189,181.5,180,181,176,166.5,0
+2025,Anna University Regional Campus - Coimbatore.,CS,COMPUTER SCIENCE AND ENGINEERING,187.5,182.5,183,183.5,174,164.5,164
+2025,Anna University Regional Campus - Coimbatore.,EC,ELECTRONICS AND COMMUNICATION ENGINEERING,183,179,182,179,170,164,150.5
+2025,Anna University Regional Campus - Coimbatore.,EE,ELECTRICAL AND ELECTRONICS ENGINEERING,176.5,172,167.5,166,156.5,152,172.5
+2025,Anna University Regional Campus - Coimbatore.,EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),178,174.5,165,172,161,146,0
+2025,Anna University Regional Campus - Coimbatore.,ME,MECHANICAL ENGINEERING,167,159.5,164.5,154,152.5,154.5,99.5
+2343,"Indian Institute of Handloom Technology, Salem.",HT,HANDLOOM AND TEXTILE TECHNOLOGY,163.5,157,158,152.5,139,135,116.5
+2603,"Government College of Engineering (Autonomous), Bargur, Krishnagiri.",CS,COMPUTER SCIENCE AND ENGINEERING,187,181.5,182.5,184,167,147,0
+2603,"Government College of Engineering (Autonomous), Bargur, Krishnagiri.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,182,178,175,179,162,161.5,154
+2603,"Government College of Engineering (Autonomous), Bargur, Krishnagiri.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,176.5,171,159.5,169,158.5,149.5,157
+2603,"Government College of Engineering (Autonomous), Bargur, Krishnagiri.",ME,MECHANICAL ENGINEERING,165.5,153,159.5,157.5,142,129,0
+2615,"Government College of Engineering (Autonomous), Karuppur, Salem.",CE,CIVIL ENGINEERING,174,165.5,168.5,168,156.5,146,155
+2615,"Government College of Engineering (Autonomous), Karuppur, Salem.",CS,COMPUTER SCIENCE AND ENGINEERING,193,191,191,191.5,181,188,169
+2615,"Government College of Engineering (Autonomous), Karuppur, Salem.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,191.5,190,189.5,190.5,177.5,163,169
+2615,"Government College of Engineering (Autonomous), Karuppur, Salem.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,188.5,186,183.5,186,173,164,0
+2615,"Government College of Engineering (Autonomous), Karuppur, Salem.",ME,MECHANICAL ENGINEERING,179,170,171,167.5,157.5,151.5,144.5
+2615,"Government College of Engineering (Autonomous), Karuppur, Salem.",MT,METALLURGICAL ENGINEERING,177.5,170.5,176.5,164,151,162,0
+2709,"Government College of Engineering, Erode.",AU,AUTOMOBILE ENGINEERING,159,150,146.5,149,128.5,120,0
+2709,"Government College of Engineering, Erode.",CE,CIVIL ENGINEERING,167,158.5,158,158.5,151,156,137.5
+2709,"Government College of Engineering, Erode.",CS,COMPUTER SCIENCE AND ENGINEERING,188.5,185,0,184,173.5,0,154
+2709,"Government College of Engineering, Erode.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,184,181,180.5,180,171,170.5,0
+2709,"Government College of Engineering, Erode.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,179.5,172.5,177,171.5,153,148,0
+2709,"Government College of Engineering, Erode.",IT,INFORMATION TECHNOLOGY,187.5,181,179,182,176,157.5,0
+2709,"Government College of Engineering, Erode.",ME,MECHANICAL ENGINEERING,165.5,162.5,163,158,143.5,129,147
+3011,University College of Engineering - BIT Campus - Trichy.,AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),176,169,162.5,169.5,162.5,155.5,0
+3011,University College of Engineering - BIT Campus - Trichy.,BT,BIO TECHNOLOGY,168,153,150.5,142.5,151.5,121,122
+3011,University College of Engineering - BIT Campus - Trichy.,CE,CIVIL ENGINEERING,160,136.5,0,138,120.5,111,125
+3011,University College of Engineering - BIT Campus - Trichy.,CF,COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE),175,168,162,170.5,155,129.5,0
+3011,University College of Engineering - BIT Campus - Trichy.,CK,CIVIL ENGINEERING (ENVIRONMENTAL ENGINEERING),129,0,0,0,0,0,0
+3011,University College of Engineering - BIT Campus - Trichy.,CS,COMPUTER SCIENCE AND ENGINEERING,184.5,178,174,180,174,155,133
+3011,University College of Engineering - BIT Campus - Trichy.,EC,ELECTRONICS AND COMMUNICATION ENGINEERING,178.5,171.5,163,172.5,164.5,159,112.5
+3011,University College of Engineering - BIT Campus - Trichy.,EE,ELECTRICAL AND ELECTRONICS ENGINEERING,168,157,142.5,155,144.5,0,122.5
+3011,University College of Engineering - BIT Campus - Trichy.,EF,ELECTRICAL AND COMPUTER ENGINEERING,160.5,146.5,157.5,147,126.5,0,0
+3011,University College of Engineering - BIT Campus - Trichy.,EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),163.5,156.5,148,151,137,0,0
+3011,University College of Engineering - BIT Campus - Trichy.,IT,INFORMATION TECHNOLOGY,181.5,172.5,176.5,173.5,167.5,148,140.5
+3011,University College of Engineering - BIT Campus - Trichy.,MB,MECHANICAL ENGINEERING (AUTOMOBILE),138.5,118,120,0,98,0,0
+3011,University College of Engineering - BIT Campus - Trichy.,ME,MECHANICAL ENGINEERING,157,142.5,96,132.5,140.5,0,0
+3011,University College of Engineering - BIT Campus - Trichy.,MJ,MECHANICAL AND SMART MANUFACTURING,128.5,92,120.5,0,0,0,0
+3011,University College of Engineering - BIT Campus - Trichy.,PC,PETRO CHEMICAL TECHNOLOGY,153,131.5,92.5,130.5,97.5,134.5,129
+3011,University College of Engineering - BIT Campus - Trichy.,PH,PHARMACEUTICAL TECHNOLOGY,159.5,142,0,123.5,108,0,0
+3011,University College of Engineering - BIT Campus - Trichy.,XC,CIVIL ENGINEERING (TAMIL MEDIUM),150,0,0,0,101,141.5,116
+3011,University College of Engineering - BIT Campus - Trichy.,XM,MECHANICAL ENGINEERING (TAMIL MEDIUM),101,0,0,0,0,85.5,0
+3465,"Government College of Engineering, Srirangam, Trichy.",CE,CIVIL ENGINEERING,161.5,137.5,119.5,139,143,0,142.5
+3465,"Government College of Engineering, Srirangam, Trichy.",CS,COMPUTER SCIENCE AND ENGINEERING,185,177.5,177.5,178.5,164.5,146.5,0
+3465,"Government College of Engineering, Srirangam, Trichy.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,178,174,174.5,172,156.5,156.5,139.5
+3465,"Government College of Engineering, Srirangam, Trichy.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,171.5,164.5,162.5,160,145.5,149,128
+3465,"Government College of Engineering, Srirangam, Trichy.",ME,MECHANICAL ENGINEERING,159.5,146.5,159.5,144,138.5,116,0
+4020,Anna University Regional Campus - Tirunelveli.,AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,182.5,172.5,0,177,171.5,150.5,0
+4020,Anna University Regional Campus - Tirunelveli.,CS,COMPUTER SCIENCE AND ENGINEERING,180,171.5,179.5,166.5,161.5,128.5,0
+4020,Anna University Regional Campus - Tirunelveli.,EC,ELECTRONICS AND COMMUNICATION ENGINEERING,175.5,167.5,170.5,161.5,149.5,123,0
+4020,Anna University Regional Campus - Tirunelveli.,GI,GEO INFORMATICS,154,132,142,119,118,116.5,132
+4020,Anna University Regional Campus - Tirunelveli.,ME,MECHANICAL ENGINEERING,155.5,135,152.5,114.5,126,118,101
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",CE,CIVIL ENGINEERING,187,183,184,184,173.5,181,151
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",CG,COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING) (SS),193,191.5,191,190.5,179,163,161
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",CM,COMPUTER SCIENCE AND ENGINEERING (SS),194.5,193,192,192,182,179.5,166
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",CN,CIVIL ENGINEERING (SS),181.5,177,172.5,175,151,129,120.5
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",CS,COMPUTER SCIENCE AND ENGINEERING,196.5,195.5,193.5,195,188,182,0
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",CW,COMPUTER SCIENCE AND BUSINESS SYSTEM (SS),191.5,190,190.5,187,175,173.505,140.5
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,195.5,195,194.5,193,187.5,184.5,175.5
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,192.5,191,189,190.5,179.5,154.5,0
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",EM,ELECTRONICS AND COMMUNICATION ENGINEERING (SS),193,192,191,191,180.5,170.5,155.5
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",EY,ELECTRICAL AND ELECTRONICS ENGINEERING (SS),190.5,190,186.5,187,174.5,148.5,0
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",ID,INTERIOR DESIGN (SS),176.5,170.5,0,167,144,107,0
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",IM,INFORMATION TECHNOLOGY (SS),193.5,191.5,191,189.5,179.5,163,157.5
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",ME,MECHANICAL ENGINEERING,188,186,182.5,184,169,163,0
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",MF,MECHANICAL ENGINEERING (SS),184.5,182.5,179,178,159,132,140
+5008,"Thiagarajar College of Engineering (Autonomous), Madurai.",MG,MECHATRONICS (SS),188,186.5,181.5,181.5,156,125,0
+5010,Anna University Regional Campus - Madurai.,CE,CIVIL ENGINEERING,146.5,119.5,130,128.5,128,109,0
+5010,Anna University Regional Campus - Madurai.,CS,COMPUTER SCIENCE AND ENGINEERING,179,174,176.5,169,159,159.5,0
+5010,Anna University Regional Campus - Madurai.,EC,ELECTRONICS AND COMMUNICATION ENGINEERING,175,168.5,172,166.5,150,141.5,142.5
+5010,Anna University Regional Campus - Madurai.,EE,ELECTRICAL AND ELECTRONICS ENGINEERING,163.5,156,140.5,147.5,132.5,122,0
+5010,Anna University Regional Campus - Madurai.,ME,MECHANICAL ENGINEERING,144.5,125.5,131.5,114,112.5,117,99.5
+5012,"Central Electrochemical Research Institute CECRI), Karaikudi, Sivagangai.",CC,CHEMICAL AND ELECTRO CHEMICAL ENGINEERING (SS),194,192,190,191,190,157.5,0
+5901,"Alagappa Chettair Govt College of Eng & Tech (Autonomous), Karaikudi, Sivagangai.",CE,CIVIL ENGINEERING,179,172,169,170,161.5,145,134
+5901,"Alagappa Chettair Govt College of Eng & Tech (Autonomous), Karaikudi, Sivagangai.",CS,COMPUTER SCIENCE AND ENGINEERING,191,189,190,189,175.5,157,0
+5901,"Alagappa Chettair Govt College of Eng & Tech (Autonomous), Karaikudi, Sivagangai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,189.5,188,185.5,188,178.5,152.5,0
+5901,"Alagappa Chettair Govt College of Eng & Tech (Autonomous), Karaikudi, Sivagangai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,185,182,180,177.5,163,136,161.5
+5901,"Alagappa Chettair Govt College of Eng & Tech (Autonomous), Karaikudi, Sivagangai.",ME,MECHANICAL ENGINEERING,173,166,165,160,156,136.5,126
+4974,"Government College of Engineering, Tirunelveli.",CE,CIVIL ENGINEERING,175,165,172.5,161.5,164,108.5,0
+4974,"Government College of Engineering, Tirunelveli.",CS,COMPUTER SCIENCE AND ENGINEERING,192,188,191.5,186,183,153.5,154.5
+4974,"Government College of Engineering, Tirunelveli.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,187.5,183.5,185.5,180.5,170.5,145,161
+4974,"Government College of Engineering, Tirunelveli.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,182.5,179.5,180.5,177.5,163,134.5,0
+4974,"Government College of Engineering, Tirunelveli.",ME,MECHANICAL ENGINEERING,170.5,163.5,166.5,157,142.5,127.5,119.5
+1112,"R M D Engineering College (Autonomous), Thiruvallur.",AL,ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING,177,172.5,171.5,167,140,0,132
+1112,"R M D Engineering College (Autonomous), Thiruvallur.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,175.5,173,0,165.275,137.5,0,0
+1112,"R M D Engineering College (Autonomous), Thiruvallur.",CS,COMPUTER SCIENCE AND ENGINEERING,181,176.5,167.5,174,150,0,0
+1112,"R M D Engineering College (Autonomous), Thiruvallur.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,177,174,162.5,167.5,143,111.5,0
+1112,"R M D Engineering College (Autonomous), Thiruvallur.",IT,INFORMATION TECHNOLOGY,177.5,173,166.5,170,139,113,0
+1113,"R M K Engineering College (Autonomous), Thiruvallur.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,185.5,181.5,171,180,152.5,130.5,0
+1113,"R M K Engineering College (Autonomous), Thiruvallur.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,182.5,179.5,168.5,175,157,119.5,0
+1113,"R M K Engineering College (Autonomous), Thiruvallur.",CD,COMPUTER SCIENCE AND DESIGN,178,175,0,174,139,0,0
+1113,"R M K Engineering College (Autonomous), Thiruvallur.",CE,CIVIL ENGINEERING,159.5,151.5,118,144.5,141,0,0
+1113,"R M K Engineering College (Autonomous), Thiruvallur.",CS,COMPUTER SCIENCE AND ENGINEERING,188,184,177.5,183,167.5,129,0
+1113,"R M K Engineering College (Autonomous), Thiruvallur.",EA,ELECTRONICS AND COMMUNICATION (ADVANCED COMMUNICATION TECHNOLOGY),180.5,176,174.5,170.5,145.5,98,0
+1113,"R M K Engineering College (Autonomous), Thiruvallur.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,184.5,181.5,176,175.5,162,0,139
+1113,"R M K Engineering College (Autonomous), Thiruvallur.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,179.5,171,173.5,170.5,140.5,0,0
+1113,"R M K Engineering College (Autonomous), Thiruvallur.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),177,171,166,170,139.5,0,0
+1113,"R M K Engineering College (Autonomous), Thiruvallur.",IT,INFORMATION TECHNOLOGY,184.5,182,177,177.5,163.5,0,106
+1113,"R M K Engineering College (Autonomous), Thiruvallur.",ME,MECHANICAL ENGINEERING,172,163,145.5,166,142,0,0
+1114,"S A Engineering College (Autonomous), Thiruverkadu, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,161,148.5,145.5,150.5,123.5,0,0
+1114,"S A Engineering College (Autonomous), Thiruverkadu, Chennai.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),156,144.5,0,145.5,118.5,0,0
+1114,"S A Engineering College (Autonomous), Thiruverkadu, Chennai.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,150.5,143,134,142.5,125,0,0
+1114,"S A Engineering College (Autonomous), Thiruverkadu, Chennai.",CE,CIVIL ENGINEERING,130,0,0,0,0,0,0
+1114,"S A Engineering College (Autonomous), Thiruverkadu, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,160,150.5,140.5,148.5,122.5,0,0
+1114,"S A Engineering College (Autonomous), Thiruverkadu, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,154,144,145.5,142.5,113.5,0,0
+1114,"S A Engineering College (Autonomous), Thiruverkadu, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,136.5,85.5,0,0,0,0,0
+1114,"S A Engineering College (Autonomous), Thiruverkadu, Chennai.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),140,113,138,120,0,0,0
+1114,"S A Engineering College (Autonomous), Thiruverkadu, Chennai.",IT,INFORMATION TECHNOLOGY,156.5,145,136,144.5,122,0,0
+1114,"S A Engineering College (Autonomous), Thiruverkadu, Chennai.",ME,MECHANICAL ENGINEERING,122,0,0,0,0,0,0
+1114,"S A Engineering College (Autonomous), Thiruverkadu, Chennai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),154,145.5,137,146,116.5,154,0
+1118,"Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,165,157.5,160,154.5,142.5,0,0
+1118,"Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",BM,BIO MEDICAL ENGINEERING,148.5,126.5,141.5,102.5,119.5,0,0
+1118,"Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,162.5,154.5,149,149.5,119.5,0,0
+1118,"Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,167.5,160.5,160,161,136,124.5,121.5
+1118,"Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,165,156,161,153.5,141,0,0
+1118,"Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,151.5,144.5,142,141.5,113.5,0,0
+1118,"Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",IT,INFORMATION TECHNOLOGY,165,156.5,150,155,127.5,0,0
+1118,"Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",ME,MECHANICAL ENGINEERING,140,117.5,136.5,114,115.5,0,0
+1118,"Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),164,156.5,162.5,154.5,128,108,0
+1120,"Velammal Engineering College (Autonomous), Ambattur-Redhills Road, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,167.5,161,161.5,159,131.5,0,155.5
+1120,"Velammal Engineering College (Autonomous), Ambattur-Redhills Road, Chennai.",AU,AUTOMOBILE ENGINEERING,158.5,124.5,0,98,0,0,0
+1120,"Velammal Engineering College (Autonomous), Ambattur-Redhills Road, Chennai.",CE,CIVIL ENGINEERING,159,131,115.5,114.5,0,0,88
+1120,"Velammal Engineering College (Autonomous), Ambattur-Redhills Road, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,173,163.5,161.5,159,132,0,94.5
+1120,"Velammal Engineering College (Autonomous), Ambattur-Redhills Road, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,166,158,153.5,154.5,118.5,0,0
+1120,"Velammal Engineering College (Autonomous), Ambattur-Redhills Road, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,162.5,149,159,151,120.5,0,0
+1120,"Velammal Engineering College (Autonomous), Ambattur-Redhills Road, Chennai.",EI,ELECTRONICS AND INSTRUMENTATION ENGINEERING,155.5,145.5,142.5,146.5,103,0,0
+1120,"Velammal Engineering College (Autonomous), Ambattur-Redhills Road, Chennai.",IT,INFORMATION TECHNOLOGY,168,160,163.5,157,128,0,112.5
+1120,"Velammal Engineering College (Autonomous), Ambattur-Redhills Road, Chennai.",ME,MECHANICAL ENGINEERING,149,135,116,128.5,105.5,0,0
+1120,"Velammal Engineering College (Autonomous), Ambattur-Redhills Road, Chennai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),166,159,160,155.5,128.5,0,0
+1122,"Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,163,155.5,157.5,152,139,0,0
+1122,"Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),160.5,153,156.5,151,129.5,0,123
+1122,"Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",BT,BIO TECHNOLOGY,145,125,100,113,97.5,0,0
+1122,"Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",CE,CIVIL ENGINEERING,139,115.5,0,121,98,0,0
+1122,"Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",CH,CHEMICAL ENGINEERING,146.5,101.5,138.5,120.5,96,0,0
+1122,"Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,167,157,154.5,153.5,133,115,0
+1122,"Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,162,153.5,154,149,124.5,0,0
+1122,"Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",IT,INFORMATION TECHNOLOGY,160,154,147.5,150.5,127.5,0,0
+1122,"Vel Tech High Tech Dr. Rangarajan Dr. Sakunthala EnG College (Autonomous), Avadi, Chennai.",ME,MECHANICAL ENGINEERING,135.5,112,119.5,114,101,0,0
+1128,"R M K College of Engineering and Technology (Autonomous), Thiruvallur.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,173,167.5,159,161.5,138.5,0,102
+1128,"R M K College of Engineering and Technology (Autonomous), Thiruvallur.",CS,COMPUTER SCIENCE AND ENGINEERING,173.5,168.5,162.5,163.5,139,0,120
+1128,"R M K College of Engineering and Technology (Autonomous), Thiruvallur.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,173,168.5,164,162.5,136.5,0,0
+1128,"R M K College of Engineering and Technology (Autonomous), Thiruvallur.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),170,165.5,163,158.5,132.5,0,0
+1128,"R M K College of Engineering and Technology (Autonomous), Thiruvallur.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),172,167,170.5,163.5,144,128.5,0
+1140,"Jeppiaar Institute of Technology, Kancheepuram.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,165.5,153.5,139,148.5,114,0,0
+1140,"Jeppiaar Institute of Technology, Kancheepuram.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,160,149.5,0,146,117.5,0,0
+1140,"Jeppiaar Institute of Technology, Kancheepuram.",CS,COMPUTER SCIENCE AND ENGINEERING,166,153.5,151,146,115.5,0,0
+1140,"Jeppiaar Institute of Technology, Kancheepuram.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,171.5,155.5,158,156.5,0,0,0
+1140,"Jeppiaar Institute of Technology, Kancheepuram.",IT,INFORMATION TECHNOLOGY,154.5,147,120.5,142.5,98,0,0
+1140,"Jeppiaar Institute of Technology, Kancheepuram.",ME,MECHANICAL ENGINEERING,146.5,130.5,128,0,86.5,0,0
+1149,"St. Joseph's Institute of Technology (Autonomous), (OMR), Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,169.5,165.5,162.5,163,138,0,0
+1149,"St. Joseph's Institute of Technology (Autonomous), (OMR), Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,176,169,168,164,135,0,0
+1149,"St. Joseph's Institute of Technology (Autonomous), (OMR), Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,171,165.5,162,163,126.5,0,116.5
+1149,"St. Joseph's Institute of Technology (Autonomous), (OMR), Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,159,155,142.5,149.5,111.5,0,0
+1149,"St. Joseph's Institute of Technology (Autonomous), (OMR), Chennai.",IT,INFORMATION TECHNOLOGY,171,166.5,166.5,162.5,133,0,0
+1149,"St. Joseph's Institute of Technology (Autonomous), (OMR), Chennai.",ME,MECHANICAL ENGINEERING,137,121.5,126,119,103.5,0,0
+1149,"St. Joseph's Institute of Technology (Autonomous), (OMR), Chennai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),170.5,165,159,162.5,137.5,0,0
+1210,"Panimalar Engineering College (Autonomous), Poonamallee, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,170.5,162.5,155,160,128,0,118.5
+1210,"Panimalar Engineering College (Autonomous), Poonamallee, Chennai.",AL,ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING,166.5,160,154,156,126,0,0
+1210,"Panimalar Engineering College (Autonomous), Poonamallee, Chennai.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,163.5,158,158.5,155.5,120,0,103.5
+1210,"Panimalar Engineering College (Autonomous), Poonamallee, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,172.5,165,158.5,161.5,133.5,0,115
+1210,"Panimalar Engineering College (Autonomous), Poonamallee, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,168.5,162.5,156.5,156.5,127,0,0
+1210,"Panimalar Engineering College (Autonomous), Poonamallee, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,159,153.5,142,147.5,122,0,0
+1210,"Panimalar Engineering College (Autonomous), Poonamallee, Chennai.",IT,INFORMATION TECHNOLOGY,168,161.5,154,159,130,0,90
+1210,"Panimalar Engineering College (Autonomous), Poonamallee, Chennai.",ME,MECHANICAL ENGINEERING,144,135.5,142.5,132.5,105.5,128.5,0
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,188,185,186,182,168.5,146.5,156.5
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",AE,AERONAUTICAL ENGINEERING,180.5,170,0,172,163.5,112,0
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",AL,ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING,185.5,183.5,182,180.5,161.5,133.5,0
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",AU,AUTOMOBILE ENGINEERING,170,164.5,156.5,160.5,145,0,0
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",BM,BIO MEDICAL ENGINEERING,178,169,163.5,161,136.5,0,0
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",BT,BIO TECHNOLOGY,176,169.5,170,157,138,123.5,125
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,185.5,183,183,180.5,155.5,129,126.5
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",CD,COMPUTER SCIENCE AND DESIGN,182.5,181.5,181.5,179,157,159.5,0
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",CE,CIVIL ENGINEERING,169,163,156.5,157.5,146.5,0,0
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",CH,CHEMICAL ENGINEERING,176.5,160.5,0,165,152.5,0,0
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",CS,COMPUTER SCIENCE AND ENGINEERING,191.5,188,188.5,185.5,169,125.5,159.5
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,188.5,186,184,182.5,168,110.5,132.5
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,182.5,181,179.5,178,157,0,0
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",FD,FOOD TECHNOLOGY,172,164.5,170,163,141.5,118,118
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",IT,INFORMATION TECHNOLOGY,188.5,186,185,183,167.5,139.5,161
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",ME,MECHANICAL ENGINEERING,175.5,170,167.5,166,144.5,0,111.5
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",MZ,MECHATRONICS ENGINEERING,179.5,174,178,173,156,130,0
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",RM,ROBOTICS AND AUTOMATION,179.5,177,175.5,170.5,143.5,0,0
+1211,"Rajalakshmi Engineering College (Autonomous), Kancheepuram.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),187,184.5,183,181,165.5,144,156.5
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,178.545,172.5,173,167,140.5,151.5,0
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",AG,AGRICULTURAL ENGINEERING,157.5,133.5,120,125,114,0,0
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",AL,ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING,174,169.5,169,164,140.5,0,141.5
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",BM,BIO MEDICAL ENGINEERING,166,155.5,158.5,154.5,135.5,0,0
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",CE,CIVIL ENGINEERING,157.5,148,97,138.5,114,0,0
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",CH,CHEMICAL ENGINEERING,170,157.5,0,157.5,111.5,0,0
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",CI,COMPUTER SCIENCE AND ENGINEERING (INTERNET OF THINGS),175,170.5,173,166,139.5,0,0
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",CS,COMPUTER SCIENCE AND ENGINEERING,185,177,172,171,142,0,117
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,175.5,171,169.5,165.5,141.5,0,126.5
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,169,166.5,163,159.5,133,0,0
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",IT,INFORMATION TECHNOLOGY,179,174.5,176,168,142,0,124
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",ME,MECHANICAL ENGINEERING,160,150,158,147.5,121,0,0
+1216,"Saveetha Engineering College (Autonomous), Kancheepuram.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),181.5,178,175,169.5,143,0,0
+1219,"Sri Venkateswara College of Engineering (Autonomous), Kancheepuram.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,187,185.5,183,183,163,95,0
+1219,"Sri Venkateswara College of Engineering (Autonomous), Kancheepuram.",BT,BIO TECHNOLOGY,179.5,170,153.5,162.5,143,0,0
+1219,"Sri Venkateswara College of Engineering (Autonomous), Kancheepuram.",CE,CIVIL ENGINEERING,164,153,159,143.5,135,144.5,0
+1219,"Sri Venkateswara College of Engineering (Autonomous), Kancheepuram.",CH,CHEMICAL ENGINEERING,174,161.5,171,165,153,167,0
+1219,"Sri Venkateswara College of Engineering (Autonomous), Kancheepuram.",CS,COMPUTER SCIENCE AND ENGINEERING,190.5,188,188,186,169,171.5,153
+1219,"Sri Venkateswara College of Engineering (Autonomous), Kancheepuram.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,188,185.5,183,181.5,164.5,150,128.5
+1219,"Sri Venkateswara College of Engineering (Autonomous), Kancheepuram.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,182,180,172,171.5,144,120.5,0
+1219,"Sri Venkateswara College of Engineering (Autonomous), Kancheepuram.",IT,INFORMATION TECHNOLOGY,187.5,186.5,183.5,184,160.5,131,125.5
+1219,"Sri Venkateswara College of Engineering (Autonomous), Kancheepuram.",MB,MECHANICAL ENGINEERING (AUTOMOBILE),161,155.5,0,150,128.5,0,0
+1219,"Sri Venkateswara College of Engineering (Autonomous), Kancheepuram.",ME,MECHANICAL ENGINEERING,174,168,171.5,165,157.5,105.5,0
+1219,"Sri Venkateswara College of Engineering (Autonomous), Kancheepuram.",MR,MARINE ENGINEERING,0,0,0,0,0,0,0
+1219,"Sri Venkateswara College of Engineering (Autonomous), Kancheepuram.",MU,MECHANICAL AND AUTOMATION ENGINEERING,166,157.5,146,153.5,130,109,0
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,180.5,175,174.5,171.3333333,146.5,0,0
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),178.5,174,175,170,153.5,0,112
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",AU,AUTOMOBILE ENGINEERING,146,142,133,142,120,0,0
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",BM,BIO MEDICAL ENGINEERING,173,159,169.67,148.5,132.5,0,0
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",BT,BIO TECHNOLOGY,170,162,148,153,134,122.5,0
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,173.5,171.5,171,169.5,146,122.5,0
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",CD,COMPUTER SCIENCE AND DESIGN,175.5,170,173.5,168.5,145.5,0,0
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",CE,CIVIL ENGINEERING,159,130,0,132,120,0,0
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,183.5,178,177,175.5,156,0,0
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,179.5,175,176,169,142.5,0,0
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,171,165.5,162.5,160.5,135,0,0
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",IT,INFORMATION TECHNOLOGY,178.5,174.5,176,171.5,148,84.5,114.5
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",ME,MECHANICAL ENGINEERING,160,149,120,145,124.5,0,97.5
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",RM,ROBOTICS AND AUTOMATION,173,167.5,170,150.5,136.5,0,0
+1304,"Easwari Engineering College (Autonomous), Ramapuram, Chennai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),179,176.5,174,172.5,151,104,0
+1306,"Jeppiaar Engineering College, (OMR), Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,166,160,148.5,154,129,0,0
+1306,"Jeppiaar Engineering College, (OMR), Chennai.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),161.5,157,152.5,152,122.5,0,0
+1306,"Jeppiaar Engineering College, (OMR), Chennai.",AO,AEROSPACE ENGINEERING,168.5,150.5,0,96.5,111.5,0,0
+1306,"Jeppiaar Engineering College, (OMR), Chennai.",BT,BIO TECHNOLOGY,149.5,144.5,0,127.5,122,0,0
+1306,"Jeppiaar Engineering College, (OMR), Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,167,161,152,159,132,0,0
+1306,"Jeppiaar Engineering College, (OMR), Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,161.5,155.5,144.5,152,113.5,0,0
+1306,"Jeppiaar Engineering College, (OMR), Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,155,150,138.5,140,108.5,0,0
+1306,"Jeppiaar Engineering College, (OMR), Chennai.",IT,INFORMATION TECHNOLOGY,163,157,148,154.5,125,0,0
+1306,"Jeppiaar Engineering College, (OMR), Chennai.",ME,MECHANICAL ENGINEERING,139,94.5,0,115,0,0,0
+1307,"Jerusalem College of Engineering (Autonomous), Pallikaranai, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,165,149.5,157.5,151.5,118.5,141,0
+1307,"Jerusalem College of Engineering (Autonomous), Pallikaranai, Chennai.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),155,144,154.5,143.5,122.5,0,0
+1307,"Jerusalem College of Engineering (Autonomous), Pallikaranai, Chennai.",BM,BIO MEDICAL ENGINEERING,136.5,0,0,0,0,0,0
+1307,"Jerusalem College of Engineering (Autonomous), Pallikaranai, Chennai.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,155,143.5,137.5,141,128,0,0
+1307,"Jerusalem College of Engineering (Autonomous), Pallikaranai, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,159.5,150,154.5,146.5,132,0,0
+1307,"Jerusalem College of Engineering (Autonomous), Pallikaranai, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,156,143,0,142,123,0,0
+1307,"Jerusalem College of Engineering (Autonomous), Pallikaranai, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,152.5,139,0,126,114.5,0,0
+1307,"Jerusalem College of Engineering (Autonomous), Pallikaranai, Chennai.",IT,INFORMATION TECHNOLOGY,156,146.5,152.5,144.5,127.5,0,0
+1307,"Jerusalem College of Engineering (Autonomous), Pallikaranai, Chennai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),152,142,146.5,139,112,0,0
+1309,"Meenakshi Sundararajan Engineering College, Kodambakkam, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,172,166,170,163.5,142.5,134.5,0
+1309,"Meenakshi Sundararajan Engineering College, Kodambakkam, Chennai.",CE,CIVIL ENGINEERING,128,0,110.5,0,0,0,0
+1309,"Meenakshi Sundararajan Engineering College, Kodambakkam, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,179.5,173.5,172.5,165,164,132,133
+1309,"Meenakshi Sundararajan Engineering College, Kodambakkam, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,172.5,165.5,169.5,161.5,132,116,0
+1309,"Meenakshi Sundararajan Engineering College, Kodambakkam, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,160.5,154,143,146,117.5,0,0
+1309,"Meenakshi Sundararajan Engineering College, Kodambakkam, Chennai.",IT,INFORMATION TECHNOLOGY,172.5,167.5,170.5,162.5,146.5,112.5,112
+1309,"Meenakshi Sundararajan Engineering College, Kodambakkam, Chennai.",ME,MECHANICAL ENGINEERING,149,125,113,120.5,118.5,0,0
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,168,164,162.5,159.5,138,0,0
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",AE,AERONAUTICAL ENGINEERING,165.5,158,159,149,123.5,0,0
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",AO,AEROSPACE ENGINEERING,178.5,164,148,167.5,150.5,0,0
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",AU,AUTOMOBILE ENGINEERING,135,122,0,103,98,0,0
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",CE,CIVIL ENGINEERING,111.5,0,0,0,0,0,103
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,169.5,162.5,160.5,157.5,133.5,0,133.5
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,165.5,158,163,155,124.5,0,0
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,160,153.5,137.5,142.5,115,0,0
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",FT,FASHION TECHNOLOGY,134,119.5,0,0,0,0,0
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",IT,INFORMATION TECHNOLOGY,165.5,160,164,155.5,137,0,0
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",ME,MECHANICAL ENGINEERING,152.5,146,123,129,106.5,0,0
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",MZ,MECHATRONICS ENGINEERING,155.5,152.5,144.5,148,114.5,0,0
+1311,"K C G College of Technology (Autonomous), Karappakkam, Chennai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),167,160.5,162.5,156,142.5,0,0
+1315,"Sri Sivasubramaniya Nadar College of Engineering (Autonomous), Kalavakkam, Chengalpattu.",BM,BIO MEDICAL ENGINEERING,191,189,190.5,187,167,166.5,0
+1315,"Sri Sivasubramaniya Nadar College of Engineering (Autonomous), Kalavakkam, Chengalpattu.",CE,CIVIL ENGINEERING,188.5,185,188,183,166.5,126,0
+1315,"Sri Sivasubramaniya Nadar College of Engineering (Autonomous), Kalavakkam, Chengalpattu.",CH,CHEMICAL ENGINEERING,190.5,187.5,189.5,187.5,168.5,135,158
+1315,"Sri Sivasubramaniya Nadar College of Engineering (Autonomous), Kalavakkam, Chengalpattu.",CJ,M.TECH. COMPUTER SCIENCE AND ENGINEERING (INTEGRATED 5 YEARS),195,194,194.5,192.5,183,161,0
+1315,"Sri Sivasubramaniya Nadar College of Engineering (Autonomous), Kalavakkam, Chengalpattu.",CS,COMPUTER SCIENCE AND ENGINEERING,198.5,197.5,197,196.5,191.5,184,178
+1315,"Sri Sivasubramaniya Nadar College of Engineering (Autonomous), Kalavakkam, Chengalpattu.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,197,196,196.5,195,189,178,170.5
+1315,"Sri Sivasubramaniya Nadar College of Engineering (Autonomous), Kalavakkam, Chengalpattu.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,195,194.5,193.5,192.5,182,159,168.5
+1315,"Sri Sivasubramaniya Nadar College of Engineering (Autonomous), Kalavakkam, Chengalpattu.",IT,INFORMATION TECHNOLOGY,197,196.5,196.5,195.5,189.5,178,0
+1315,"Sri Sivasubramaniya Nadar College of Engineering (Autonomous), Kalavakkam, Chengalpattu.",ME,MECHANICAL ENGINEERING,192,190.5,190,189.5,175.5,156.5,159.5
+1317,"St. Joseph's College of Engineering (Autonomous, (OMR), Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,176.5,171.5,167.5,166.5,135.5,0,105.5
+1317,"St. Joseph's College of Engineering (Autonomous, (OMR), Chennai.",AL,ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING,172.5,169,162,164.5,140.5,0,0
+1317,"St. Joseph's College of Engineering (Autonomous, (OMR), Chennai.",BT,BIO TECHNOLOGY,169,159,156.5,155,132,0,0
+1317,"St. Joseph's College of Engineering (Autonomous, (OMR), Chennai.",CH,CHEMICAL ENGINEERING,166.5,150,140,118,0,0,0
+1317,"St. Joseph's College of Engineering (Autonomous, (OMR), Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,185,177.5,176.5,176.5,150.5,0,151.5
+1317,"St. Joseph's College of Engineering (Autonomous, (OMR), Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,181.5,175,178,167.5,138,0,0
+1317,"St. Joseph's College of Engineering (Autonomous, (OMR), Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,165.5,161,157,155,125.5,0,0
+1317,"St. Joseph's College of Engineering (Autonomous, (OMR), Chennai.",IT,INFORMATION TECHNOLOGY,179,174.5,172,168.5,141.5,0,122
+1317,"St. Joseph's College of Engineering (Autonomous, (OMR), Chennai.",ME,MECHANICAL ENGINEERING,150,137.5,120,127,0,0,0
+1317,"St. Joseph's College of Engineering (Autonomous, (OMR), Chennai.",MZ,MECHATRONICS ENGINEERING,167.5,157.5,117.5,153.5,135.5,0,0
+1317,"St. Joseph's College of Engineering (Autonomous, (OMR), Chennai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),176,173,167,167.5,141,0,0
+1324,"Sri Sai Ram Institute of Technology (Autonomous) West Tambaram, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,174.5,171,165,168,150.5,0,130.5
+1324,"Sri Sai Ram Institute of Technology (Autonomous) West Tambaram, Chennai.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),174,169,170.5,166.5,142,0,0
+1324,"Sri Sai Ram Institute of Technology (Autonomous) West Tambaram, Chennai.",CI,COMPUTER SCIENCE AND ENGINEERING (INTERNET OF THINGS),171.5,168,170,163.5,134.5,0,0
+1324,"Sri Sai Ram Institute of Technology (Autonomous) West Tambaram, Chennai.",CO,COMPUTER AND COMMUNICATION ENGINEERING,171,167.5,167.5,163,134,0,0
+1324,"Sri Sai Ram Institute of Technology (Autonomous) West Tambaram, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,178.5,175,169,170.5,142.5,0,0
+1324,"Sri Sai Ram Institute of Technology (Autonomous) West Tambaram, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,176.5,172.5,166,171,133.5,0,0
+1324,"Sri Sai Ram Institute of Technology (Autonomous) West Tambaram, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,165,163.5,161,157,130.5,0,0
+1324,"Sri Sai Ram Institute of Technology (Autonomous) West Tambaram, Chennai.",IT,INFORMATION TECHNOLOGY,174.5,171,169.5,168,142.5,0,0
+1324,"Sri Sai Ram Institute of Technology (Autonomous) West Tambaram, Chennai.",ME,MECHANICAL ENGINEERING,149.5,143,138.5,136.5,120,0,0
+1324,"Sri Sai Ram Institute of Technology (Autonomous) West Tambaram, Chennai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),174.5,171.5,169.5,165.5,141.5,0,0
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,191.5,189.5,190,187,176.5,127.5,140
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),190.5,189,189.5,186.5,171.5,158,142.5
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",BM,BIO MEDICAL ENGINEERING,188,184.5,183,185,169,146,0
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,190,189,189.5,187.5,170.5,0,138.5
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",CE,CIVIL ENGINEERING,183.5,181,183,182,162.965,0,0
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,194,191,191,188.5,172,131.5,140
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",EA,ELECTRONICS AND COMMUNICATION (ADVANCED COMMUNICATION TECHNOLOGY),189.5,188.5,188.5,187,170,160.5,0
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,193,190.5,190,189,176,149.5,143.5
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,189,187.5,188.5,185,167.92,0,124
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),189,188,189,185.5,166.26,164.5,0
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",IT,INFORMATION TECHNOLOGY,191,190,190,187.5,170,154,128
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",ME,MECHANICAL ENGINEERING,184,181.89,183,179.745,164.775,150.5,123.5
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",MZ,MECHATRONICS ENGINEERING,187.5,186,184.5,185,165.5,143,0
+1399,"Chennai Institute of Technology (Autonomous), Kundrathur. Chennai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),190.5,189,189.185,186.5,174,155.5,0
+1414,Prince Shri Venkateshwara Padmavathy Engineering College (Autonomous) Ponmar Chennai 600048,CE,CIVIL ENGINEERING,0,0,0,0,0,0,0
+1414,Prince Shri Venkateshwara Padmavathy Engineering College (Autonomous) Ponmar Chennai 600048,CS,COMPUTER SCIENCE AND ENGINEERING,193,191,192,190,187,0,185.5
+1414,Prince Shri Venkateshwara Padmavathy Engineering College (Autonomous) Ponmar Chennai 600048,EC,ELECTRONICS AND COMMUNICATION ENGINEERING,185,152.5,146,148.5,0,0,0
+1414,Prince Shri Venkateshwara Padmavathy Engineering College (Autonomous) Ponmar Chennai 600048,EE,ELECTRICAL AND ELECTRONICS ENGINEERING,154.5,148.5,0,121,0,0,0
+1414,Prince Shri Venkateshwara Padmavathy Engineering College (Autonomous) Ponmar Chennai 600048,IT,INFORMATION TECHNOLOGY,192,188.5,183,188,121,0,0
+1414,Prince Shri Venkateshwara Padmavathy Engineering College (Autonomous) Ponmar Chennai 600048,ME,MECHANICAL ENGINEERING,125.5,0,0,101,0,0,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,181,176,173.5,174,154,113.5,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),179,174,169,172,144,0,122.5
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,175,169.5,163.5,169.5,139.5,0,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",CE,CIVIL ENGINEERING,155,142,128.5,128,116,0,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",CI,COMPUTER SCIENCE AND ENGINEERING (INTERNET OF THINGS),177.5,171,166,168.5,140.5,0,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",CJ,M.TECH. COMPUTER SCIENCE AND ENGINEERING (INTEGRATED 5 YEARS),174.5,170,164.5,165,140,135.5,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,186,181,178.5,178.5,160.5,127,107
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,182.5,177.5,173.5,172,149.5,0,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,172.5,165,164,162,134.5,0,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",EI,ELECTRONICS AND INSTRUMENTATION ENGINEERING,167.5,163,160,156.5,130,0,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",IT,INFORMATION TECHNOLOGY,181,176,169.5,174.5,147,0,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",IX,ELECTRONIC INSTRUMENTATION AND CONTROL ENGINEERING,165.5,160,151.5,154.5,122.5,0,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",ME,MECHANICAL ENGINEERING,164,151,148,149,121,0,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",MU,MECHANICAL AND AUTOMATION ENGINEERING,155,144.5,137.5,136.5,119,0,0
+1419,"Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),179,174,172.5,175,154.5,113,0
+1422,"SRM Valliammai Engineering College (Autonomous), Kattankulathur, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,179.5,172,163,172,150.5,134.5,150
+1422,"SRM Valliammai Engineering College (Autonomous), Kattankulathur, Chennai.",AG,AGRICULTURAL ENGINEERING,121.5,0,106.5,0,0,0,0
+1422,"SRM Valliammai Engineering College (Autonomous), Kattankulathur, Chennai.",CE,CIVIL ENGINEERING,153.5,132.5,115.5,135.5,0,0,0
+1422,"SRM Valliammai Engineering College (Autonomous), Kattankulathur, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,182,174.5,175,177,158,126,0
+1422,"SRM Valliammai Engineering College (Autonomous), Kattankulathur, Chennai.",CY,CYBER SECURITY,175,168.5,169.5,166,145.5,152,0
+1422,"SRM Valliammai Engineering College (Autonomous), Kattankulathur, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,173.5,168,167.5,167,142.5,0,0
+1422,"SRM Valliammai Engineering College (Autonomous), Kattankulathur, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,164.5,159.5,151.5,156.5,135.5,0,146
+1422,"SRM Valliammai Engineering College (Autonomous), Kattankulathur, Chennai.",EI,ELECTRONICS AND INSTRUMENTATION ENGINEERING,162,153,157,152.5,120.5,0,0
+1422,"SRM Valliammai Engineering College (Autonomous), Kattankulathur, Chennai.",IT,INFORMATION TECHNOLOGY,176,171.5,171,169.5,151.5,104.5,0
+1422,"SRM Valliammai Engineering College (Autonomous), Kattankulathur, Chennai.",MD,MEDICAL ELECTRONICS,142,125.5,129,115,108.5,0,0
+1422,"SRM Valliammai Engineering College (Autonomous), Kattankulathur, Chennai.",ME,MECHANICAL ENGINEERING,154,142.5,153.5,136,112.5,0,92
+1432,"Rajalakshmi Institute of Technology (Autonomous), Kancheepuram, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,185,181,178.5,177,154.5,128.5,105.5
+1432,"Rajalakshmi Institute of Technology (Autonomous), Kancheepuram, Chennai.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),184.5,180.5,176.5,177,154.5,0,104.5
+1432,"Rajalakshmi Institute of Technology (Autonomous), Kancheepuram, Chennai.",BT,BIO TECHNOLOGY,174.5,168,157,158,135.5,0,0
+1432,"Rajalakshmi Institute of Technology (Autonomous), Kancheepuram, Chennai.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,182,178.5,178,176.5,142.5,106.5,0
+1432,"Rajalakshmi Institute of Technology (Autonomous), Kancheepuram, Chennai.",CO,COMPUTER AND COMMUNICATION ENGINEERING,183,178.5,179.5,177,153,0,0
+1432,"Rajalakshmi Institute of Technology (Autonomous), Kancheepuram, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,188.3333333,184,182,181,158.5,117,143.5
+1432,"Rajalakshmi Institute of Technology (Autonomous), Kancheepuram, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,187.5,184,179,179,163,107,0
+1432,"Rajalakshmi Institute of Technology (Autonomous), Kancheepuram, Chennai.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),181.5,176.5,170,174,131.5,0,0
+1432,"Rajalakshmi Institute of Technology (Autonomous), Kancheepuram, Chennai.",ME,MECHANICAL ENGINEERING,172,161.5,157,154,125.5,0,0
+1442,"Prince Dr. K Vasudevan College of Engineering and Technology, Ponmar. Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,192,190.5,185.5,188.5,185,0,0
+1442,"Prince Dr. K Vasudevan College of Engineering and Technology, Ponmar. Chennai.",BM,BIO MEDICAL ENGINEERING,0,0,0,0,0,0,0
+1442,"Prince Dr. K Vasudevan College of Engineering and Technology, Ponmar. Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,187,157,149.5,149.5,101.5,0,0
+1442,"Prince Dr. K Vasudevan College of Engineering and Technology, Ponmar. Chennai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),187,149.5,137,129.5,97,0,0
+1450,"Loyola ICAM College of Engineering and Technology, Nungambakkam, Chennai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,185.5,182,0,182,176.5,0,136
+1450,"Loyola ICAM College of Engineering and Technology, Nungambakkam, Chennai.",CS,COMPUTER SCIENCE AND ENGINEERING,189,184.5,184.5,184.5,173.5,141,108
+1450,"Loyola ICAM College of Engineering and Technology, Nungambakkam, Chennai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,186,183,184.5,182.5,170.5,146,0
+1450,"Loyola ICAM College of Engineering and Technology, Nungambakkam, Chennai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,179,173.5,174,168.5,145.5,142,0
+1450,"Loyola ICAM College of Engineering and Technology, Nungambakkam, Chennai.",IT,INFORMATION TECHNOLOGY,184.5,182,184,181,171,170.5,0
+1450,"Loyola ICAM College of Engineering and Technology, Nungambakkam, Chennai.",ME,MECHANICAL ENGINEERING,174,171.5,157,162.5,163.5,0,0
+2329,"Rathinam Technical Campus (Autonomous), Eachanari, Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,179.315,170,165.5,162.5,140,168.35,161
+2329,"Rathinam Technical Campus (Autonomous), Eachanari, Coimbatore.",AG,AGRICULTURAL ENGINEERING,168,167.5,164,164,149,140.5,0
+2329,"Rathinam Technical Campus (Autonomous), Eachanari, Coimbatore.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),172.295,165,166,160.5,138.5,158.9,0
+2329,"Rathinam Technical Campus (Autonomous), Eachanari, Coimbatore.",BT,BIO TECHNOLOGY,167.37,150.5,163.715,159.23,123.5,120.5,164.81
+2329,"Rathinam Technical Campus (Autonomous), Eachanari, Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,172.5,166.5,166.815,164,140,150.705,124.5
+2329,"Rathinam Technical Campus (Autonomous), Eachanari, Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,170,167,161.295,163,136.5,149.065,0
+2329,"Rathinam Technical Campus (Autonomous), Eachanari, Coimbatore.",IT,INFORMATION TECHNOLOGY,170,165.5,162,164,147,122.5,137.5
+2329,"Rathinam Technical Campus (Autonomous), Eachanari, Coimbatore.",ME,MECHANICAL ENGINEERING,170,169.23,0,162.165,140.5,0,0
+2329,"Rathinam Technical Campus (Autonomous), Eachanari, Coimbatore.",MZ,MECHATRONICS ENGINEERING,171,159,164.275,165.21,135,0,155
+2329,"Rathinam Technical Campus (Autonomous), Eachanari, Coimbatore.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),169,162,162.615,159.5,134,155.615,0
+2329,"Rathinam Technical Campus (Autonomous), Eachanari, Coimbatore.",XS,COMPUTER SCIENCE AND ENGINEERING (TAMIL),171.64,160,162.56,159.5,122,127.5,0
+2377,"PSG Institute of Technology and Applied Research, Neelambur, Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,195,193.5,195,192.5,184.5,177,168
+2377,"PSG Institute of Technology and Applied Research, Neelambur, Coimbatore.",CE,CIVIL ENGINEERING,181,176,168,175.5,155.5,154,0
+2377,"PSG Institute of Technology and Applied Research, Neelambur, Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,196,194.5,194,193.5,181.5,179,171
+2377,"PSG Institute of Technology and Applied Research, Neelambur, Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,195,194,192.5,192.5,181.5,180.5,163
+2377,"PSG Institute of Technology and Applied Research, Neelambur, Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,193,191,191,188.5,175.5,152.5,0
+2377,"PSG Institute of Technology and Applied Research, Neelambur, Coimbatore.",IC,INSTRUMENTATION AND CONTROL ENGINEERING,188,185,188,184,159,162,0
+2377,"PSG Institute of Technology and Applied Research, Neelambur, Coimbatore.",ME,MECHANICAL ENGINEERING,188,185.5,184.5,182.5,170,130,0
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,169.5,155,143,155,106.5,123,0
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),155.5,148,144,142,0,146.5,0
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",BT,BIO TECHNOLOGY,156.5,132,0,126,0,111.5,0
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,149,143,125.5,143,0,109.5,0
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",CE,CIVIL ENGINEERING,154,0,0,138,108,150.5,0
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",CS,COMPUTER SCIENCE AND ENGINEERING,170.5,159.5,139.5,160.5,121.5,129.5,0
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,161.5,151,127.5,147,0,107,0
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,150,142,106,141.5,0,133,0
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),145,139,0,140.5,0,0,0
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",FD,FOOD TECHNOLOGY,131,109.5,128.5,86.5,0,0,0
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",IT,INFORMATION TECHNOLOGY,162.5,151.5,119.5,145.5,89.5,143.5,114
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",ME,MECHANICAL ENGINEERING,133.5,115.5,111.5,125,0,100.5,0
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",MZ,MECHATRONICS ENGINEERING,140.5,124.5,0,118.5,0,126.5,85.5
+2607,"K S Rangasamy College of Technology (Autonomous), Tiruchengode, Namakkal.",TX,TEXTILE TECHNOLOGY,115,0,83,104.5,0,113.5,0
+2608,"M Kumarasamy College of Engineering (Autonomous), Karur.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,168.5,159,148.5,148.5,0,108,0
+2608,"M Kumarasamy College of Engineering (Autonomous), Karur.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),165,156.5,150,143.5,0,0,0
+2608,"M Kumarasamy College of Engineering (Autonomous), Karur.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,160.5,151,140,141.5,0,0,0
+2608,"M Kumarasamy College of Engineering (Autonomous), Karur.",CE,CIVIL ENGINEERING,143.5,107,0,124,0,110,0
+2608,"M Kumarasamy College of Engineering (Autonomous), Karur.",CS,COMPUTER SCIENCE AND ENGINEERING,174.5,169,130.5,155.5,0,0,0
+2608,"M Kumarasamy College of Engineering (Autonomous), Karur.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,163.5,152.5,113,142,0,0,0
+2608,"M Kumarasamy College of Engineering (Autonomous), Karur.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,145,136.5,100.5,120.5,0,0,0
+2608,"M Kumarasamy College of Engineering (Autonomous), Karur.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),152,137.5,0,118.5,0,0,0
+2608,"M Kumarasamy College of Engineering (Autonomous), Karur.",IT,INFORMATION TECHNOLOGY,167.5,160.5,133.5,147.5,0,0,0
+2608,"M Kumarasamy College of Engineering (Autonomous), Karur.",ME,MECHANICAL ENGINEERING,129.5,99,0,95,0,0,0
+2613,"K S R College of Engineering (Autonomous), Tiruchengode, Namakkal.",AU,AUTOMOBILE ENGINEERING,108,0,0,0,0,96.5,0
+2613,"K S R College of Engineering (Autonomous), Tiruchengode, Namakkal.",BM,BIO MEDICAL ENGINEERING,136.5,114.5,115.5,97,0,105.5,0
+2613,"K S R College of Engineering (Autonomous), Tiruchengode, Namakkal.",CD,COMPUTER SCIENCE AND DESIGN,143.5,141.5,0,141,0,0,0
+2613,"K S R College of Engineering (Autonomous), Tiruchengode, Namakkal.",CE,CIVIL ENGINEERING,127,0,0,110,0,0,0
+2613,"K S R College of Engineering (Autonomous), Tiruchengode, Namakkal.",CI,COMPUTER SCIENCE AND ENGINEERING (INTERNET OF THINGS),145.5,142,0,139,0,0,0
+2613,"K S R College of Engineering (Autonomous), Tiruchengode, Namakkal.",CS,COMPUTER SCIENCE AND ENGINEERING,160.5,148,132,142,0,125,0
+2613,"K S R College of Engineering (Autonomous), Tiruchengode, Namakkal.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,155.5,146,142.5,142,92.5,137,0
+2613,"K S R College of Engineering (Autonomous), Tiruchengode, Namakkal.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,139.5,125.5,0,126,0,109.5,0
+2613,"K S R College of Engineering (Autonomous), Tiruchengode, Namakkal.",IT,INFORMATION TECHNOLOGY,152.5,145,119.5,142,0,101,101
+2613,"K S R College of Engineering (Autonomous), Tiruchengode, Namakkal.",ME,MECHANICAL ENGINEERING,116.5,0,0,90.5,0,0,0
+2613,"K S R College of Engineering (Autonomous), Tiruchengode, Namakkal.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),160,144.5,141,143,0,115,0
+2613,"K S R College of Engineering (Autonomous), Tiruchengode, Namakkal.",SF,SAFETY AND FIRE ENGINEERING,124.5,0,0,104.5,0,0,0
+2618,"Sona College of Technology (Autonomous), Salem.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,177.5,172,172,170,122.5,117,124
+2618,"Sona College of Technology (Autonomous), Salem.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),172.5,169,168,168.5,131.5,0,0
+2618,"Sona College of Technology (Autonomous), Salem.",BM,BIO MEDICAL ENGINEERING,158.5,147.5,158,145.5,0,129.5,0
+2618,"Sona College of Technology (Autonomous), Salem.",CD,COMPUTER SCIENCE AND DESIGN,170.5,167.5,160,164,118,114,0
+2618,"Sona College of Technology (Autonomous), Salem.",CE,CIVIL ENGINEERING,149,122,0,133.5,0,0,0
+2618,"Sona College of Technology (Autonomous), Salem.",CS,COMPUTER SCIENCE AND ENGINEERING,181,176,168.5,173.5,137.5,138,145.5
+2618,"Sona College of Technology (Autonomous), Salem.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,175,170,164.5,167,125,129,108
+2618,"Sona College of Technology (Autonomous), Salem.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,165.5,160.5,152.5,159.5,121,101,0
+2618,"Sona College of Technology (Autonomous), Salem.",EF,ELECTRICAL AND COMPUTER ENGINEERING,165,154.5,158.5,152,86,0,0
+2618,"Sona College of Technology (Autonomous), Salem.",EX,ELECTRONICS AND COMPUTER ENGINEERING,165.5,157.5,160,157,100.5,104.5,110.5
+2618,"Sona College of Technology (Autonomous), Salem.",FT,FASHION TECHNOLOGY,150,142.5,138,123,87,0,0
+2618,"Sona College of Technology (Autonomous), Salem.",IT,INFORMATION TECHNOLOGY,175,171,163.5,170.5,126.5,119,134.5
+2618,"Sona College of Technology (Autonomous), Salem.",ME,MECHANICAL ENGINEERING,153.5,143,125.5,142,0,0,0
+2618,"Sona College of Technology (Autonomous), Salem.",MZ,MECHATRONICS ENGINEERING,156.5,150.5,155.5,147.5,110.5,0,0
+2622,"V S B Engineering College(Autonomous, Karur.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,164,149.5,147.5,137.5,91,132.5,112
+2622,"V S B Engineering College(Autonomous, Karur.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),154.5,146,129,136,96,168,0
+2622,"V S B Engineering College(Autonomous, Karur.",BM,BIO MEDICAL ENGINEERING,153.5,137.5,0,126,97,131,0
+2622,"V S B Engineering College(Autonomous, Karur.",BT,BIO TECHNOLOGY,170,138,119.5,135.5,128,0,114
+2622,"V S B Engineering College(Autonomous, Karur.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,147.5,144,135.5,139,110.5,104.5,0
+2622,"V S B Engineering College(Autonomous, Karur.",CE,CIVIL ENGINEERING,158,131.5,0,122.5,97,0,0
+2622,"V S B Engineering College(Autonomous, Karur.",CH,CHEMICAL ENGINEERING,144.5,132.5,125.5,125,92,119.5,0
+2622,"V S B Engineering College(Autonomous, Karur.",CO,COMPUTER AND COMMUNICATION ENGINEERING,145.5,142,124,133.5,106,99,0
+2622,"V S B Engineering College(Autonomous, Karur.",CS,COMPUTER SCIENCE AND ENGINEERING,173,165,155.5,148,94,134.5,136
+2622,"V S B Engineering College(Autonomous, Karur.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,159.5,149,124.5,134.5,94.5,130.5,133
+2622,"V S B Engineering College(Autonomous, Karur.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,147.5,142,161,132,104,117,0
+2622,"V S B Engineering College(Autonomous, Karur.",IT,INFORMATION TECHNOLOGY,162.5,152,130,141,93.5,133,117
+2622,"V S B Engineering College(Autonomous, Karur.",ME,MECHANICAL ENGINEERING,147.5,136,126,127,98,121,0
+2653,"Knowledge Institute of Technology (Autonomous), Salem.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,163.5,150.5,143.5,147,0,102,109.5
+2653,"Knowledge Institute of Technology (Autonomous), Salem.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,157.5,147.5,142,143,0,0,0
+2653,"Knowledge Institute of Technology (Autonomous), Salem.",CE,CIVIL ENGINEERING,134.5,101.5,0,130,95,0,0
+2653,"Knowledge Institute of Technology (Autonomous), Salem.",CS,COMPUTER SCIENCE AND ENGINEERING,170,159,131.5,154.5,0,0,165.5
+2653,"Knowledge Institute of Technology (Autonomous), Salem.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,163,151,133,150,0,0,0
+2653,"Knowledge Institute of Technology (Autonomous), Salem.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,153.5,146.5,132,143.5,0,151.5,0
+2653,"Knowledge Institute of Technology (Autonomous), Salem.",IT,INFORMATION TECHNOLOGY,160.5,149,128.5,149,0,0,129
+2653,"Knowledge Institute of Technology (Autonomous), Salem.",ME,MECHANICAL ENGINEERING,136,112,0,110.5,0,110,0
+2702,"Bannari Amman Institute of Technology (Autonomous), Sathyamanagalam, Erode.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,183.5,181,173,175.5,132,134,0
+2702,"Bannari Amman Institute of Technology (Autonomous), Sathyamanagalam, Erode.",AG,AGRICULTURAL ENGINEERING,165.5,160,0,147.5,0,0,0
+2702,"Bannari Amman Institute of Technology (Autonomous), Sathyamanagalam, Erode.",AL,ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING,180.5,179,174,175,131.5,127.5,0
+2702,"Bannari Amman Institute of Technology (Autonomous), Sathyamanagalam, Erode.",BT,BIO TECHNOLOGY,173,165.5,155.5,153,107.5,121,0
+2702,"Bannari Amman Institute of Technology (Autonomous), Sathyamanagalam, Erode.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,181,179,0,175.5,135.5,132.5,104
+2702,"Bannari Amman Institute of Technology (Autonomous), Sathyamanagalam, Erode.",CS,COMPUTER SCIENCE AND ENGINEERING,187.5,184,181.5,182.5,142.5,115,112
+2702,"Bannari Amman Institute of Technology (Autonomous), Sathyamanagalam, Erode.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,184,181.5,173.5,176,136,139.5,119
+2702,"Bannari Amman Institute of Technology (Autonomous), Sathyamanagalam, Erode.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,179,176.5,167,167,128,132,125
+2702,"Bannari Amman Institute of Technology (Autonomous), Sathyamanagalam, Erode.",EI,ELECTRONICS AND INSTRUMENTATION ENGINEERING,175.5,174,172,166,118,127,0
+2702,"Bannari Amman Institute of Technology (Autonomous), Sathyamanagalam, Erode.",IT,INFORMATION TECHNOLOGY,184,182,174.5,176,135.5,111,134
+2702,"Bannari Amman Institute of Technology (Autonomous), Sathyamanagalam, Erode.",ME,MECHANICAL ENGINEERING,171,167.5,161.5,160,122,126.5,0
+2702,"Bannari Amman Institute of Technology (Autonomous), Sathyamanagalam, Erode.",MZ,MECHATRONICS ENGINEERING,173,170,146,165,113,0,0
+2704,"Coimbatore Institute of Engineering and Technolgoy (Autonomous), Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,171.5,160.5,159,156,134,123,0
+2704,"Coimbatore Institute of Engineering and Technolgoy (Autonomous), Coimbatore.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),158,153,154,149,115.5,138,0
+2704,"Coimbatore Institute of Engineering and Technolgoy (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,130,94,120,0,0,0,0
+2704,"Coimbatore Institute of Engineering and Technolgoy (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,170,161.5,154,158,125,151.5,0
+2704,"Coimbatore Institute of Engineering and Technolgoy (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,171.5,163,148.5,158.5,144,103,0
+2704,"Coimbatore Institute of Engineering and Technolgoy (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,155.5,149,0,147,102,144,0
+2704,"Coimbatore Institute of Engineering and Technolgoy (Autonomous), Coimbatore.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),142.5,133,107,117,0,0,0
+2704,"Coimbatore Institute of Engineering and Technolgoy (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,169,158,164.5,162.5,132,129.5,0
+2704,"Coimbatore Institute of Engineering and Technolgoy (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,135.5,91,0,113,0,0,0
+2704,"Coimbatore Institute of Engineering and Technolgoy (Autonomous), Coimbatore.",MZ,MECHATRONICS ENGINEERING,144,121.5,0,114,0,108,0
+2704,"Coimbatore Institute of Engineering and Technolgoy (Autonomous), Coimbatore.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),158,153.5,140.5,148.5,112,122.5,0
+2706,"Dr. Mahalingam College of Engineering and Technology (Autonomous), Pollachi, Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,179,176.5,168.5,170,122,126.5,0
+2706,"Dr. Mahalingam College of Engineering and Technology (Autonomous), Pollachi, Coimbatore.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),176.5,175.5,0,169.5,127,125.5,0
+2706,"Dr. Mahalingam College of Engineering and Technology (Autonomous), Pollachi, Coimbatore.",AU,AUTOMOBILE ENGINEERING,142.5,131.5,133,100.5,0,0,0
+2706,"Dr. Mahalingam College of Engineering and Technology (Autonomous), Pollachi, Coimbatore.",CE,CIVIL ENGINEERING,145,126.5,0,123.5,0,109,115
+2706,"Dr. Mahalingam College of Engineering and Technology (Autonomous), Pollachi, Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,183.5,177.5,168.5,170,120.5,130.5,0
+2706,"Dr. Mahalingam College of Engineering and Technology (Autonomous), Pollachi, Coimbatore.",EA,ELECTRONICS AND COMMUNICATION (ADVANCED COMMUNICATION TECHNOLOGY),172,168.5,152.5,161.5,0,0,0
+2706,"Dr. Mahalingam College of Engineering and Technology (Autonomous), Pollachi, Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,179.5,175.5,168,170,84,126,118
+2706,"Dr. Mahalingam College of Engineering and Technology (Autonomous), Pollachi, Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,171,166.5,155.5,157.5,0,0,0
+2706,"Dr. Mahalingam College of Engineering and Technology (Autonomous), Pollachi, Coimbatore.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),173,169.5,166,158.5,0,0,0
+2706,"Dr. Mahalingam College of Engineering and Technology (Autonomous), Pollachi, Coimbatore.",IT,INFORMATION TECHNOLOGY,180,177,171,169,117.5,126.5,0
+2706,"Dr. Mahalingam College of Engineering and Technology (Autonomous), Pollachi, Coimbatore.",ME,MECHANICAL ENGINEERING,159,150,132.5,143.5,0,154,0
+2706,"Dr. Mahalingam College of Engineering and Technology (Autonomous), Pollachi, Coimbatore.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),176.5,174.5,174.5,167.5,120.5,0,0
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",AE,AERONAUTICAL ENGINEERING,167.5,156,149,142.5,121,154.5,118
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",AG,AGRICULTURAL ENGINEERING,137,102,112,0,108.5,130,0
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",AL,ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING,183,165.5,153.5,165,140,125,123
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",AU,AUTOMOBILE ENGINEERING,130,91.5,83.5,100.5,0,124,0
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",BM,BIO MEDICAL ENGINEERING,154.5,138.5,143,114.5,105.5,105.5,0
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,146.5,107.5,119.5,111,0,0,0
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",CH,CHEMICAL ENGINEERING,155,136,142,121.5,0,0,0
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,173.5,165,158.5,161.5,134,126.5,132
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,166.5,158,155.5,158.5,131.5,130.5,117.5
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,157,149,0,145.5,111,0,0
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",EI,ELECTRONICS AND INSTRUMENTATION ENGINEERING,152,149.5,0,141.5,93.5,0,0
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",FD,FOOD TECHNOLOGY,134.5,0,0,0,0,0,0
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,180,164,157.5,159.5,125.5,104.5,0
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,142,124.5,117.5,105.5,0,0,0
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",MZ,MECHATRONICS ENGINEERING,145.5,134,0,115,0,100,0
+2708,"Hindusthan College of Engineering and Technology (Autonomous), Coimbatore.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),168.5,162.75,151.5,158,132.5,146.5,0
+2710,"Karpagam College of Engineering (Autonomous), Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,190.5,186,177,186.5,160.5,163,158.5
+2710,"Karpagam College of Engineering (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,167,154,147.5,150.5,130.5,156.5,0
+2710,"Karpagam College of Engineering (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,189,185.5,185,184,160,172,0
+2710,"Karpagam College of Engineering (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,183,181,178.5,180,151,137.5,124.5
+2710,"Karpagam College of Engineering (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,179,172,162.5,169.5,137,88,150
+2710,"Karpagam College of Engineering (Autonomous), Coimbatore.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),181.5,172,166.5,173,126.5,137,0
+2710,"Karpagam College of Engineering (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,185,182.5,175,182,144,167,138.5
+2710,"Karpagam College of Engineering (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,168.5,157.5,143.5,143,127.5,109,109.5
+2710,"Karpagam College of Engineering (Autonomous), Coimbatore.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),184,182.5,179,182,152.5,0,129
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,181.5,178,173.5,174,129,117.5,0
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",AL,ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING,178.5,177.5,0,173,125.5,100.5,0
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",AU,AUTOMOBILE ENGINEERING,158,153,0,150,0,0,0
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",CD,COMPUTER SCIENCE AND DESIGN,177.5,175.5,169.5,169.5,108.5,0,0
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",CE,CIVIL ENGINEERING,168,151.5,160.5,147,0,0,0
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",CH,CHEMICAL ENGINEERING,167.5,152.5,154,147,0,0,0
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",CS,COMPUTER SCIENCE AND ENGINEERING,185,180.5,172.5,176.5,135.5,117.5,0
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,182,179,173,173.5,128.5,0,133.5
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,176.5,174,160.5,165.5,106.5,149,0
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",EI,ELECTRONICS AND INSTRUMENTATION ENGINEERING,172.5,170,158.5,162,0,0,0
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",FD,FOOD TECHNOLOGY,165.5,155,155.5,139,0,0,0
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",IT,INFORMATION TECHNOLOGY,180,178,172.5,174.5,130,104.5,0
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",ME,MECHANICAL ENGINEERING,167.5,161,162.5,159,109,86.5,0
+2711,"Kongu Engineering College (Autonomous), Perundurai, Erode.",MZ,MECHATRONICS ENGINEERING,166.5,161,142,153.5,0,0,0
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,192.5,191.5,188,189.5,176.5,174.5,0
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",AE,AERONAUTICAL ENGINEERING,186.5,180,186,173.5,145.5,185,0
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",AU,AUTOMOBILE ENGINEERING,176.5,173,164.5,166.5,133,143,0
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",BT,BIO TECHNOLOGY,186,181.5,180,176,151,162.5,143.5
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,177,174.5,161.5,164.5,141.5,149,154.5
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,194,192.5,192,191,177.5,176,171
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,193,191.5,190,190,172,167.5,140
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,190,188,186,185.5,162,151.5,144
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",EI,ELECTRONICS AND INSTRUMENTATION ENGINEERING,188,184.5,182,179.5,160.5,135,0
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",FT,FASHION TECHNOLOGY,168,162,145,149,123,95.5,0
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,192.5,191.5,191.5,189.5,175,158,168.5
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,181,178,175.5,174,154,124.5,134.5
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",MZ,MECHATRONICS ENGINEERING,184.5,179.5,176,173.5,145,119,0
+2712,"Kumaraguru College of Technology (Autonomous), Coimbatore.",TX,TEXTILE TECHNOLOGY,168,161,0,151,125,0,0
+2715,"Nandha Engineering College (Autonomous), Erode.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,156,141,105,139.5,0,0,0
+2715,"Nandha Engineering College (Autonomous), Erode.",AG,AGRICULTURAL ENGINEERING,122.5,0,0,0,0,101.5,0
+2715,"Nandha Engineering College (Autonomous), Erode.",BM,BIO MEDICAL ENGINEERING,134.5,0,0,99,0,122,0
+2715,"Nandha Engineering College (Autonomous), Erode.",CE,CIVIL ENGINEERING,127.5,105,0,91,0,0,0
+2715,"Nandha Engineering College (Autonomous), Erode.",CH,CHEMICAL ENGINEERING,127,119,99,0,0,105,0
+2715,"Nandha Engineering College (Autonomous), Erode.",CI,COMPUTER SCIENCE AND ENGINEERING (INTERNET OF THINGS),145,131.5,0,135.5,0,0,0
+2715,"Nandha Engineering College (Autonomous), Erode.",CS,COMPUTER SCIENCE AND ENGINEERING,156,141,133,136,0,106,0
+2715,"Nandha Engineering College (Autonomous), Erode.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,154,143,0,132,0,122.5,0
+2715,"Nandha Engineering College (Autonomous), Erode.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,140,127,0,122,0,85,0
+2715,"Nandha Engineering College (Autonomous), Erode.",IT,INFORMATION TECHNOLOGY,148.5,140.5,114,138,0,134.5,0
+2715,"Nandha Engineering College (Autonomous), Erode.",ME,MECHANICAL ENGINEERING,124.5,111,0,0,0,109.5,0
+2715,"Nandha Engineering College (Autonomous), Erode.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),147,138.5,0,134.5,103.5,111.5,0
+2718,"Sri Krishna College of Enginering and Technology (Autonomous), Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,190,188.5,185.5,187,167.5,166,144
+2718,"Sri Krishna College of Enginering and Technology (Autonomous), Coimbatore.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,187.5,186,0,183.5,156.5,144.135,0
+2718,"Sri Krishna College of Enginering and Technology (Autonomous), Coimbatore.",CD,COMPUTER SCIENCE AND DESIGN,186,185,185,183,152.5,159.5,0
+2718,"Sri Krishna College of Enginering and Technology (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,172,168.5,154.5,164.5,139,105.5,0
+2718,"Sri Krishna College of Enginering and Technology (Autonomous), Coimbatore.",CJ,M.TECH. COMPUTER SCIENCE AND ENGINEERING (INTEGRATED 5 YEARS),185.5,182.5,181,179,151.5,130.5,114
+2718,"Sri Krishna College of Enginering and Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,192,190,187,188,169.5,157,160.5
+2718,"Sri Krishna College of Enginering and Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,190,188.5,186.5,186,162.5,149,149
+2718,"Sri Krishna College of Enginering and Technology (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,187,184.5,184,181,146.5,117,0
+2718,"Sri Krishna College of Enginering and Technology (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,189.5,188,185.5,186,160.5,151,149.5
+2718,"Sri Krishna College of Enginering and Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,177,172.5,169,165.5,133.5,110,136
+2718,"Sri Krishna College of Enginering and Technology (Autonomous), Coimbatore.",MZ,MECHATRONICS ENGINEERING,177.5,174,171.5,166.5,135.5,117,119
+2718,"Sri Krishna College of Enginering and Technology (Autonomous), Coimbatore.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),188.5,187.5,184.5,184.5,160,166,137.5
+2719,"Sri Ramakrishna Engineering College (Autonomous),Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,183.5,179,177,174.5,146.5,120.5,0
+2719,"Sri Ramakrishna Engineering College (Autonomous),Coimbatore.",AE,AERONAUTICAL ENGINEERING,173.5,166.5,0,168,123,119.5,0
+2719,"Sri Ramakrishna Engineering College (Autonomous),Coimbatore.",BM,BIO MEDICAL ENGINEERING,172,162.5,157,148,158.5,162.5,92
+2719,"Sri Ramakrishna Engineering College (Autonomous),Coimbatore.",CE,CIVIL ENGINEERING,150.5,144,107.5,132,119,0,0
+2719,"Sri Ramakrishna Engineering College (Autonomous),Coimbatore.",CJ,M.TECH. COMPUTER SCIENCE AND ENGINEERING (INTEGRATED 5 YEARS),177.5,174.5,170,163.5,133,137,0
+2719,"Sri Ramakrishna Engineering College (Autonomous),Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,184.5,179.5,178,177,148.5,139,117.5
+2719,"Sri Ramakrishna Engineering College (Autonomous),Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,181,178.5,174,173,133,103.5,111.5
+2719,"Sri Ramakrishna Engineering College (Autonomous),Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,177,172.5,170.5,164.5,120,0,0
+2719,"Sri Ramakrishna Engineering College (Autonomous),Coimbatore.",EI,ELECTRONICS AND INSTRUMENTATION ENGINEERING,174,168,172,160,125.5,112,0
+2719,"Sri Ramakrishna Engineering College (Autonomous),Coimbatore.",IT,INFORMATION TECHNOLOGY,179,178,171,174.5,146.5,133.5,0
+2719,"Sri Ramakrishna Engineering College (Autonomous),Coimbatore.",ME,MECHANICAL ENGINEERING,165,156.5,144.5,148,122,0,0
+2719,"Sri Ramakrishna Engineering College (Autonomous),Coimbatore.",RM,ROBOTICS AND AUTOMATION,172.5,166.5,161.5,159,129.5,0,0
+2722,"Sri Krishna College of Technology (Autonomous), Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,184,180,178.5,177,151.5,133.5,0
+2722,"Sri Krishna College of Technology (Autonomous), Coimbatore.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),181.5,179.5,176,176.5,146,160.5,0
+2722,"Sri Krishna College of Technology (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,166,159.5,148.5,148,127,118,0
+2722,"Sri Krishna College of Technology (Autonomous), Coimbatore.",CI,COMPUTER SCIENCE AND ENGINEERING (INTERNET OF THINGS),179,178.5,176.5,174.5,139.5,125,0
+2722,"Sri Krishna College of Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,185,181.5,180,177,150,144,127
+2722,"Sri Krishna College of Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,183,180.5,182.5,175.5,144.5,127.5,135
+2722,"Sri Krishna College of Technology (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,178.5,176,168.5,169,129.5,0,112
+2722,"Sri Krishna College of Technology (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,181,179,177,177,149.5,136,126
+2722,"Sri Krishna College of Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,170.5,167,167.5,161,134.5,0,0
+2722,"Sri Krishna College of Technology (Autonomous), Coimbatore.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),182,179.5,181.5,176,144,156.5,0
+2723,"Velalar College of Engineering and Technology (Autonomous), Erode.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,163,151,162.5,143,0,112,93
+2723,"Velalar College of Engineering and Technology (Autonomous), Erode.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),157,149,154,134.5,0,0,0
+2723,"Velalar College of Engineering and Technology (Autonomous), Erode.",BM,BIO MEDICAL ENGINEERING,150,132,0,113.5,89,130,0
+2723,"Velalar College of Engineering and Technology (Autonomous), Erode.",CE,CIVIL ENGINEERING,147.5,129,0,116.5,0,0,0
+2723,"Velalar College of Engineering and Technology (Autonomous), Erode.",CS,COMPUTER SCIENCE AND ENGINEERING,168.5,159.5,136.5,144.5,0,121.5,0
+2723,"Velalar College of Engineering and Technology (Autonomous), Erode.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,158.5,150.5,133.5,132.5,0,107.5,0
+2723,"Velalar College of Engineering and Technology (Autonomous), Erode.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,151,142.5,132.5,135.5,0,103,0
+2723,"Velalar College of Engineering and Technology (Autonomous), Erode.",IT,INFORMATION TECHNOLOGY,160.5,154.5,148,142,0,138.5,0
+2723,"Velalar College of Engineering and Technology (Autonomous), Erode.",MD,MEDICAL ELECTRONICS,137,118.5,0,116.5,0,117.5,0
+2723,"Velalar College of Engineering and Technology (Autonomous), Erode.",ME,MECHANICAL ENGINEERING,133,114,0,116,0,124,0
+2725,"Sri Ramakrishna Institute of Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,172.5,164.5,161.5,159,123.5,97.5,0
+2725,"Sri Ramakrishna Institute of Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,170.5,164,149.5,162,113.5,150,151.5
+2725,"Sri Ramakrishna Institute of Technology (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,160.5,156,144,149,0,0,0
+2725,"Sri Ramakrishna Institute of Technology (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,171,163,160.5,161.5,121.5,0,0
+2725,"Sri Ramakrishna Institute of Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,143.5,137,119,116.5,0,0,0
+2726,"SNS College of Technology (Autonomous), Coimbatore.",AG,AGRICULTURAL ENGINEERING,115.5,0,0,0,0,0,0
+2726,"SNS College of Technology (Autonomous), Coimbatore.",AL,ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING,166,159.5,151,153,0,0,0
+2726,"SNS College of Technology (Autonomous), Coimbatore.",AO,AEROSPACE ENGINEERING,177.315,163.5,0,152,0,0,0
+2726,"SNS College of Technology (Autonomous), Coimbatore.",AU,AUTOMOBILE ENGINEERING,137,0,0,99,0,0,0
+2726,"SNS College of Technology (Autonomous), Coimbatore.",BM,BIO MEDICAL ENGINEERING,157.5,142,147,143,0,0,0
+2726,"SNS College of Technology (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,117,0,0,0,0,0,0
+2726,"SNS College of Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,173,164,150,158.5,114.5,102.5,166.5
+2726,"SNS College of Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,166.5,161,147,155,0,0,0
+2726,"SNS College of Technology (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,157,150.5,147.5,144.5,0,0,0
+2726,"SNS College of Technology (Autonomous), Coimbatore.",FD,FOOD TECHNOLOGY,143,116.5,0,94,0,0,0
+2726,"SNS College of Technology (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,170,163,163.5,159,113,123.5,0
+2726,"SNS College of Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,142.5,123,120,114,0,0,0
+2726,"SNS College of Technology (Autonomous), Coimbatore.",MZ,MECHATRONICS ENGINEERING,148.5,142.5,114.5,122,0,110.5,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,163,155.5,147.5,146,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",AG,AGRICULTURAL ENGINEERING,132,0,0,0,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",AL,ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING,159,152.5,144.5,144.5,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",BM,BIO MEDICAL ENGINEERING,139.5,109.5,0,111,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",BT,BIO TECHNOLOGY,148.5,126.5,0,126,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",CE,CIVIL ENGINEERING,130.5,0,0,0,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",CS,COMPUTER SCIENCE AND ENGINEERING,170,161.5,154,155,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,165,157.5,154.5,147.5,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,152.5,147,124,138.5,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),154.5,142,113.5,143,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",FD,FOOD TECHNOLOGY,142,0,110,0,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",IT,INFORMATION TECHNOLOGY,162.5,156,147.5,147,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",ME,MECHANICAL ENGINEERING,145.5,132.5,0,116.5,0,0,0
+2727,"Sri Shakthi Institute of Engineering and Technology (Autonomous), Comibatore.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),159.5,152.5,143,143,0,0,0
+2729,"Nehru Institute of Engineering and Technology, Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,168,156.5,161,153.5,119.5,120.5,0
+2729,"Nehru Institute of Engineering and Technology, Coimbatore.",AE,AERONAUTICAL ENGINEERING,163,147,154,142.5,133,101.5,0
+2729,"Nehru Institute of Engineering and Technology, Coimbatore.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,155,148,151,146.5,88.5,123.5,0
+2729,"Nehru Institute of Engineering and Technology, Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,170.5,161,161,159,147,135.5,0
+2729,"Nehru Institute of Engineering and Technology, Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,161,150.5,144,150.5,86.5,117.5,0
+2729,"Nehru Institute of Engineering and Technology, Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,145.5,132,132,132.5,0,101,0
+2729,"Nehru Institute of Engineering and Technology, Coimbatore.",IT,INFORMATION TECHNOLOGY,163.5,155,162,153.5,141.5,100,142
+2729,"Nehru Institute of Engineering and Technology, Coimbatore.",ME,MECHANICAL ENGINEERING,141.5,119,102.5,102.5,106,115,0
+2729,"Nehru Institute of Engineering and Technology, Coimbatore.",MZ,MECHATRONICS ENGINEERING,141,134,137.5,120.5,0,113.5,0
+2731,"R V S College of Engineering and Technology, Sulur, Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,180,166.5,138,150.5,120.5,112,123
+2731,"R V S College of Engineering and Technology, Sulur, Coimbatore.",BM,BIO MEDICAL ENGINEERING,172,127,0,169,140.5,0,0
+2731,"R V S College of Engineering and Technology, Sulur, Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,164.5,150.5,154,151.5,113.5,114.5,105.5
+2731,"R V S College of Engineering and Technology, Sulur, Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,187,173.5,0,151.5,127,148,0
+2731,"R V S College of Engineering and Technology, Sulur, Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,141,117.5,112.5,126.5,0,0,0
+2731,"R V S College of Engineering and Technology, Sulur, Coimbatore.",IT,INFORMATION TECHNOLOGY,180,161,136,172.5,129,175,0
+2731,"R V S College of Engineering and Technology, Sulur, Coimbatore.",ME,MECHANICAL ENGINEERING,128,107,97.5,86,97.5,97,0
+2731,"R V S College of Engineering and Technology, Sulur, Coimbatore.",MU,MECHANICAL AND AUTOMATION ENGINEERING,114,0,0,0,0,0,0
+2731,"R V S College of Engineering and Technology, Sulur, Coimbatore.",PD,PETRO CHEMICAL ENGINEERING,120,0,88.5,0,0,0,0
+2734,"SNS College of Engineering (Autonomous), Kurumbapalayam, Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,166.5,159.5,157.5,155.5,92,0,0
+2734,"SNS College of Engineering (Autonomous), Kurumbapalayam, Coimbatore.",CD,COMPUTER SCIENCE AND DESIGN,161,151,139.5,149.5,0,0,0
+2734,"SNS College of Engineering (Autonomous), Kurumbapalayam, Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,171,162,152.5,155.5,92,150,0
+2734,"SNS College of Engineering (Autonomous), Kurumbapalayam, Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,167,159.5,152.5,155.5,0,0,0
+2734,"SNS College of Engineering (Autonomous), Kurumbapalayam, Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,160,151,129,139.5,0,0,0
+2734,"SNS College of Engineering (Autonomous), Kurumbapalayam, Coimbatore.",IT,INFORMATION TECHNOLOGY,162.5,159,160,154,105,118,0
+2734,"SNS College of Engineering (Autonomous), Kurumbapalayam, Coimbatore.",ME,MECHANICAL ENGINEERING,134.5,113,119.5,102.5,0,0,0
+2734,"SNS College of Engineering (Autonomous), Kurumbapalayam, Coimbatore.",MO,MECHANICAL AND MECHATRONICS ENGINEERING (ADDITIVE MANUFACTURING),132,111.5,120,0,0,0,0
+2734,"SNS College of Engineering (Autonomous), Kurumbapalayam, Coimbatore.",SB,COMPUTER SCIENCE AND ENGINEERING (INTERNET OF THINGS AND CYBER SECURITY INCLUDING BLOCK CHAIN TECHNOLOGY),173.5,156,139.5,150.5,0,104.5,157
+2734,"SNS College of Engineering (Autonomous), Kurumbapalayam, Coimbatore.",TS,COMPUTER SCIENCE AND TECHNOLOGY,159.5,154,142,150,0,0,0
+2735,"Karpagam Institute of Technology, Seerapalayam, Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,184,182.5,174.5,182.5,157.5,158,0
+2735,"Karpagam Institute of Technology, Seerapalayam, Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,182,179.5,172.5,177.5,145,133,158
+2735,"Karpagam Institute of Technology, Seerapalayam, Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,176,173,164.5,170.5,133,130,100
+2735,"Karpagam Institute of Technology, Seerapalayam, Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,170,166,167.5,162.5,134.5,126.5,0
+2735,"Karpagam Institute of Technology, Seerapalayam, Coimbatore.",IT,INFORMATION TECHNOLOGY,180.5,178.5,0,176.5,142.5,132.5,0
+2735,"Karpagam Institute of Technology, Seerapalayam, Coimbatore.",ME,MECHANICAL ENGINEERING,156.5,150,0,136,117.5,115,0
+2736,"Dr. N G P Institute of Technology (Autonomous), Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,180.5,173,154,168,128.5,0,0
+2736,"Dr. N G P Institute of Technology (Autonomous), Coimbatore.",BM,BIO MEDICAL ENGINEERING,167,152.5,133.5,157,0,0,0
+2736,"Dr. N G P Institute of Technology (Autonomous), Coimbatore.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,171,170,161,157.5,112,0,0
+2736,"Dr. N G P Institute of Technology (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,154,148.5,0,120.5,0,0,0
+2736,"Dr. N G P Institute of Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,180,175.5,158,168.5,120.5,123,0
+2736,"Dr. N G P Institute of Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,175.5,170.5,162,159,100.5,0,130
+2736,"Dr. N G P Institute of Technology (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,168,165,159.5,156,0,0,0
+2736,"Dr. N G P Institute of Technology (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,174.5,172.5,159,166.5,97,0,94
+2736,"Dr. N G P Institute of Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,152.5,138,146.5,138.5,0,0,0
+2736,"Dr. N G P Institute of Technology (Autonomous), Coimbatore.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),175.5,172,162.5,164.5,119.5,0,0
+2739,"Sri Eshwar College of Engineering (Autonomous), Kinathukadavu, Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,187.5,184,176,179,149,171,130.5
+2739,"Sri Eshwar College of Engineering (Autonomous), Kinathukadavu, Coimbatore.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),185.5,182,176.5,175,139,146,146
+2739,"Sri Eshwar College of Engineering (Autonomous), Kinathukadavu, Coimbatore.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,182.5,180.5,175.5,174.5,144,162,0
+2739,"Sri Eshwar College of Engineering (Autonomous), Kinathukadavu, Coimbatore.",CO,COMPUTER AND COMMUNICATION ENGINEERING,181,180,176.5,176.5,138.5,142.5,152
+2739,"Sri Eshwar College of Engineering (Autonomous), Kinathukadavu, Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,191,188,179,181,156,133.5,155
+2739,"Sri Eshwar College of Engineering (Autonomous), Kinathukadavu, Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,187,183.5,182.5,177.5,140.5,132.5,155.5
+2739,"Sri Eshwar College of Engineering (Autonomous), Kinathukadavu, Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,179,177.5,178.5,172.5,139.5,140,0
+2739,"Sri Eshwar College of Engineering (Autonomous), Kinathukadavu, Coimbatore.",IT,INFORMATION TECHNOLOGY,188,186.5,181.5,179.5,142.5,140.5,0
+2739,"Sri Eshwar College of Engineering (Autonomous), Kinathukadavu, Coimbatore.",ME,MECHANICAL ENGINEERING,178.5,172.5,174.5,166,137,138,0
+2739,"Sri Eshwar College of Engineering (Autonomous), Kinathukadavu, Coimbatore.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),184,181,180.5,175.5,139,139.5,0
+2740,"Hindusthan Institute of Technology (Autonomous), Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,179,165.5,161.5,159.385,130,108,0
+2740,"Hindusthan Institute of Technology (Autonomous), Coimbatore.",AE,AERONAUTICAL ENGINEERING,151,138.5,144,137.5,139,0,126.5
+2740,"Hindusthan Institute of Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,177.5,161.5,176,157.5,120.5,0,0
+2740,"Hindusthan Institute of Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,163,153.5,156,148.5,89.5,0,135
+2740,"Hindusthan Institute of Technology (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,175.5,158.5,151.5,157,122.5,116,0
+2740,"Hindusthan Institute of Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,133.5,118,123,111,0,0,105.5
+2750,"KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,165.5,156.5,152,154,131.5,138.5,107
+2750,"KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Coimbatore.",AE,AERONAUTICAL ENGINEERING,139.5,126.5,133,123.5,109.5,90.5,104
+2750,"KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Coimbatore.",AG,AGRICULTURAL ENGINEERING,148,118,117,106.5,111.5,124.5,0
+2750,"KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Coimbatore.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),163,153,145,152.5,120,140.5,0
+2750,"KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Coimbatore.",BM,BIO MEDICAL ENGINEERING,142,132,122,128,106.5,125.5,0
+2750,"KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Coimbatore.",BT,BIO TECHNOLOGY,148.5,135.5,156,120.5,110.5,108,0
+2750,"KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Coimbatore.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,160.5,151.5,140,151,119,111.5,0
+2750,"KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,170.5,161.5,145.5,154.5,135,140.5,116.5
+2750,"KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,164.5,154,159,151,117,112,0
+2750,"KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,147,142,0,121.5,104.5,104,0
+2750,"KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Coimbatore.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),151,145.5,149,144.5,112,117.5,0
+2750,"KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,132,122.5,121,106.5,98.5,117,0
+2755,"Nehru Institute of Technology (Autonomous), Coimbatore.",AE,AERONAUTICAL ENGINEERING,147,136.5,130,138,129,121,0
+2755,"Nehru Institute of Technology (Autonomous), Coimbatore.",AG,AGRICULTURAL ENGINEERING,162.5,0,0,101,0,0,0
+2755,"Nehru Institute of Technology (Autonomous), Coimbatore.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),157,148.5,125.5,145.5,0,0,0
+2755,"Nehru Institute of Technology (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,113.5,0,0,0,0,0,0
+2755,"Nehru Institute of Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,157,147.5,138.5,147.67,116.5,0,0
+2755,"Nehru Institute of Technology (Autonomous), Coimbatore.",FD,FOOD TECHNOLOGY,134,0,94.5,0,0,0,0
+2755,"Nehru Institute of Technology (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,155.5,146.5,0,147.5,124,151.5,0
+2755,"Nehru Institute of Technology (Autonomous), Coimbatore.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),157.5,144.5,157,144.5,112.5,92.5,126.5
+2764,"K P R Institute of Engineering and Technology (Autonomous), Coimbatore.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,187,184.5,182.5,180.5,163.5,143,157
+2764,"K P R Institute of Engineering and Technology (Autonomous), Coimbatore.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),187.5,185.5,186,180,155.5,149.5,158
+2764,"K P R Institute of Engineering and Technology (Autonomous), Coimbatore.",BM,BIO MEDICAL ENGINEERING,179,170.5,175.5,164,136,0,149.5
+2764,"K P R Institute of Engineering and Technology (Autonomous), Coimbatore.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,183,181.5,181,178,152.5,147,0
+2764,"K P R Institute of Engineering and Technology (Autonomous), Coimbatore.",CE,CIVIL ENGINEERING,173,165.5,156.5,154.5,132.5,128,0
+2764,"K P R Institute of Engineering and Technology (Autonomous), Coimbatore.",CH,CHEMICAL ENGINEERING,174,164.5,0,157.5,130,0,0
+2764,"K P R Institute of Engineering and Technology (Autonomous), Coimbatore.",CS,COMPUTER SCIENCE AND ENGINEERING,190,186.5,182,183,163,162,148
+2764,"K P R Institute of Engineering and Technology (Autonomous), Coimbatore.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,186.5,184.5,176.5,179,158,154,0
+2764,"K P R Institute of Engineering and Technology (Autonomous), Coimbatore.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,182,181,176.5,177,147.5,140,0
+2764,"K P R Institute of Engineering and Technology (Autonomous), Coimbatore.",IT,INFORMATION TECHNOLOGY,186,184,180.5,179,155.5,143,178.5
+2764,"K P R Institute of Engineering and Technology (Autonomous), Coimbatore.",ME,MECHANICAL ENGINEERING,174,169.5,168,162.5,130.5,114.5,141.5
+2764,"K P R Institute of Engineering and Technology (Autonomous), Coimbatore.",MZ,MECHATRONICS ENGINEERING,177.5,172.5,166,165,136,117,0
+3701,"K Ramakrishnan College of Technology (Autonomous), Trichy.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,159.5,150.5,153,141.5,110.5,151.5,0
+3701,"K Ramakrishnan College of Technology (Autonomous), Trichy.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),157.5,149,154.5,142.5,106,0,0
+3701,"K Ramakrishnan College of Technology (Autonomous), Trichy.",CE,CIVIL ENGINEERING,124,0,115.5,0,0,0,0
+3701,"K Ramakrishnan College of Technology (Autonomous), Trichy.",CS,COMPUTER SCIENCE AND ENGINEERING,164.5,155.5,150,146,121,0,0
+3701,"K Ramakrishnan College of Technology (Autonomous), Trichy.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,158.5,150,155,140.5,113,106,0
+3701,"K Ramakrishnan College of Technology (Autonomous), Trichy.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,145.5,142.5,146,126.5,92,0,0
+3701,"K Ramakrishnan College of Technology (Autonomous), Trichy.",IT,INFORMATION TECHNOLOGY,161.5,151,0,142.5,111,0,0
+3701,"K Ramakrishnan College of Technology (Autonomous), Trichy.",ME,MECHANICAL ENGINEERING,132,114,0,0,0,0,0
+3795,"SRM TRP Engineering College, Irungalur, Trichy.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,163.5,152.5,150.5,142.5,114,0,0
+3795,"SRM TRP Engineering College, Irungalur, Trichy.",CE,CIVIL ENGINEERING,119,0,0,0,0,0,0
+3795,"SRM TRP Engineering College, Irungalur, Trichy.",CS,COMPUTER SCIENCE AND ENGINEERING,168,157,158.5,144,112,0,0
+3795,"SRM TRP Engineering College, Irungalur, Trichy.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,158,151,152,143.5,97.5,0,0
+3795,"SRM TRP Engineering College, Irungalur, Trichy.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,146.5,135,142,119.5,0,0,0
+3795,"SRM TRP Engineering College, Irungalur, Trichy.",ME,MECHANICAL ENGINEERING,122,0,0,0,0,0,95
+3819,"Saranathan College of Engineering, Trichy.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,175,164.5,163.5,153,132,139,0
+3819,"Saranathan College of Engineering, Trichy.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),169,163.5,163,159.5,135.5,0,142.5
+3819,"Saranathan College of Engineering, Trichy.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,164.5,158,160,151,126,0,0
+3819,"Saranathan College of Engineering, Trichy.",CE,CIVIL ENGINEERING,147,117.5,134.5,0,88.5,0,0
+3819,"Saranathan College of Engineering, Trichy.",CS,COMPUTER SCIENCE AND ENGINEERING,181.5,176.5,192.5,169,144,124.5,0
+3819,"Saranathan College of Engineering, Trichy.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,172,165.5,165,156.5,132.5,0,0
+3819,"Saranathan College of Engineering, Trichy.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,156,151.5,146.5,141,122.5,0,0
+3819,"Saranathan College of Engineering, Trichy.",IC,INSTRUMENTATION AND CONTROL ENGINEERING,156,144.5,137,136.5,117,0,0
+3819,"Saranathan College of Engineering, Trichy.",IT,INFORMATION TECHNOLOGY,172,166.5,170.5,160,142.5,0,0
+3819,"Saranathan College of Engineering, Trichy.",ME,MECHANICAL ENGINEERING,147.5,131,138.5,120.5,122.5,0,0
+3826,"Kongunadu College of Engineering and Technology (Autonomous), Trichy.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,165,150,149,150,128.5,130.5,181
+3826,"Kongunadu College of Engineering and Technology (Autonomous), Trichy.",AG,AGRICULTURAL ENGINEERING,137.5,111.5,114,112.5,113,133.5,113.5
+3826,"Kongunadu College of Engineering and Technology (Autonomous), Trichy.",BM,BIO MEDICAL ENGINEERING,144,124,136,134,114.5,108.5,0
+3826,"Kongunadu College of Engineering and Technology (Autonomous), Trichy.",CE,CIVIL ENGINEERING,135,111,0,111.5,100.5,0,0
+3826,"Kongunadu College of Engineering and Technology (Autonomous), Trichy.",CS,COMPUTER SCIENCE AND ENGINEERING,163.5,152.5,142,150,114.5,121,126
+3826,"Kongunadu College of Engineering and Technology (Autonomous), Trichy.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,160.5,150,138.5,146.5,116.5,118.5,121.5
+3826,"Kongunadu College of Engineering and Technology (Autonomous), Trichy.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,149,142,124.5,141.5,108.5,121,0
+3826,"Kongunadu College of Engineering and Technology (Autonomous), Trichy.",IT,INFORMATION TECHNOLOGY,162,151.5,142.5,147.5,134,125.5,0
+3826,"Kongunadu College of Engineering and Technology (Autonomous), Trichy.",ME,MECHANICAL ENGINEERING,135,116.5,114,122.5,119,0,89.5
+3830,"K Ramakrishnan College of Engineering (Autonomous), Trichy.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,167.5,162,159.5,149.5,121,0,0
+3830,"K Ramakrishnan College of Engineering (Autonomous), Trichy.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),164,156.5,158.5,146,132,0,116
+3830,"K Ramakrishnan College of Engineering (Autonomous), Trichy.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,160,152,157.5,139,90,0,0
+3830,"K Ramakrishnan College of Engineering (Autonomous), Trichy.",CS,COMPUTER SCIENCE AND ENGINEERING,179,169.5,170,160,144.5,0,0
+3830,"K Ramakrishnan College of Engineering (Autonomous), Trichy.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,166.5,159,158.5,145,130,0,0
+3830,"K Ramakrishnan College of Engineering (Autonomous), Trichy.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,151.5,145.5,143.5,129,102,0,0
+3830,"K Ramakrishnan College of Engineering (Autonomous), Trichy.",IT,INFORMATION TECHNOLOGY,169.5,159.5,151.5,149.5,116.5,0,0
+3830,"K Ramakrishnan College of Engineering (Autonomous), Trichy.",ME,MECHANICAL ENGINEERING,136,122,132.5,0,0,0,0
+4678,"Ramco Institute of Technology, Virudhunagar.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,165,151,143,144.5,0,0,0
+4678,"Ramco Institute of Technology, Virudhunagar.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,154,143.5,127,135.5,0,0,0
+4678,"Ramco Institute of Technology, Virudhunagar.",CE,CIVIL ENGINEERING,133,92.5,117.5,109,0,0,0
+4678,"Ramco Institute of Technology, Virudhunagar.",CS,COMPUTER SCIENCE AND ENGINEERING,171.5,161,140.5,144.5,0,0,0
+4678,"Ramco Institute of Technology, Virudhunagar.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,161.5,154.5,140.5,139.5,0,0,0
+4678,"Ramco Institute of Technology, Virudhunagar.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,144.5,128.5,140,126,0,119,0
+4678,"Ramco Institute of Technology, Virudhunagar.",IT,INFORMATION TECHNOLOGY,165,153.5,132.5,147,0,0,0
+4678,"Ramco Institute of Technology, Virudhunagar.",ME,MECHANICAL ENGINEERING,134,114,0,0,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,154.5,142.5,154,128.5,0,145.5,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",AG,AGRICULTURAL ENGINEERING,0,0,0,0,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),150.5,137,0,128,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",BM,BIO MEDICAL ENGINEERING,120.5,0,0,0,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",BT,BIO TECHNOLOGY,114,0,0,0,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,145.5,132,144.5,114.5,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",CD,COMPUTER SCIENCE AND DESIGN,142,130,140,115,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",CE,CIVIL ENGINEERING,127,116.5,0,102.5,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",CH,CHEMICAL ENGINEERING,0,0,0,0,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",CI,COMPUTER SCIENCE AND ENGINEERING (INTERNET OF THINGS),141,130,139.5,99,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",CS,COMPUTER SCIENCE AND ENGINEERING,158.5,146.5,147.5,129,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,148,134.5,143.5,115.5,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,130.5,122,128.5,0,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",IT,INFORMATION TECHNOLOGY,151,140.5,146.5,126.5,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",ME,MECHANICAL ENGINEERING,119,104.5,113.5,0,0,0,0
+4917,"Sethu Institute of Technology (Autonomous), Virudhunagar.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),147.5,133.5,144,122,0,0,0
+4944,"Arunachala College of Engineering for Women, Nagercoil, Kanyakumari.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,149.5,125.5,0,0,0,0,0
+4944,"Arunachala College of Engineering for Women, Nagercoil, Kanyakumari.",CE,CIVIL ENGINEERING,98.5,0,0,0,0,0,0
+4944,"Arunachala College of Engineering for Women, Nagercoil, Kanyakumari.",CS,COMPUTER SCIENCE AND ENGINEERING,157,138.5,134,0,0,0,0
+4944,"Arunachala College of Engineering for Women, Nagercoil, Kanyakumari.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,144,122.5,0,0,0,0,0
+4944,"Arunachala College of Engineering for Women, Nagercoil, Kanyakumari.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,138,112,0,0,0,0,0
+4944,"Arunachala College of Engineering for Women, Nagercoil, Kanyakumari.",IT,INFORMATION TECHNOLOGY,134,116,0,0,0,0,0
+4955,"Francis Xavier Engineering College (Autonomous), Tirunelveli.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,171.5,157,168.5,151,139,148.5,0
+4955,"Francis Xavier Engineering College (Autonomous), Tirunelveli.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),157,150.5,143,139.5,114.5,0,0
+4955,"Francis Xavier Engineering College (Autonomous), Tirunelveli.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,156,148.5,152,132.5,118,0,0
+4955,"Francis Xavier Engineering College (Autonomous), Tirunelveli.",CE,CIVIL ENGINEERING,134.5,115.5,0,0,105.5,0,0
+4955,"Francis Xavier Engineering College (Autonomous), Tirunelveli.",CS,COMPUTER SCIENCE AND ENGINEERING,171.5,155,168.5,138,126,0,0
+4955,"Francis Xavier Engineering College (Autonomous), Tirunelveli.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,170,155,167.5,132,128,0,0
+4955,"Francis Xavier Engineering College (Autonomous), Tirunelveli.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,152,141,151,119.5,105,0,0
+4955,"Francis Xavier Engineering College (Autonomous), Tirunelveli.",IT,INFORMATION TECHNOLOGY,164,152.5,161,133,117,0,0
+4955,"Francis Xavier Engineering College (Autonomous), Tirunelveli.",ME,MECHANICAL ENGINEERING,139,126,138.5,103,92,0,0
+4959,"Kamaraj College of Engineering and Technology (Autonomous), Virudhunagar.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,160,151,151.5,136,0,0,0
+4959,"Kamaraj College of Engineering and Technology (Autonomous), Virudhunagar.",BT,BIO TECHNOLOGY,157.5,139.5,0,0,0,0,0
+4959,"Kamaraj College of Engineering and Technology (Autonomous), Virudhunagar.",CE,CIVIL ENGINEERING,132.5,107,0,112.5,0,0,0
+4959,"Kamaraj College of Engineering and Technology (Autonomous), Virudhunagar.",CS,COMPUTER SCIENCE AND ENGINEERING,169,157.5,145.5,140,0,0,0
+4959,"Kamaraj College of Engineering and Technology (Autonomous), Virudhunagar.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,161.5,151,152.5,135,0,0,0
+4959,"Kamaraj College of Engineering and Technology (Autonomous), Virudhunagar.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,145.5,143,139,120,133.5,0,0
+4959,"Kamaraj College of Engineering and Technology (Autonomous), Virudhunagar.",IT,INFORMATION TECHNOLOGY,162,151,0,133.5,0,0,0
+4959,"Kamaraj College of Engineering and Technology (Autonomous), Virudhunagar.",ME,MECHANICAL ENGINEERING,135.5,125.5,0,101,0,0,0
+4959,"Kamaraj College of Engineering and Technology (Autonomous), Virudhunagar.",MZ,MECHATRONICS ENGINEERING,138.5,123.5,125,0,0,0,0
+4960,"Mepco Schlenk Engineering College (Autonomous), Sivakasi, Virudhunagar.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,177,172.5,169.5,161,118.5,0,0
+4960,"Mepco Schlenk Engineering College (Autonomous), Sivakasi, Virudhunagar.",BM,BIO MEDICAL ENGINEERING,160.5,142.5,0,133,0,0,0
+4960,"Mepco Schlenk Engineering College (Autonomous), Sivakasi, Virudhunagar.",BT,BIO TECHNOLOGY,162.5,147.5,0,136,0,121.5,0
+4960,"Mepco Schlenk Engineering College (Autonomous), Sivakasi, Virudhunagar.",CE,CIVIL ENGINEERING,149,130.5,0,0,0,0,0
+4960,"Mepco Schlenk Engineering College (Autonomous), Sivakasi, Virudhunagar.",CS,COMPUTER SCIENCE AND ENGINEERING,186.075,178,177,171.5,131,148,0
+4960,"Mepco Schlenk Engineering College (Autonomous), Sivakasi, Virudhunagar.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,179.5,175.5,167,161,128.5,0,0
+4960,"Mepco Schlenk Engineering College (Autonomous), Sivakasi, Virudhunagar.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,169,161.5,160.5,153.5,0,0,0
+4960,"Mepco Schlenk Engineering College (Autonomous), Sivakasi, Virudhunagar.",IT,INFORMATION TECHNOLOGY,177,174,166.5,163.5,130,0,0
+4960,"Mepco Schlenk Engineering College (Autonomous), Sivakasi, Virudhunagar.",ME,MECHANICAL ENGINEERING,156,141.5,142.5,129.5,0,0,126
+4962,"National Engineering College (Autonomous), Kovilpatti, Thoothukudi.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,180.5,176,177,168,138,0,0
+4962,"National Engineering College (Autonomous), Kovilpatti, Thoothukudi.",CE,CIVIL ENGINEERING,156.5,142.5,126,0,115.5,0,0
+4962,"National Engineering College (Autonomous), Kovilpatti, Thoothukudi.",CS,COMPUTER SCIENCE AND ENGINEERING,184,180,179.5,168.5,144,0,0
+4962,"National Engineering College (Autonomous), Kovilpatti, Thoothukudi.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,181.5,177,180,168,137,0,0
+4962,"National Engineering College (Autonomous), Kovilpatti, Thoothukudi.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,173,165.5,168,166,0,0,0
+4962,"National Engineering College (Autonomous), Kovilpatti, Thoothukudi.",IT,INFORMATION TECHNOLOGY,179.5,177,176,170,126.5,0,0
+4962,"National Engineering College (Autonomous), Kovilpatti, Thoothukudi.",ME,MECHANICAL ENGINEERING,158,145,0,142,127.5,0,0
+4965,"P S R Engineering College (Autonomous), Virudhunagar.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,158.5,146,131.5,143,80,0,0
+4965,"P S R Engineering College (Autonomous), Virudhunagar.",BM,BIO MEDICAL ENGINEERING,127,94,0,0,0,0,0
+4965,"P S R Engineering College (Autonomous), Virudhunagar.",BT,BIO TECHNOLOGY,128.5,101,0,0,0,0,0
+4965,"P S R Engineering College (Autonomous), Virudhunagar.",CE,CIVIL ENGINEERING,128,0,110,0,0,0,0
+4965,"P S R Engineering College (Autonomous), Virudhunagar.",CS,COMPUTER SCIENCE AND ENGINEERING,155,142,136,139.5,0,0,0
+4965,"P S R Engineering College (Autonomous), Virudhunagar.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,146,139.5,118.5,130,0,0,0
+4965,"P S R Engineering College (Autonomous), Virudhunagar.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,130.5,112.5,0,0,0,0,0
+4965,"P S R Engineering College (Autonomous), Virudhunagar.",IT,INFORMATION TECHNOLOGY,146.5,139.5,113,127.5,0,0,0
+4965,"P S R Engineering College (Autonomous), Virudhunagar.",ME,MECHANICAL ENGINEERING,107.5,0,0,0,0,0,0
+5842,"SRM Madurai College for Engineering and Technology, Sivagangai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,157.5,145,120.5,127,0,0,0
+5842,"SRM Madurai College for Engineering and Technology, Sivagangai.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),153,142,124,105,0,0,0
+5842,"SRM Madurai College for Engineering and Technology, Sivagangai.",CE,CIVIL ENGINEERING,0,0,0,0,0,0,0
+5842,"SRM Madurai College for Engineering and Technology, Sivagangai.",CS,COMPUTER SCIENCE AND ENGINEERING,167.5,158.5,150.5,143,0,0,0
+5842,"SRM Madurai College for Engineering and Technology, Sivagangai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,155.5,138,151,106,0,0,0
+5842,"SRM Madurai College for Engineering and Technology, Sivagangai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,144,133.5,0,0,0,0,0
+5842,"SRM Madurai College for Engineering and Technology, Sivagangai.",IT,INFORMATION TECHNOLOGY,157,149,142,125,0,0,0
+5842,"SRM Madurai College for Engineering and Technology, Sivagangai.",ME,MECHANICAL ENGINEERING,0,0,0,0,0,0,0
+5842,"SRM Madurai College for Engineering and Technology, Sivagangai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),152.5,137.5,0,118,0,0,0
+5904,"K L N College of Engineering (Autonomous), Sivagangai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,162,156.5,149,124.5,91,0,0
+5904,"K L N College of Engineering (Autonomous), Sivagangai.",CI,COMPUTER SCIENCE AND ENGINEERING (INTERNET OF THINGS),149,142,126.5,123.5,0,0,0
+5904,"K L N College of Engineering (Autonomous), Sivagangai.",CS,COMPUTER SCIENCE AND ENGINEERING,169,166,156,138.5,0,0,0
+5904,"K L N College of Engineering (Autonomous), Sivagangai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,158.5,153,130.5,132,0,114.5,0
+5904,"K L N College of Engineering (Autonomous), Sivagangai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,141,121.5,100.5,0,0,0,0
+5904,"K L N College of Engineering (Autonomous), Sivagangai.",IT,INFORMATION TECHNOLOGY,164,154.5,135.5,126,0,115,0
+5904,"K L N College of Engineering (Autonomous), Sivagangai.",ME,MECHANICAL ENGINEERING,117,0,0,0,0,0,0
+5904,"K L N College of Engineering (Autonomous), Sivagangai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),156,150,150.5,123.5,0,0,0
+5910,"P S N A Colllege of Engineering and Technology (Autonomous), Dindigul.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,176,172.5,174,162.5,120.5,0,0
+5910,"P S N A Colllege of Engineering and Technology (Autonomous), Dindigul.",AM,COMPUTER SCIENCE AND ENGINEERING (AI AND MACHINE LEARNING),170.5,168,170.5,154.5,137.5,0,0
+5910,"P S N A Colllege of Engineering and Technology (Autonomous), Dindigul.",BM,BIO MEDICAL ENGINEERING,154,146,144.5,113.5,0,0,0
+5910,"P S N A Colllege of Engineering and Technology (Autonomous), Dindigul.",CB,COMPUTER SCIENCE AND BUSSINESS SYSTEM,170,166.5,166.5,152,112.5,0,0
+5910,"P S N A Colllege of Engineering and Technology (Autonomous), Dindigul.",CE,CIVIL ENGINEERING,154.5,138.5,128,113.5,0,0,0
+5910,"P S N A Colllege of Engineering and Technology (Autonomous), Dindigul.",CS,COMPUTER SCIENCE AND ENGINEERING,181.5,177,173,162,123.5,0,0
+5910,"P S N A Colllege of Engineering and Technology (Autonomous), Dindigul.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,174.5,169,168,159.5,112.5,0,0
+5910,"P S N A Colllege of Engineering and Technology (Autonomous), Dindigul.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,166,157.5,156.5,147.5,0,0,0
+5910,"P S N A Colllege of Engineering and Technology (Autonomous), Dindigul.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),165,159,162.5,148.5,0,0,0
+5910,"P S N A Colllege of Engineering and Technology (Autonomous), Dindigul.",IT,INFORMATION TECHNOLOGY,173,169,169.5,158,123,0,0
+5910,"P S N A Colllege of Engineering and Technology (Autonomous), Dindigul.",ME,MECHANICAL ENGINEERING,148,130,146,108,0,0,0
+5910,"P S N A Colllege of Engineering and Technology (Autonomous), Dindigul.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),170,168,167.5,154.5,136.5,0,0
+5986,"Velammal College of Engineering and Technology (Autonomous), Madurai.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,181,175.5,172.5,162.5,124.5,116,0
+5986,"Velammal College of Engineering and Technology (Autonomous), Madurai.",CE,CIVIL ENGINEERING,148,131.5,138,95,95,0,0
+5986,"Velammal College of Engineering and Technology (Autonomous), Madurai.",CS,COMPUTER SCIENCE AND ENGINEERING,186,182.5,182.5,173,139.5,124,0
+5986,"Velammal College of Engineering and Technology (Autonomous), Madurai.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,178.5,173.5,176,160.5,84,0,0
+5986,"Velammal College of Engineering and Technology (Autonomous), Madurai.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,171.5,166,163.5,144.5,0,0,0
+5986,"Velammal College of Engineering and Technology (Autonomous), Madurai.",EV,ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY),170.5,163.5,164.5,152.5,0,0,0
+5986,"Velammal College of Engineering and Technology (Autonomous), Madurai.",IT,INFORMATION TECHNOLOGY,178.5,176,174.5,162,116.5,113.5,0
+5986,"Velammal College of Engineering and Technology (Autonomous), Madurai.",ME,MECHANICAL ENGINEERING,163,154,147.5,108.5,0,0,0
+5986,"Velammal College of Engineering and Technology (Autonomous), Madurai.",SC,COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY),176.5,173.5,172.5,154,121.5,0,0
+4971,"St. Xavier's Catholic College of Engineering (Autonomous), Nagercoil, Kanyakumari.",AD,ARTIFICIAL INTELLIGENCE AND DATA SCIENCE,171,152.5,141.5,141.5,0,0,0
+4971,"St. Xavier's Catholic College of Engineering (Autonomous), Nagercoil, Kanyakumari.",CE,CIVIL ENGINEERING,114.5,0,0,0,0,0,0
+4971,"St. Xavier's Catholic College of Engineering (Autonomous), Nagercoil, Kanyakumari.",CS,COMPUTER SCIENCE AND ENGINEERING,175.5,158.5,154.5,149.5,0,0,0
+4971,"St. Xavier's Catholic College of Engineering (Autonomous), Nagercoil, Kanyakumari.",EC,ELECTRONICS AND COMMUNICATION ENGINEERING,164.5,152,163,131,0,0,0
+4971,"St. Xavier's Catholic College of Engineering (Autonomous), Nagercoil, Kanyakumari.",EE,ELECTRICAL AND ELECTRONICS ENGINEERING,147.5,140,136,113.5,0,0,0
+4971,"St. Xavier's Catholic College of Engineering (Autonomous), Nagercoil, Kanyakumari.",IT,INFORMATION TECHNOLOGY,162,149,154.5,143,0,0,0
+4971,"St. Xavier's Catholic College of Engineering (Autonomous), Nagercoil, Kanyakumari.",ME,MECHANICAL ENGINEERING,133.5,106,106.5,106,0,0,0

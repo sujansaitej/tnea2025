@@ -1,15 +1,17 @@
-import pandas as pd
+import gspread
+from google.oauth2.service_account import Credentials
 
-# Path to your CSV file
-file_path = r'G:\College-Predictor-Tool-PickMyCareer-main\College-Predictor-Tool-PickMyCareer-main\input_2024_cutoff.csv'
+SCOPES = [
+    'https://www.googleapis.com/auth/spreadsheets',
+    'https://www.googleapis.com/auth/drive'
+]
 
-# Read the CSV file
-df = pd.read_csv(file_path)
+creds = Credentials.from_service_account_file('credentials.json', scopes=SCOPES)
 
-# Replace all null values with 0
-df.fillna(0, inplace=True)
+gc = gspread.authorize(creds)
+spreadsheet = gc.open_by_key("1x37iFC4Qg1l-voMcrxT5v71TxT9EXEoYIGIRy7RFU_k")
+worksheet = spreadsheet.worksheet("2025_data")
 
-# Save the updated DataFrame back to the same CSV file
-df.to_csv(file_path, index=False)
+worksheet.append_row(["Test", "1234567890", "CSE", "OC", 199.0])
 
-print("Null values replaced with 0 and file saved successfully.")
+print("✅ Successfully wrote to the sheet.")
