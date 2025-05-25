@@ -89,34 +89,27 @@ category_list = [
 
 
 def category(course):
-    # Normalize the input course by stripping whitespace and making it uppercase
-    normalized_course = course.strip().upper()
+    # Normalize the input course
+    normalized_course = str(course).strip().upper()
     
-    for category in category_list:
-        # Normalize each course in the category for comparison
-        normalized_category_courses = [c.strip().upper() for c in category]
-        if normalized_course in normalized_category_courses:
-            return category
+    for category_items in category_list:
+        # Check if any item in category matches (case-insensitive)
+        if any(normalized_course == str(item).strip().upper() for item in category_items):
+            return category_items
     return [course]
 
 def list_of_colleges(mark, course, community, data):
     course_final = category(course)
     
-    # Normalize the branch names in the data for comparison
-    data['Normalized_Branch'] = data['Branch Name'].str.strip().str.upper()
+    # Create a set of normalized course names for comparison
+    normalized_course_final = {str(c).strip().upper() for c in course_final}
     
-    # Create a set of normalized course names for quick lookup
-    normalized_course_final = {c.strip().upper() for c in course_final}
-    
-    # Filter the data
+    # Filter using the normalized set
     filtered_data = data[
-        data['Normalized_Branch'].isin(normalized_course_final) & 
+        data['Branch Name'].str.strip().str.upper().isin(normalized_course_final) & 
         (data[community] <= (mark + 5)) & 
         (data[community] > 0)
     ]
-    
-    # Drop the temporary normalized column
-    filtered_data = filtered_data.drop(columns=['Normalized_Branch'])
     
     result = filtered_data[['College Code', 'College Name', 'Branch Code', 'Branch Name', community]]
     result = result.sort_values(by=community, ascending=False)

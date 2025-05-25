@@ -133,9 +133,10 @@ def index():
 @app.route('/results', methods=['POST'])
 def results():
     try:
+        # Get form data
         name = request.form['FullName']
         mobile_number = request.form['MobileNumber']
-        course = request.form['course'].upper()
+        course = request.form['course'].upper().strip()
         community = request.form['Community']
         cutoff = float(request.form['Cutoff'])
 
@@ -150,19 +151,33 @@ def results():
         write_to_google_sheets(name, mobile_number, course, community, cutoff)
 
         data = read_csv_with_fallback('data_2024.csv')
-        filtered_colleges = list_of_colleges(cutoff, course, community, data)
-        filtered_colleges = filtered_colleges[filtered_colleges[community] > 0]
+        
+        # Normalize branch names for comparison
+        data['Normalized_Branch'] = data['Branch Name'].str.strip().str.upper()
+        course_category = [c.strip().upper() for c in category(course)]
+        
+        # Get filtered colleges and sort by cutoff (descending)
+        filtered_colleges = data[
+            data['Normalized_Branch'].isin(course_category) & 
+            (data[community] <= (cutoff + 5)) & 
+            (data[community] > 0)
+        ].sort_values(by=community, ascending=False) \
+         .drop(columns=['Normalized_Branch'])
+        
         count = len(filtered_colleges)
         min_cutoff = filtered_colleges[community].min() if count else None
         max_cutoff = filtered_colleges[community].max() if count else None
 
-        top_colleges_all = data[['College Code', 'College Name', 'Branch Name', 'Branch Code', community]]
-        top_colleges_all = top_colleges_all[top_colleges_all[community] > 0].sort_values(by=community, ascending=False)
-        top_colleges_course = top_colleges_all[top_colleges_all['Branch Name'].isin(category(course))]
+        # Get top colleges (all branches in same category) sorted by cutoff (descending)
+        top_colleges_course = data[
+            data['Normalized_Branch'].isin(course_category) & 
+            (data[community] > 0)
+        ].sort_values(by=community, ascending=False) \
+         .drop(columns=['Normalized_Branch'])
 
         return render_template('results.html',
-            filtered_colleges=filtered_colleges.to_dict(orient='records'),
-            top_colleges=top_colleges_course.to_dict(orient='records'),
+            filtered_colleges=filtered_colleges[['College Code', 'College Name', 'Branch Code', 'Branch Name', community]].to_dict(orient='records'),
+            top_colleges=top_colleges_course[['College Code', 'College Name', 'Branch Code', 'Branch Name', community]].head(20).to_dict(orient='records'),
             caste=community,
             count=count,
             min_cutoff=min_cutoff,
@@ -178,35 +193,49 @@ def results():
 @app.route('/filter_colleges')
 def filter_colleges():
     try:
-        course = request.args.get('course').upper()
+        # Get and validate parameters
+        course = request.args.get('course')
+        if not course:
+            return jsonify({"error": "Course parameter is required"}), 400
+            
         community = request.args.get('caste', 'OC')
-        original_marks = float(request.args.get('original_marks', 0))
+        try:
+            original_marks = float(request.args.get('original_marks', 0))
+        except ValueError:
+            return jsonify({"error": "Invalid cutoff marks"}), 400
 
+        # Read and prepare data
         data = read_csv_with_fallback('data_2024.csv')
-        course_final = category(course)
         
+        # Normalize course names for comparison
+        course_final = category(course.strip().upper())
+        data['Normalized_Branch'] = data['Branch Name'].str.strip().str.upper()
+
+        # Filter colleges and sort by cutoff (descending)
         filtered_colleges = data[
-            data['Branch Name'].isin(course_final) & 
+            data['Normalized_Branch'].isin([c.strip().upper() for c in course_final]) & 
             (data[community] <= (original_marks + 5)) & 
             (data[community] > 0)
-        ]
+        ].sort_values(by=community, ascending=False) \
+         .drop(columns=['Normalized_Branch'])
 
-        top_colleges_all = data[['College Code', 'College Name', 'Branch Name', 'Branch Code', community]]
-        top_colleges_all = top_colleges_all[
-            (top_colleges_all[community] > 0) &
-            (top_colleges_all['Branch Name'].isin(course_final))
-        ].sort_values(by=community, ascending=False)
+        # Get top colleges sorted by cutoff (descending)
+        top_colleges_all = data[
+            data['Normalized_Branch'].isin([c.strip().upper() for c in course_final]) &
+            (data[community] > 0)
+        ].sort_values(by=community, ascending=False) \
+         .drop(columns=['Normalized_Branch'])
 
         return jsonify({
-            "filtered_colleges": filtered_colleges.to_dict(orient='records'),
-            "top_colleges": top_colleges_all.to_dict(orient='records'),
+            "filtered_colleges": filtered_colleges[['College Code', 'College Name', 'Branch Code', 'Branch Name', community]].to_dict(orient='records'),
+            "top_colleges": top_colleges_all[['College Code', 'College Name', 'Branch Code', 'Branch Name', community]].head(20).to_dict(orient='records'),
             "count": len(filtered_colleges),
             "caste": community,
             "original_marks": original_marks
         })
     except Exception as e:
         logger.error(f"Error in filter_colleges: {e}")
-        return jsonify({"error": str(e)}), 500
-
+        return jsonify({"error": "Internal server error"}), 500
+    
 if __name__ == '__main__':
     app.run(debug=True, port=5000, host="0.0.0.0")
