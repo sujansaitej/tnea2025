@@ -1,38 +1,123 @@
+
 category_list = [
-    ['COMPUTER SCIENCE AND ENGINEERING', 'COMPUTER SCIENCE AND ENGINEERING (SS)'],
-    ['INFORMATION TECHNOLOGY', 'INFORMATION TECHNOLOGY (SS)', 'INFORMATION SCIENCE & TECHNOLOGY'],
-    ['COMPUTER SCIENCE AND BUSSINESS SYSTEM', 'COMPUTER SCIENCE AND BUSSINESS SYSTEM (SS)'],
-    ['COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)', 'COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING) (SS)'],
-    ['ARTIFICIAL INTELLIGENCE AND DATA SCIENCE', 'ARTIFICIAL INTELLIGENCE AND DATA SCIENCE (SS)'],
-    ['CIVIL ENGINEERING', 'CIVIL ENGINEERING (SS)'],
-    ['ELECTRONICS AND COMMUNICATION ENGINEERING', 'ELECTRONICS AND COMMUNICATION ENGINEERING (SS)'],
-    ['ELECTRICAL AND ELECTRONICS ENGINEERING', 'ELECTRICAL AND ELECTRONICS ENGINEERING (SS)', 'ELECTRICAL AND ELECTRONICS (SANDWICH) (SS)'],
-    ['MECHANICAL ENGINEERING (TAMIL MEDIUM)'],
-    ['CIVIL ENGINEERING (TAMIL MEDIUM)'],
-    ['INDUSTRIAL ENGINEERING'],
-    ['MANUFACTURING ENGINEERING'],
-    ['M.TECH. COMPUTER SCIENCE AND ENGINEERING (INTEGRATED 5 YEARS)'],
-    ['MECHANICAL ENGINEERING', 'MECHANICAL ENGINEERING (SS)', 'MECHANICAL ENGINEERING (SANDWICH) (SS)'],
-    ['MECHATRONICS ENGINEERING'],
-    ['ROBOTICS AND AUTOMATION', 'ROBOTICS AND AUTOMATION (SS)'],
-    ['METALLURGICAL ENGINEERING', 'METALLURGICAL ENGINEERING (SS)'],
-    ['PRODUCTION ENGINEERING', 'PRODUCTION ENGINEERING (SS)', 'PRODUCTION ENGINEERING (SANDWICH) (SS)'],
-    ['FOOD TECHNOLOGY', 'FOOD TECHNOLOGY (SS)'],
-    ['BIO TECHNOLOGY', 'BIO TECHNOLOGY (SS)', 'INDUSTRIAL BIO TECHNOLOGY', 'INDUSTRIAL BIO TECHNOLOGY (SS)'],
-    ['ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING'],
-    ['AUTOMOBILE ENGINEERING'],
-    ['BIO MEDICAL ENGINEERING', 'BIO MEDICAL ENGINEERING (SS)']
+    ['Computer Science and Engineering', 'Computer Science and Engineering (SS)'],
+    ['Information Technology', 'Information Technology (SS)'],
+    ['Computer Science and Business System', 'Computer Science and Business System (SS)'],
+    ['M.Tech. Computer Science and Engineering (Integrated 5 Years)'],
+    ['Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain Technology)',
+     'Computer Science and Engineering (Internet of Things)'],
+    ['Artificial Intelligence and Data Science',
+     'Artificial Intelligence and Data Science (SS)',
+     'Computer Science and Engineering (Data Science)'],
+    ['Artificial Intelligence and Machine Learning',
+     'Computer Science and Engineering (AI and Machine Learning)',
+     'Computer Science and Engineering (Artificial Intelligence and Machine Learning) (SS)'],
+    ['Computer Science and Engineering (Cyber Security)',
+     'Cyber Security',
+     'Computer Science and Technology',
+     'Computer Science and Design',
+     'Computer and Communication Engineering',
+     'Computer Science and Engineering (Tamil)'],
+    ['Electronics and Communication Engineering',
+     'Electronics and Communication Engineering (SS)'],
+    ['Electronics Engineering (VLSI Design and Technology)',
+     'Electronics Engineering (VLSI Design and Technology) (SS)'],
+    ['Electrical and Electronics Engineering',
+     'Electrical and Electronics Engineering (SS)',
+     'Electrical and Electronics (Sandwich) (SS)'],
+    ['Electronics and Instrumentation Engineering',
+     'Electronic Instrumentation and Control Engineering'],
+    ['Electronics and Communication (Advanced Communication Technology)'],
+    ['Electronics and Computer Engineering',
+     'Electrical and Computer Engineering'],
+    ['Mechanical Engineering',
+     'Mechanical Engineering (SS)',
+     'Mechanical Engineering (Sandwich) (SS)'],
+    ['Mechatronics (SS)', 'Mechatronics Engineering'],
+    ['Mechanical and Automation Engineering',
+     'Mechanical and Mechatronics Engineering (Additive Manufacturing)'],
+    ['Mechanical Engineering (Automobile)',
+     'Mechanical Engineering (Tamil Medium)',
+     'Mechanical and Smart Manufacturing'],
+    ['Automobile Engineering', 'Automobile Engineering (SS)'],
+    ['Aeronautical Engineering', 'Aerospace Engineering'],
+    ['Production Engineering',
+     'Production Engineering (Sandwich) (SS)',
+     'Production Engineering (SS)',
+     'Robotics and Automation',
+     'Robotics and Automation (SS)'],
+    ['Metallurgical Engineering', 'Metallurgical Engineering (SS)'],
+    ['Material Science and Engineering (SS)'],
+    ['Marine Engineering', 'Medical Electronics', 'Mining Engineering', 'Safety and Fire Engineering'],
+    ['Manufacturing Engineering', 'Industrial Engineering'],
+    ['Civil Engineering',
+     'Civil Engineering (SS)',
+     'Civil Engineering (Tamil Medium)',
+     'Civil Engineering (Environmental Engineering)'],
+    ['Geo Informatics'],
+    ['Chemical and Electro Chemical Engineering (SS)',
+     'Chemical Engineering',
+     'Chemical Engineering (SS)'],
+    ['Petro Chemical Engineering',
+     'Petro Chemical Technology',
+     'Petroleum Engineering and Technology (SS)'],
+    ['Pharmaceutical Technology',
+     'Pharmaceutical Technology (SS)'],
+    ['Ceramic Technology (SS)',
+     'Leather Technology',
+     'Plastic Technology',
+     'Rubber and Plastic Technology',
+     'Printing & Packing Technology'],
+    ['Bio Medical Engineering',
+     'Bio Medical Engineering (SS)',
+     'Bio Technology',
+     'Bio Technology (SS)',
+     'Industrial Bio Technology',
+     'Industrial Bio Technology (SS)'],
+    ['Food Technology',
+     'Food Technology (SS)',
+     'Agricultural Engineering'],
+    ['Interior Design (SS)',
+     'Fashion Technology',
+     'Fashion Technology (SS)',
+     'Apparel Technology (SS)',
+     'Handloom and Textile Technology',
+     'Textile Technology',
+     'Textile Technology (SS)']
 ]
 
+
+
 def category(course):
+    # Normalize the input course by stripping whitespace and making it uppercase
+    normalized_course = course.strip().upper()
+    
     for category in category_list:
-        if course in category:
+        # Normalize each course in the category for comparison
+        normalized_category_courses = [c.strip().upper() for c in category]
+        if normalized_course in normalized_category_courses:
             return category
     return [course]
 
 def list_of_colleges(mark, course, community, data):
     course_final = category(course)
-    filtered_data = data[data['Branch Name'].isin(course_final) & (data[community] <= (mark + 5))]
-    result = filtered_data[['College Code', 'College Name','Branch Code', 'Branch Name' , community]]
+    
+    # Normalize the branch names in the data for comparison
+    data['Normalized_Branch'] = data['Branch Name'].str.strip().str.upper()
+    
+    # Create a set of normalized course names for quick lookup
+    normalized_course_final = {c.strip().upper() for c in course_final}
+    
+    # Filter the data
+    filtered_data = data[
+        data['Normalized_Branch'].isin(normalized_course_final) & 
+        (data[community] <= (mark + 5)) & 
+        (data[community] > 0)
+    ]
+    
+    # Drop the temporary normalized column
+    filtered_data = filtered_data.drop(columns=['Normalized_Branch'])
+    
+    result = filtered_data[['College Code', 'College Name', 'Branch Code', 'Branch Name', community]]
     result = result.sort_values(by=community, ascending=False)
     return result
