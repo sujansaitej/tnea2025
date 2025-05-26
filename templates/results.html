@@ -102,6 +102,36 @@
             40%, 50% { opacity: 1; }
             100% { opacity: 0; transform: scale(1.2); }
         }
+
+        /* No results state styles */
+        .no-results {
+            background: white;
+            border: 2px dashed rgba(245, 158, 11, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .no-results-icon {
+            color: #F59E0B;
+            animation: gentle-bounce 2s ease-in-out infinite;
+        }
+
+        @keyframes gentle-bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-8px); }
+            60% { transform: translateY(-4px); }
+        }
+
+        .suggestion-pill {
+            background: rgba(245, 158, 11, 0.1);
+            color: #92400E;
+            border: 1px solid rgba(245, 158, 11, 0.2);
+            transition: all 0.2s ease;
+        }
+
+        .suggestion-pill:hover {
+            background: rgba(245, 158, 11, 0.15);
+            transform: scale(1.02);
+        }
     </style>
 </head>
 
@@ -148,33 +178,60 @@
                     <select id="courseSelect" class="select-field rounded-xl px-4 py-3 text-sm font-medium w-full md:w-64 appearance-none cursor-pointer">
                         <option value="" selected disabled>🎯 Select Your Field</option>
                         <option value="Automobile Engineering">Automobile Engineering</option>
-                                        <option value="Artificial Intelligence And Data Science">Artificial Intelligence And Data Science</option>
-                                        <option value="Artificial Intelligence And Machine Learning">Artificial Intelligence And Machine Learning</option>
-                                        <option value="Bio Technology">Bio Technology</option>
-                                        <option value="Bio Medical Engineering">Bio Medical Engineering</option>
-                                        <option value="Civil Engineering">Civil Engineering</option>
-                                        <option value="Civil Engineering (Tamil Medium)">Civil Engineering (Tamil Medium)</option>
-                                        <option value="Computer Science And Engineering">Computer Science And Engineering</option>
-                                        <option value="Computer Science And Bussiness System">Computer Science And Bussiness System</option>
-                                        <option value="Computer Science And Engineering (Artificial Intelligence And Machine Learning)">Computer Science And Engineering (Artificial Intelligence And Machine Learning)</option>
-                                        <option value="M.Tech. Computer Science And Engineering (Integrated 5 Years)">M.Tech. Computer Science And Engineering (Integrated 5 Years)</option>
-                                        <option value="Electronics And Communication Engineering">Electronics And Communication Engineering</option>
-                                        <option value="Electrical And Electronics Engineering">Electrical And Electronics Engineering</option>
-                                        <option value="Food Technology">Food Technology</option>
-                                        <option value="Industrial Engineering">Industrial Engineering</option>
-                                        <option value="Information Technology">Information Technology</option>
-                                        <option value="Manufacturing Engineering">Manufacturing Engineering</option>
-                                        <option value="Mechanical Engineering">Mechanical Engineering</option>
-                                        <option value="Mechanical Engineering (Tamil Medium)">Mechanical Engineering (Tamil Medium)</option>
-                                        <option value="Mechatronics Engineering">Mechatronics Engineering</option>
-                                        <option value="Metallurgical Engineering">Metallurgical Engineering</option>
-                                        <option value="Production Engineering">Production Engineering</option>
-                                        <option value="Robotics And Automation">Robotics And Automation</option>
+                        <option value="Artificial Intelligence And Data Science">Artificial Intelligence And Data Science</option>
+                        <option value="Artificial Intelligence And Machine Learning">Artificial Intelligence And Machine Learning</option>
+                        <option value="Bio Technology">Bio Technology</option>
+                        <option value="Bio Medical Engineering">Bio Medical Engineering</option>
+                        <option value="Civil Engineering">Civil Engineering</option>
+                        <option value="Civil Engineering (Tamil Medium)">Civil Engineering (Tamil Medium)</option>
+                        <option value="Computer Science And Engineering">Computer Science And Engineering</option>
+                        <option value="Computer Science And Bussiness System">Computer Science And Bussiness System</option>
+                        <option value="Computer Science And Engineering (Artificial Intelligence And Machine Learning)">Computer Science And Engineering (Artificial Intelligence And Machine Learning)</option>
+                        <option value="M.Tech. Computer Science And Engineering (Integrated 5 Years)">M.Tech. Computer Science And Engineering (Integrated 5 Years)</option>
+                        <option value="Electronics And Communication Engineering">Electronics And Communication Engineering</option>
+                        <option value="Electrical And Electronics Engineering">Electrical And Electronics Engineering</option>
+                        <option value="Food Technology">Food Technology</option>
+                        <option value="Industrial Engineering">Industrial Engineering</option>
+                        <option value="Information Technology">Information Technology</option>
+                        <option value="Manufacturing Engineering">Manufacturing Engineering</option>
+                        <option value="Mechanical Engineering">Mechanical Engineering</option>
+                        <option value="Mechanical Engineering (Tamil Medium)">Mechanical Engineering (Tamil Medium)</option>
+                        <option value="Mechatronics Engineering">Mechatronics Engineering</option>
+                        <option value="Metallurgical Engineering">Metallurgical Engineering</option>
+                        <option value="Production Engineering">Production Engineering</option>
+                        <option value="Robotics And Automation">Robotics And Automation</option>
                     </select>
                     <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                         <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- No Results Message (Hidden by default) -->
+            <div id="noResultsMessage" class="no-results rounded-2xl p-8 text-center card-shadow hidden">
+                <div class="no-results-icon mb-4">
+                    <svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.034 0-3.9.785-5.291 2.076A7.963 7.963 0 014 12a8 8 0 018-8 8 8 0 018 8c0 1.042-.199 2.04-.559 2.955zM16 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">No Colleges Found</h3>
+                <p class="text-sm text-gray-600 mb-6 max-w-sm mx-auto">
+                    We couldn't find any colleges matching your criteria. Try adjusting your search or explore other options.
+                </p>
+                <div class="flex flex-col gap-3">
+                    <h4 class="text-sm font-medium text-gray-700">Suggestions:</h4>
+                    <div class="flex flex-wrap gap-2 justify-center">
+                        <span class="suggestion-pill px-3 py-1.5 rounded-full text-xs font-medium cursor-pointer" onclick="suggestCourse('Computer Science And Engineering')">
+                            💻 Try Computer Science
+                        </span>
+                        <span class="suggestion-pill px-3 py-1.5 rounded-full text-xs font-medium cursor-pointer" onclick="suggestCourse('Mechanical Engineering')">
+                            ⚙️ Try Mechanical Eng.
+                        </span>
+                        <span class="suggestion-pill px-3 py-1.5 rounded-full text-xs font-medium cursor-pointer" onclick="suggestCourse('Civil Engineering')">
+                            🏗️ Try Civil Engineering
+                        </span>
                     </div>
                 </div>
             </div>
@@ -245,8 +302,25 @@
             const bestForYouTab = document.getElementById('bestForYou');
             const topCollagesList = document.getElementById('topCollagesList');
             const bestForYouList = document.getElementById('bestForYouList');
+            const noResultsMessage = document.getElementById('noResultsMessage');
             const courseSelect = document.getElementById('courseSelect');
             const title = document.getElementById('title');
+
+            // Function to show/hide no results message
+            function toggleNoResultsMessage(show, activeList) {
+                if (show) {
+                    noResultsMessage.classList.remove('hidden');
+                    noResultsMessage.classList.add('fade-in');
+                    topCollagesList.style.display = 'none';
+                    bestForYouList.style.display = 'none';
+                } else {
+                    noResultsMessage.classList.add('hidden');
+                    noResultsMessage.classList.remove('fade-in');
+                    if (activeList) {
+                        activeList.style.display = 'block';
+                    }
+                }
+            }
 
             // Tab switching functionality
             topCollegesTab.addEventListener('click', function() {
@@ -256,16 +330,19 @@
                 bestForYouTab.classList.remove('activeTab');
                 bestForYouTab.classList.add('tab-inactive');
                 
-                // Show/hide lists
-                topCollagesList.style.display = 'block';
-                bestForYouList.style.display = 'none';
+                // Check if top colleges list has content
+                const hasContent = topCollagesList.children.length > 0;
+                
+                if (hasContent) {
+                    toggleNoResultsMessage(false, topCollagesList);
+                    topCollagesList.classList.add('fade-in');
+                } else {
+                    toggleNoResultsMessage(true);
+                }
                 
                 // Update title
                 title.innerHTML = 'Top Colleges';
                 title.nextElementSibling.textContent = 'Highest ranked institutions';
-                
-                // Add fade-in animation
-                topCollagesList.classList.add('fade-in');
             });
 
             bestForYouTab.addEventListener('click', function() {
@@ -275,16 +352,19 @@
                 topCollegesTab.classList.remove('activeTab');
                 topCollegesTab.classList.add('tab-inactive');
                 
-                // Show/hide lists
-                bestForYouList.style.display = 'block';
-                topCollagesList.style.display = 'none';
+                // Check if best for you list has content
+                const hasContent = bestForYouList.children.length > 0;
+                
+                if (hasContent) {
+                    toggleNoResultsMessage(false, bestForYouList);
+                    bestForYouList.classList.add('fade-in');
+                } else {
+                    toggleNoResultsMessage(true);
+                }
                 
                 // Update title
                 title.innerHTML = 'Best for You';
                 title.nextElementSibling.textContent = 'Personalized college recommendations';
-                
-                // Add fade-in animation
-                bestForYouList.classList.add('fade-in');
             });
 
             // Course selection functionality
@@ -295,8 +375,22 @@
                     .then(data => {
                         updateCollegeList('bestForYouList', data.filtered_colleges);
                         updateCollegeList('topCollagesList', data.top_colleges);
+                        
+                        // Check which tab is active and show appropriate content
+                        const isBestForYouActive = bestForYouTab.classList.contains('activeTab');
+                        const activeList = isBestForYouActive ? bestForYouList : topCollagesList;
+                        const activeData = isBestForYouActive ? data.filtered_colleges : data.top_colleges;
+                        
+                        if (activeData.length === 0) {
+                            toggleNoResultsMessage(true);
+                        } else {
+                            toggleNoResultsMessage(false, activeList);
+                        }
                     })
-                    .catch(error => console.error('Error:', error));
+                    .catch(error => {
+                        console.error('Error:', error);
+                        toggleNoResultsMessage(true);
+                    });
             });
 
             function updateCollegeList(listId, colleges) {
@@ -335,7 +429,24 @@
                 // Add fade-in animation to updated list
                 list.classList.add('fade-in');
             }
+
+            // Initial check for empty lists on page load
+            setTimeout(() => {
+                const isBestForYouActive = bestForYouTab.classList.contains('activeTab');
+                const activeList = isBestForYouActive ? bestForYouList : topCollagesList;
+                
+                if (activeList.children.length === 0) {
+                    toggleNoResultsMessage(true);
+                }
+            }, 100);
         });
+
+        // Function to handle suggestion clicks
+        function suggestCourse(courseName) {
+            const courseSelect = document.getElementById('courseSelect');
+            courseSelect.value = courseName;
+            courseSelect.dispatchEvent(new Event('change'));
+        }
     </script>
 </body>
 
