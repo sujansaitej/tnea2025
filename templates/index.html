@@ -61,85 +61,85 @@
         }
         
         /* Enhanced button with perfect curves and effects */
-.submit-btn {
-    background: linear-gradient(135deg, #FFC107 0%, #FF8F00 50%, #FF6F00 100%);
-    border: none;
-    border-radius: 12px;
-    padding: 16px 32px;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 
-        0 4px 15px rgba(255, 143, 0, 0.3),
-        0 2px 8px rgba(255, 193, 7, 0.2);
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-    outline: none;
-}
+        .submit-btn {
+            background: linear-gradient(135deg, #FFC107 0%, #FF8F00 50%, #FF6F00 100%);
+            border: none;
+            border-radius: 12px;
+            padding: 16px 32px;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 
+                0 4px 15px rgba(255, 143, 0, 0.3),
+                0 2px 8px rgba(255, 193, 7, 0.2);
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            outline: none;
+        }
 
-/* Shimmer effect */
-.submit-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-    transition: left 0.6s ease;
-    border-radius: 12px;
-}
+        /* Shimmer effect */
+        .submit-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+            transition: left 0.6s ease;
+            border-radius: 12px;
+        }
 
-/* Inner highlight for depth */
-.submit-btn::after {
-    content: '';
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    right: 1px;
-    bottom: 1px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, transparent 50%);
-    border-radius: 11px;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
+        /* Inner highlight for depth */
+        .submit-btn::after {
+            content: '';
+            position: absolute;
+            top: 1px;
+            left: 1px;
+            right: 1px;
+            bottom: 1px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, transparent 50%);
+            border-radius: 11px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
 
-.submit-btn:hover::before {
-    left: 100%;
-}
+        .submit-btn:hover::before {
+            left: 100%;
+        }
 
-.submit-btn:hover::after {
-    opacity: 1;
-}
+        .submit-btn:hover::after {
+            opacity: 1;
+        }
 
-.submit-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 
-        0 8px 25px rgba(255, 143, 0, 0.4),
-        0 4px 15px rgba(255, 193, 7, 0.3),
-        inset 0 1px 0 rgba(255, 255, 255, 0.3);
-    border-radius: 12px;
-}
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 
+                0 8px 25px rgba(255, 143, 0, 0.4),
+                0 4px 15px rgba(255, 193, 7, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+        }
 
-.submit-btn:active {
-    transform: translateY(-1px);
-    box-shadow: 
-        0 4px 15px rgba(255, 143, 0, 0.3),
-        0 2px 8px rgba(255, 193, 7, 0.2);
-}
+        .submit-btn:active {
+            transform: translateY(-1px);
+            box-shadow: 
+                0 4px 15px rgba(255, 143, 0, 0.3),
+                0 2px 8px rgba(255, 193, 7, 0.2);
+        }
 
-.submit-btn:focus {
-    box-shadow: 
-        0 4px 15px rgba(255, 143, 0, 0.3),
-        0 2px 8px rgba(255, 193, 7, 0.2),
-        0 0 0 3px rgba(255, 193, 7, 0.3);
-}
+        .submit-btn:focus {
+            box-shadow: 
+                0 4px 15px rgba(255, 143, 0, 0.3),
+                0 2px 8px rgba(255, 193, 7, 0.2),
+                0 0 0 3px rgba(255, 193, 7, 0.3);
+        }
         /* Custom select styling */
         .select-custom {
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23FFC107' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
@@ -291,28 +291,28 @@
                                     >
                                         <option value="" disabled selected>Select your field of interest</option>
                                         <option value="Automobile Engineering">Automobile Engineering</option>
-                                        <option value="Artificial Intelligence And Data Science">AI & Data Science</option>
-                                        <option value="Artificial Intelligence And Machine Learning">AI & Machine Learning</option>
+                                        <option value="Artificial Intelligence And Data Science">Artificial Intelligence And Data Science</option>
+                                        <option value="Artificial Intelligence And Machine Learning">Artificial Intelligence And Machine Learning</option>
                                         <option value="Bio Technology">Bio Technology</option>
                                         <option value="Bio Medical Engineering">Bio Medical Engineering</option>
                                         <option value="Civil Engineering">Civil Engineering</option>
-                                        <option value="Civil Engineering (Tamil Medium)">Civil Engineering (Tamil)</option>
-                                        <option value="Computer Science And Engineering">Computer Science</option>
-                                        <option value="Computer Science And Bussiness System">CS & Business Systems</option>
-                                        <option value="Computer Science And Engineering (Artificial Intelligence And Machine Learning)">CS (AI & ML)</option>
-                                        <option value="M.Tech. Computer Science And Engineering (Integrated 5 Years)">M.Tech CS (5 Years)</option>
-                                        <option value="Electronics And Communication Engineering">Electronics & Communication</option>
-                                        <option value="Electrical And Electronics Engineering">Electrical & Electronics</option>
+                                        <option value="Civil Engineering (Tamil Medium)">Civil Engineering (Tamil Medium)</option>
+                                        <option value="Computer Science And Engineering">Computer Science And Engineering</option>
+                                        <option value="Computer Science And Bussiness System">Computer Science And Bussiness System</option>
+                                        <option value="Computer Science And Engineering (Artificial Intelligence And Machine Learning)">Computer Science And Engineering (Artificial Intelligence And Machine Learning)</option>
+                                        <option value="M.Tech. Computer Science And Engineering (Integrated 5 Years)">M.Tech. Computer Science And Engineering (Integrated 5 Years)</option>
+                                        <option value="Electronics And Communication Engineering">Electronics And Communication Engineering</option>
+                                        <option value="Electrical And Electronics Engineering">Electrical And Electronics Engineering</option>
                                         <option value="Food Technology">Food Technology</option>
                                         <option value="Industrial Engineering">Industrial Engineering</option>
                                         <option value="Information Technology">Information Technology</option>
                                         <option value="Manufacturing Engineering">Manufacturing Engineering</option>
                                         <option value="Mechanical Engineering">Mechanical Engineering</option>
-                                        <option value="Mechanical Engineering (Tamil Medium)">Mechanical (Tamil)</option>
-                                        <option value="Mechatronics Engineering">Mechatronics</option>
-                                        <option value="Metallurgical Engineering">Metallurgical</option>
+                                        <option value="Mechanical Engineering (Tamil Medium)">Mechanical Engineering (Tamil Medium)</option>
+                                        <option value="Mechatronics Engineering">Mechatronics Engineering</option>
+                                        <option value="Metallurgical Engineering">Metallurgical Engineering</option>
                                         <option value="Production Engineering">Production Engineering</option>
-                                        <option value="Robotics And Automation">Robotics & Automation</option>
+                                        <option value="Robotics And Automation">Robotics And Automation</option>
                                     </select>
                                 </div>
                             </div>

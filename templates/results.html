@@ -6,171 +6,336 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pick My Career</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 50%, #FEF3C7 100%);
+        }
+        
+        .card-shadow {
+            box-shadow: 0 4px 20px 0 rgba(245, 158, 11, 0.08);
+        }
+        
         .activeTab {
-            background-color: #ffffff;
-            box-shadow: 0 2px 4px 0 #00000008;
-            color: #1e1c1b !important;
+            background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+            color: white !important;
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+            transform: translateY(-1px);
+        }
+        
+        .tab-inactive {
+            background: rgba(255, 255, 255, 0.8);
+            color: #92400E;
+            backdrop-filter: blur(10px);
+        }
+        
+        .tab-inactive:hover {
+            background: rgba(255, 255, 255, 0.9);
+            transform: translateY(-0.5px);
+        }
+        
+        .college-card {
+            background: white;
+            border: 1px solid rgba(245, 158, 11, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .college-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(245, 158, 11, 0.15);
+            border-color: rgba(245, 158, 11, 0.2);
+        }
+        
+        .cutoff-badge {
+            background: linear-gradient(135deg, #059669 0%, #047857 100%);
+            box-shadow: 0 2px 8px rgba(5, 150, 105, 0.2);
+        }
+        
+        .select-field {
+            background: white;
+            border: 2px solid rgba(245, 158, 11, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .select-field:focus {
+            border-color: #F59E0B;
+            box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.1);
+            outline: none;
+        }
+        
+        .logo-accent {
+            color: #F59E0B;
+        }
+        
+        .brand-text {
+            background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
         /* Hide the "Top colleges" section by default */
         #topCollagesList {
             display: none;
         }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .pulse-ring {
+            animation: pulse-ring 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+        }
+        
+        @keyframes pulse-ring {
+            0% { transform: scale(0.33); }
+            40%, 50% { opacity: 1; }
+            100% { opacity: 0; transform: scale(1.2); }
+        }
     </style>
 </head>
 
-<body class="text-[#1E1C1B] p-[30px] w-full min-h-screen bg-[#F1F5F9]">
-    <div class="max-w-[500px] mx-auto">
-        <div class="w-full bg-slate-300 rounded-[14px] grid grid-cols-2 gap-1.5 p-1.5 h-12 cursor-pointer">
-            <div id="topColleges" class="flex items-center justify-center w-full h-full text-xs font-semibold text-center rounded-[10px]">
-                Top colleges
-            </div>
-            <div id="bestForYou" class="flex items-center justify-center w-full h-full text-xs font-semibold text-center rounded-[10px] text-[#1E1C1B]/60 activeTab">
-                Best for you
-            </div>
+<body class="min-h-screen gradient-bg">
+    <!-- Header Section -->
+    <div class="pt-6 pb-4 px-4 sm:px-6">
+        <div class="max-w-2xl mx-auto text-center">
+            <img src="static/pmc.png" class="h-10 sm:h-14 mx-auto mb-4" alt="Pick My Career" />
+            <p class="text-gray-700 text-sm max-w-xs mx-auto">
+                Find the perfect college for your future
+            </p>
         </div>
+    </div>
 
-        <div class="flex flex-col gap-4 py-4 md:flex-row md:items-center md:justify-between">
-            <h1 class="text-xl font-bold" id="title">Best for you</h1>
+    <!-- Main Content -->
+    <div class="px-6 pb-8">
+        <div class="max-w-[500px] mx-auto">
+            <!-- Tab Navigation -->
+            <div class="bg-white/30 backdrop-blur-lg rounded-2xl p-2 mb-6 card-shadow">
+                <div class="grid grid-cols-2 gap-2">
+                    <button id="topColleges" class="tab-inactive flex items-center justify-center h-12 text-sm font-semibold rounded-xl transition-all duration-300">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        Top Colleges
+                    </button>
+                    <button id="bestForYou" class="activeTab flex items-center justify-center h-12 text-sm font-semibold rounded-xl transition-all duration-300">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"/>
+                        </svg>
+                        Best for You
+                    </button>
+                </div>
+            </div>
 
-            <select id="courseSelect" class="rounded-xl bg-white w-full shadow-[0_1px_2px_0_#1E1C1B08] px-3.5 py-2.5 md:w-fit">
-                <option value="" selected disabled>Select Field</option>
-                <option value="Automobile Engineering">Automobile Engineering</option>
-                <option value="Artificial Intelligence And Data Science">Artificial Intelligence And Data Science</option>
-                <option value="Artificial Intelligence And Machine Learning">Artificial Intelligence And Machine Learning</option>
-                <option value="Bio Technology">Bio Technology</option>
-                <option value="Bio Medical Engineering">Bio Medical Engineering</option>
-                <option value="Civil Engineering">Civil Engineering</option>
-                <option value="Civil Engineering (Tamil Medium)">Civil Engineering (Tamil Medium)</option>
-                <option value="Computer Science And Engineering">Computer Science And Engineering</option>
-                <option value="Computer Science And Bussiness System">Computer Science And Bussiness System</option>
-                <option value="Computer Science And Engineering (Artificial Intelligence And Machine Learning)">Computer Science And Engineering (AIML)</option>
-                <option value="M.Tech. Computer Science And Engineering (Integrated 5 Years)">5 Year -Integrated M. Tech Computer Science</option>
-                <option value="Electronics And Communication Engineering">Electronics And Communication Engineering</option>
-                <option value="Electrical And Electronics Engineering">Electrical And Electronics Engineering</option>
-                <option value="Food Technology">Food Technology</option>
-                <option value="Industrial Engineering">Industrial Engineering</option>
-                <option value="Information Technology">Information Technology</option>
-                <option value="Manufacturing Engineering">Manufacturing Engineering</option>
-                <option value="Mechanical Engineering">Mechanical Engineering</option>
-                <option value="Mechanical Engineering (Tamil Medium)">Mechanical Engineering (Tamil Medium)</option>
-                <option value="Mechatronics Engineering">Mechatronics Engineering</option>
-                <option value="Metallurgical Engineering">Metallurgical Engineering</option>
-                <option value="Production Engineering">Production Engineering</option>
-                <option value="Robotics And Automation">Robotics And Automation</option>
-            </select>
-        </div>
+            <!-- Header with Course Selection -->
+            <div class="flex flex-col gap-4 mb-6 md:flex-row md:items-center md:justify-between">
+                <div class="flex-1">
+                    <h3 id="title" class="text-xl font-bold text-gray-800 mb-1">Best for You</h3>
+                    <p class="text-sm text-gray-600">Personalized college recommendations</p>
+                </div>
 
-        <div id="topCollagesList" class="grid w-full gap-3">
-            <ul class="space-y-4">
+                <div class="relative">
+                    <select id="courseSelect" class="select-field rounded-xl px-4 py-3 text-sm font-medium w-full md:w-64 appearance-none cursor-pointer">
+                        <option value="" selected disabled>🎯 Select Your Field</option>
+                        <option value="Automobile Engineering">Automobile Engineering</option>
+                                        <option value="Artificial Intelligence And Data Science">Artificial Intelligence And Data Science</option>
+                                        <option value="Artificial Intelligence And Machine Learning">Artificial Intelligence And Machine Learning</option>
+                                        <option value="Bio Technology">Bio Technology</option>
+                                        <option value="Bio Medical Engineering">Bio Medical Engineering</option>
+                                        <option value="Civil Engineering">Civil Engineering</option>
+                                        <option value="Civil Engineering (Tamil Medium)">Civil Engineering (Tamil Medium)</option>
+                                        <option value="Computer Science And Engineering">Computer Science And Engineering</option>
+                                        <option value="Computer Science And Bussiness System">Computer Science And Bussiness System</option>
+                                        <option value="Computer Science And Engineering (Artificial Intelligence And Machine Learning)">Computer Science And Engineering (Artificial Intelligence And Machine Learning)</option>
+                                        <option value="M.Tech. Computer Science And Engineering (Integrated 5 Years)">M.Tech. Computer Science And Engineering (Integrated 5 Years)</option>
+                                        <option value="Electronics And Communication Engineering">Electronics And Communication Engineering</option>
+                                        <option value="Electrical And Electronics Engineering">Electrical And Electronics Engineering</option>
+                                        <option value="Food Technology">Food Technology</option>
+                                        <option value="Industrial Engineering">Industrial Engineering</option>
+                                        <option value="Information Technology">Information Technology</option>
+                                        <option value="Manufacturing Engineering">Manufacturing Engineering</option>
+                                        <option value="Mechanical Engineering">Mechanical Engineering</option>
+                                        <option value="Mechanical Engineering (Tamil Medium)">Mechanical Engineering (Tamil Medium)</option>
+                                        <option value="Mechatronics Engineering">Mechatronics Engineering</option>
+                                        <option value="Metallurgical Engineering">Metallurgical Engineering</option>
+                                        <option value="Production Engineering">Production Engineering</option>
+                                        <option value="Robotics And Automation">Robotics And Automation</option>
+                    </select>
+                    <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                        <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top Colleges List -->
+            <div id="topCollagesList" class="space-y-4 fade-in">
                 {% for college in top_colleges %}
-                <div class="bg-white rounded-[18px] shadow-[0_2px_4px_0_#1E1C1B08] overflow-hidden mb-4">
-                    <div class="p-3">
-                        <div class="flex items-center justify-between w-full">
-                            <p class="text-[#1E1C1B]/70 text-xs">College Code: {{ college['College Code'] }}</p>
-                            <div class="text-xs font-semibold text-white bg-green-600 border border-green-700 rounded-md w-fit px-1.5 py-0.5 text-nowrap">
+                <div class="college-card rounded-2xl overflow-hidden card-shadow">
+                    <div class="p-5">
+                        <div class="flex items-start justify-between mb-3">
+                            <div class="flex-1">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <div class="w-2 h-2 bg-amber-400 rounded-full"></div>
+                                    <span class="text-xs font-medium text-gray-500">College Code: {{ college['College Code'] }}</span>
+                                </div>
+                                <h4 class="font-semibold text-gray-800 text-sm leading-relaxed">{{ college['College Name'] }}</h4>
+                            </div>
+                            <div class="cutoff-badge text-xs font-semibold text-white rounded-lg px-3 py-1.5 ml-3">
                                 Cut off: {{ college[caste] }}
                             </div>
                         </div>
-                        <h1 class="text-[13px] font-semibold my-1.5">{{ college['College Name'] }}</h1>
                     </div>
-                    <div class="w-full bg-[#1E1C1B]/[0.02] px-3 py-1.5 flex items-center gap-2 flex-wrap">
-                        <p class="text-xs text-[#1E1C1B]/70">{{ college['Branch Name'] }}</p>
-                        <span class="h-[3px] w-[3px] bg-[#1E1C1B]/30 rounded-full"></span>
-                        <p class="text-xs text-[#1E1C1B]/70">{{ college['Branch Code'] }}</p>
+                    <div class="bg-gray-50 px-5 py-3 border-t border-gray-100">
+                        <div class="flex items-center gap-3 text-xs text-gray-600">
+                            <span class="font-medium">{{ college['Branch Name'] }}</span>
+                            <div class="w-1 h-1 bg-gray-300 rounded-full"></div>
+                            <span class="font-mono bg-gray-200 px-2 py-1 rounded">{{ college['Branch Code'] }}</span>
+                        </div>
                     </div>
                 </div>
                 {% endfor %}
-            </ul>
-        </div>
+            </div>
 
-        <div id="bestForYouList" class="grid w-full gap-3">
-            {% for college in filtered_colleges %}
-            <div class="bg-white rounded-[18px] shadow-[0_2px_4px_0_#1E1C1B08] overflow-hidden mb-4">
-                <div class="p-3">
-                    <div class="flex items-center justify-between w-full">
-                        <p class="text-[#1E1C1B]/70 text-xs">College Code: {{ college['College Code'] }}</p>
-                        <div class="text-xs font-semibold text-white bg-green-600 border border-green-700 rounded-md w-fit px-1.5 py-0.5 text-nowrap">
-                            Cut off: {{ college[caste] }}
+            <!-- Best For You List -->
+            <div id="bestForYouList" class="space-y-4 fade-in">
+                {% for college in filtered_colleges %}
+                <div class="college-card rounded-2xl overflow-hidden card-shadow">
+                    <div class="p-5">
+                        <div class="flex items-start justify-between mb-3">
+                            <div class="flex-1">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <div class="w-2 h-2 bg-amber-400 rounded-full"></div>
+                                    <span class="text-xs font-medium text-gray-500">College Code: {{ college['College Code'] }}</span>
+                                </div>
+                                <h4 class="font-semibold text-gray-800 text-sm leading-relaxed">{{ college['College Name'] }}</h4>
+                            </div>
+                            <div class="cutoff-badge text-xs font-semibold text-white rounded-lg px-3 py-1.5 ml-3">
+                                Cut off: {{ college[caste] }}
+                            </div>
                         </div>
                     </div>
-                    <h1 class="text-[13px] font-semibold my-1.5">{{ college['College Name'] }}</h1>
+                    <div class="bg-gray-50 px-5 py-3 border-t border-gray-100">
+                        <div class="flex items-center gap-3 text-xs text-gray-600">
+                            <span class="font-medium">{{ college['Branch Name'] }}</span>
+                            <div class="w-1 h-1 bg-gray-300 rounded-full"></div>
+                            <span class="font-mono bg-gray-200 px-2 py-1 rounded">{{ college['Branch Code'] }}</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="w-full bg-[#1E1C1B]/[0.02] px-3 py-1.5 flex items-center gap-2 flex-wrap">
-                    <p class="text-xs text-[#1E1C1B]/70">{{ college['Branch Name'] }}</p>
-                    <span class="h-[3px] w-[3px] bg-[#1E1C1B]/30 rounded-full"></span>
-                    <p class="text-xs text-[#1E1C1B]/70">{{ college['Branch Code'] }}</p>
-                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-    const topCollegesTab = document.getElementById('topColleges');
-    const bestForYouTab = document.getElementById('bestForYou');
-    const topCollagesList = document.getElementById('topCollagesList');
-    const bestForYouList = document.getElementById('bestForYouList');
-    const courseSelect = document.getElementById('courseSelect');
+            const topCollegesTab = document.getElementById('topColleges');
+            const bestForYouTab = document.getElementById('bestForYou');
+            const topCollagesList = document.getElementById('topCollagesList');
+            const bestForYouList = document.getElementById('bestForYouList');
+            const courseSelect = document.getElementById('courseSelect');
+            const title = document.getElementById('title');
 
-    topCollegesTab.addEventListener('click', function() {
-        topCollegesTab.classList.add('activeTab');
-        bestForYouTab.classList.remove('activeTab');
-        topCollagesList.style.display = 'block';
-        bestForYouList.style.display = 'none';
-        document.getElementById('title').innerText = 'Top colleges';
-    });
+            // Tab switching functionality
+            topCollegesTab.addEventListener('click', function() {
+                // Update tab states
+                topCollegesTab.classList.remove('tab-inactive');
+                topCollegesTab.classList.add('activeTab');
+                bestForYouTab.classList.remove('activeTab');
+                bestForYouTab.classList.add('tab-inactive');
+                
+                // Show/hide lists
+                topCollagesList.style.display = 'block';
+                bestForYouList.style.display = 'none';
+                
+                // Update title
+                title.innerHTML = 'Top Colleges';
+                title.nextElementSibling.textContent = 'Highest ranked institutions';
+                
+                // Add fade-in animation
+                topCollagesList.classList.add('fade-in');
+            });
 
-    bestForYouTab.addEventListener('click', function() {
-        bestForYouTab.classList.add('activeTab');
-        topCollegesTab.classList.remove('activeTab');
-        topCollagesList.style.display = 'none';
-        bestForYouList.style.display = 'block';
-        document.getElementById('title').innerText = 'Best for you';
-    });
+            bestForYouTab.addEventListener('click', function() {
+                // Update tab states
+                bestForYouTab.classList.remove('tab-inactive');
+                bestForYouTab.classList.add('activeTab');
+                topCollegesTab.classList.remove('activeTab');
+                topCollegesTab.classList.add('tab-inactive');
+                
+                // Show/hide lists
+                bestForYouList.style.display = 'block';
+                topCollagesList.style.display = 'none';
+                
+                // Update title
+                title.innerHTML = 'Best for You';
+                title.nextElementSibling.textContent = 'Personalized college recommendations';
+                
+                // Add fade-in animation
+                bestForYouList.classList.add('fade-in');
+            });
 
-    courseSelect.addEventListener('change', function() {
-        const course = courseSelect.value;
-        fetch(`/filter_colleges?course=${course}&caste={{ selected_community }}&original_marks={{ original_marks }}`)
-            .then(response => response.json())
-            .then(data => {
-                updateCollegeList('bestForYouList', data.filtered_colleges);
-                updateCollegeList('topCollagesList', data.top_colleges);
-            })
-            .catch(error => console.error('Error:', error));
-    });
+            // Course selection functionality
+            courseSelect.addEventListener('change', function() {
+                const course = courseSelect.value;
+                fetch(`/filter_colleges?course=${course}&caste={{ selected_community }}&original_marks={{ original_marks }}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        updateCollegeList('bestForYouList', data.filtered_colleges);
+                        updateCollegeList('topCollagesList', data.top_colleges);
+                    })
+                    .catch(error => console.error('Error:', error));
+            });
 
-    function updateCollegeList(listId, colleges) {
-        const list = document.getElementById(listId);
-        list.innerHTML = '';
+            function updateCollegeList(listId, colleges) {
+                const list = document.getElementById(listId);
+                list.innerHTML = '';
 
-        colleges.forEach(college => {
-            const collegeCard = `
-            <div class="bg-white rounded-[18px] shadow-[0_2px_4px_0_#1E1C1B08] overflow-hidden mb-4">
-                <div class="p-3">
-                    <div class="flex items-center justify-between w-full">
-                        <p class="text-[#1E1C1B]/70 text-xs">College Code: ${college['College Code']}</p>
-                        <div class="text-xs font-semibold text-white bg-green-600 border border-green-700 rounded-md w-fit px-1.5 py-0.5 text-nowrap">
-                            Cut off: ${college['{{ caste }}']}
+                colleges.forEach(college => {
+                    const collegeCard = `
+                    <div class="college-card rounded-2xl overflow-hidden card-shadow">
+                        <div class="p-5">
+                            <div class="flex items-start justify-between mb-3">
+                                <div class="flex-1">
+                                    <div class="flex items-center gap-2 mb-2">
+                                        <div class="w-2 h-2 bg-amber-400 rounded-full"></div>
+                                        <span class="text-xs font-medium text-gray-500">Code: ${college['College Code']}</span>
+                                    </div>
+                                    <h4 class="font-semibold text-gray-800 text-sm leading-relaxed">${college['College Name']}</h4>
+                                </div>
+                                <div class="cutoff-badge text-xs font-semibold text-white rounded-lg px-3 py-1.5 ml-3">
+                                    Cut off: ${college['{{ caste }}']}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 px-5 py-3 border-t border-gray-100">
+                            <div class="flex items-center gap-3 text-xs text-gray-600">
+                                <span class="font-medium">${college['Branch Name']}</span>
+                                <div class="w-1 h-1 bg-gray-300 rounded-full"></div>
+                                <span class="font-mono bg-gray-200 px-2 py-1 rounded">${college['Branch Code']}</span>
+                            </div>
                         </div>
                     </div>
-                    <h1 class="text-[13px] font-semibold my-1.5">${college['College Name']}</h1>
-                </div>
-                <div class="w-full bg-[#1E1C1B]/[0.02] px-3 py-1.5 flex items-center gap-2 flex-wrap">
-                    <p class="text-xs text-[#1E1C1B]/70">${college['Branch Name']}</p>
-                    <span class="h-[3px] w-[3px] bg-[#1E1C1B]/30 rounded-full"></span>
-                    <p class="text-xs text-[#1E1C1B]/70">${college['Branch Code']}</p>
-                </div>
-            </div>
-            `;
-            list.innerHTML += collegeCard;
+                    `;
+                    list.innerHTML += collegeCard;
+                });
+                
+                // Add fade-in animation to updated list
+                list.classList.add('fade-in');
+            }
         });
-    }
-});
-
     </script>
 </body>
 
