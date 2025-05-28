@@ -1,23 +1,20 @@
+import pandas as pd
 
+# --------------------------------------------
+# 1.  Master list of programme / branch names
+# --------------------------------------------
 category_list = [
     ['Computer Science and Engineering', 'Computer Science and Engineering (SS)'],
     ['Information Technology', 'Information Technology (SS)'],
     ['Computer Science and Business System', 'Computer Science and Business System (SS)'],
     ['M.Tech. Computer Science and Engineering (Integrated 5 Years)'],
-    ['Computer Science and Engineering (Internet of Things and Cyber Security Including Block Chain Technology)',
-     'Computer Science and Engineering (Internet of Things)'],
+
     ['Artificial Intelligence and Data Science',
-     'Artificial Intelligence and Data Science (SS)',
-     'Computer Science and Engineering (Data Science)'],
-    ['Artificial Intelligence and Machine Learning',
-     'Computer Science and Engineering (AI and Machine Learning)',
+     'Artificial Intelligence and Data Science (SS)'],
+    ['Computer Science and Engineering (AI and Machine Learning)',
      'Computer Science and Engineering (Artificial Intelligence and Machine Learning) (SS)'],
-    ['Computer Science and Engineering (Cyber Security)',
-     'Cyber Security',
-     'Computer Science and Technology',
-     'Computer Science and Design',
-     'Computer and Communication Engineering',
-     'Computer Science and Engineering (Tamil)'],
+    ['Computer Science and Engineering (Cyber Security)', 'Cyber Security'],
+
     ['Electronics and Communication Engineering',
      'Electronics and Communication Engineering (SS)'],
     ['Electronics Engineering (VLSI Design and Technology)',
@@ -25,92 +22,88 @@ category_list = [
     ['Electrical and Electronics Engineering',
      'Electrical and Electronics Engineering (SS)',
      'Electrical and Electronics (Sandwich) (SS)'],
-    ['Electronics and Instrumentation Engineering',
-     'Electronic Instrumentation and Control Engineering'],
-    ['Electronics and Communication (Advanced Communication Technology)'],
-    ['Electronics and Computer Engineering',
-     'Electrical and Computer Engineering'],
-    ['Mechanical Engineering',
-     'Mechanical Engineering (SS)',
-     'Mechanical Engineering (Sandwich) (SS)'],
+    ['Electronics and Instrumentation Engineering'],
+
+    ['Mechanical Engineering', 'Mechanical Engineering (SS)', 'Mechanical Engineering (Sandwich) (SS)'],
     ['Mechatronics (SS)', 'Mechatronics Engineering'],
-    ['Mechanical and Automation Engineering',
-     'Mechanical and Mechatronics Engineering (Additive Manufacturing)'],
-    ['Mechanical Engineering (Automobile)',
-     'Mechanical Engineering (Tamil Medium)',
-     'Mechanical and Smart Manufacturing'],
     ['Automobile Engineering', 'Automobile Engineering (SS)'],
     ['Aeronautical Engineering', 'Aerospace Engineering'],
     ['Production Engineering',
-     'Production Engineering (Sandwich) (SS)',
-     'Production Engineering (SS)',
-     'Robotics and Automation',
-     'Robotics and Automation (SS)'],
+     'Production Engineering (Sandwich) (SS)', 'Production Engineering (SS)'],
+    ['Robotics and Automation', 'Robotics and Automation (SS)'],
     ['Metallurgical Engineering', 'Metallurgical Engineering (SS)'],
-    ['Material Science and Engineering (SS)'],
-    ['Marine Engineering', 'Medical Electronics', 'Mining Engineering', 'Safety and Fire Engineering'],
-    ['Manufacturing Engineering', 'Industrial Engineering'],
-    ['Civil Engineering',
-     'Civil Engineering (SS)',
-     'Civil Engineering (Tamil Medium)',
-     'Civil Engineering (Environmental Engineering)'],
-    ['Geo Informatics'],
-    ['Chemical and Electro Chemical Engineering (SS)',
-     'Chemical Engineering',
-     'Chemical Engineering (SS)'],
-    ['Petro Chemical Engineering',
-     'Petro Chemical Technology',
-     'Petroleum Engineering and Technology (SS)'],
-    ['Pharmaceutical Technology',
-     'Pharmaceutical Technology (SS)'],
-    ['Ceramic Technology (SS)',
-     'Leather Technology',
-     'Plastic Technology',
-     'Rubber and Plastic Technology',
-     'Printing & Packing Technology'],
-    ['Bio Medical Engineering',
-     'Bio Medical Engineering (SS)',
-     'Bio Technology',
-     'Bio Technology (SS)',
-     'Industrial Bio Technology',
-     'Industrial Bio Technology (SS)'],
-    ['Food Technology',
-     'Food Technology (SS)',
-     'Agricultural Engineering'],
-    ['Interior Design (SS)',
-     'Fashion Technology',
-     'Fashion Technology (SS)',
-     'Apparel Technology (SS)',
-     'Handloom and Textile Technology',
-     'Textile Technology',
-     'Textile Technology (SS)']
+    ['Civil Engineering', 'Civil Engineering (SS)'],
+
+    ['Chemical and Electro Chemical Engineering (SS)'],
+    ['Chemical Engineering', 'Chemical Engineering (SS)'],
+    ['Pharmaceutical Technology', 'Pharmaceutical Technology (SS)'],
+
+    ['Bio Medical Engineering', 'Bio Medical Engineering (SS)'],
+    ['Bio Technology', 'Bio Technology (SS)'],
+    ['Industrial Bio Technology', 'Industrial Bio Technology (SS)'],
+    ['Food Technology', 'Food Technology (SS)'],
+
+    ['Interior Design (SS)'],
+    ['Fashion Technology', 'Fashion Technology (SS)'],
+    ['Textile Technology', 'Textile Technology (SS)']
 ]
 
+# -------------------------------------------------------------
+# 2.  Fast lookup table: each variant → the full category list
+# -------------------------------------------------------------
+_category_lookup = {
+    variant.strip().upper(): cat
+    for cat in category_list
+    for variant in cat
+}
 
-
+# --------------------------------------------------
+# 3.  Helper to resolve any course name to its set
+# --------------------------------------------------
 def category(course):
-    # Normalize the input course
-    normalized_course = str(course).strip().upper()
-    
-    for category_items in category_list:
-        # Check if any item in category matches (case-insensitive)
-        if any(normalized_course == str(item).strip().upper() for item in category_items):
-            return category_items
-    return [course]
+    """
+    Return the full list of course variants that belong to the
+    same category as *course*.  If the course isn't recognised,
+    return a singleton list containing the original input.
+    """
+    return _category_lookup.get(str(course).strip().upper(), [course])
 
+# ----------------------------------------------------------------
+# 4.  College-filtering helper
+# ----------------------------------------------------------------
 def list_of_colleges(mark, course, community, data):
-    course_final = category(course)
-    
-    # Create a set of normalized course names for comparison
-    normalized_course_final = {str(c).strip().upper() for c in course_final}
-    
-    # Filter using the normalized set
-    filtered_data = data[
-        data['Branch Name'].str.strip().str.upper().isin(normalized_course_final) & 
-        (data[community] <= (mark + 5)) & 
-        (data[community] > 0)
-    ]
-    
-    result = filtered_data[['College Code', 'College Name', 'Branch Code', 'Branch Name', community]]
-    result = result.sort_values(by=community, ascending=False)
-    return result
+    """
+    Parameters
+    ----------
+    mark : int or float
+        Candidate’s cut-off / rank / score.
+    course : str
+        Any variant spelling of the target branch.
+    community : str
+        Column name in *data* that stores community-wise closing rank.
+    data : pandas.DataFrame
+        Must contain columns:
+        'Branch Name', the *community* column, and for display:
+        'College Code', 'College Name', 'Branch Code'.
+
+    Returns
+    -------
+    pandas.DataFrame
+        Filtered and sorted view with columns:
+        ['College Code', 'College Name', 'Branch Code', 'Branch Name', community]
+    """
+    # Resolve every alias that belongs to the requested course
+    aliases = {c.strip().upper() for c in category(course)}
+
+    mask = (
+        data['Branch Name'].str.strip().str.upper().isin(aliases)
+        & (data[community] <= mark + 5)
+        & (data[community] > 0)
+    )
+
+    cols = ['College Code', 'College Name', 'Branch Code', 'Branch Name', community]
+    return (
+        data.loc[mask, cols]
+            .sort_values(by=community, ascending=False)
+            .reset_index(drop=True)
+    )
